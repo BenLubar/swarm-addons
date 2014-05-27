@@ -1,0 +1,14 @@
+GAME
+{
+	//"pos_x"	"-13850" // -15692
+	//"pos_y"	"1829"
+	//"scale"	"11.2"
+	//"material" "vgui/swarm/Overviews/landingbay01Overview"
+	//"briefingmaterial" "vgui/swarm/Overviews/landingbay01BriefingOverview"
+	//"mapyoffset" "0"
+	"missiontitle"		"Walk Forward III"
+	"description"	"AI Testing Map"
+	//"image"		"swarm/ObjectivePics/oblandinghack"
+	"version"		"1"
+	"author"		"Nightgunner5"
+}

@@ -1,0 +1,10 @@
+AddonInfo {
+     addonSteamAppID         630
+     addontitle              "AI Tests"
+     addonversion            1.0
+     addontagline            "A series of obstacle courses for marine bots."
+     addonauthor             "Nightgunner5"
+     addonauthorSteamID      "nightgunner5"
+     addonContent_Campaign   1
+     addonDescription        "A series of obstacle courses for marine bots."
+}
