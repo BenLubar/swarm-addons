@@ -1,0 +1,8 @@
+"Refract" {
+	"$normalmap" "nature/xen_crystal_1_height-bump"
+	"%tooltexture" "nature/xen_crystal_1_height-bump"
+	"$surfaceprop" "glass"
+	"$refracttint" "[10 6 .5]"
+	"$refractamount" "0.02"
+	"$bluramount" "0.1"
+}

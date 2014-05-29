@@ -1,0 +1,13 @@
+"WorldVertexTransition" {
+	"$basetexture" "nature/xen_ground_1"
+	"$basetexture2" "nature/xen_ground_2"
+	"$blendmodulatetexture" "nature/webblendtexture"	
+	"$surfaceprop" "dirt"
+	"$bumpmap" "nature/xen_ground_1_height-ssbump"
+	//"$bumpmap2" "nature/xen_ground_2_height-ssbump"
+	"$ssbump" "1"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[ .2 .2 .2 ]"
+	"$envmap" "cubemaps/cubemap_cave01"
+	"$seamless_scale" 0.005
+}

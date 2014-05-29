@@ -1,0 +1,10 @@
+"LightmappedGeneric" {
+	"$basetexture" "nature/xen_ground_1"
+	"$surfaceprop" "dirt"
+	"$bumpmap" "nature/xen_ground_1_height-ssbump"
+	"$ssbump" "1"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[ .2 .2 .2 ]"
+	"$envmap" "cubemaps/cubemap_cave01"
+	"$seamless_scale" 0.005
+}

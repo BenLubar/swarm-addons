@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "36"
+	"mapversion" "37"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "36"
+	"mapversion" "37"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -228,7 +228,7 @@ entity
 	"renderamt" "128"
 	"rendercolor" "233 255 164"
 	"renderfx" "0"
-	"rendermode" "5"
+	"rendermode" "9"
 	"scale" "1"
 	"spawnflags" "1"
 	"targetname" "glow_sprite"
