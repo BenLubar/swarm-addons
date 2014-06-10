@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "10"
+	"mapversion" "18"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "10"
+	"mapversion" "18"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1127,11 +1127,11 @@ entity
 		"OnButtonHackCompleted" "buttonUnlock0-1"
 		"OnButtonHackCompleted" "doorEnableAutoOpen0-1"
 		"OnButtonHackCompleted" "@tech_reqSubtract10-1"
-		"OnButtonHackAt25Percent" "ioProxyRelayhack250-1"
-		"OnButtonHackAt50Percent" "ioProxyRelayhack500-1"
-		"OnButtonHackAt75Percent" "ioProxyRelayhack750-1"
-		"OnButtonHackCompleted" "ioProxyRelayhack1000-1"
-		"OnButtonHackStarted" "ioProxyRelayhack00-1"
+		"OnButtonHackAt25Percent" "hack25Trigger0-1"
+		"OnButtonHackAt50Percent" "hack50Trigger0-1"
+		"OnButtonHackAt75Percent" "hack75Trigger0-1"
+		"OnButtonHackCompleted" "hack100Trigger0-1"
+		"OnButtonHackStarted" "hack0Trigger0-1"
 	}
 	solid
 	{
@@ -1243,11 +1243,11 @@ entity
 		"OnButtonHackCompleted" "buttonUnlock0-1"
 		"OnButtonHackCompleted" "doorEnableAutoOpen0-1"
 		"OnButtonHackCompleted" "@tech_reqSubtract10-1"
-		"OnButtonHackCompleted" "ioProxyRelayhack1000-1"
-		"OnButtonHackAt75Percent" "ioProxyRelayhack750-1"
-		"OnButtonHackAt50Percent" "ioProxyRelayhack500-1"
-		"OnButtonHackStarted" "ioProxyRelayhack00-1"
-		"OnButtonHackAt25Percent" "ioProxyRelayhack250-1"
+		"OnButtonHackCompleted" "hack100Trigger0-1"
+		"OnButtonHackAt75Percent" "hack75Trigger0-1"
+		"OnButtonHackAt50Percent" "hack50Trigger0-1"
+		"OnButtonHackStarted" "hack0Trigger0-1"
+		"OnButtonHackAt25Percent" "hack25Trigger0-1"
 	}
 	solid
 	{
@@ -1470,8 +1470,108 @@ entity
 {
 	"id" "698"
 	"classname" "func_instance_io_proxy"
-	"targetname" "io"
+	"targetname" "proxy"
 	"origin" "0 16 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "762"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "hack0"
+	connections
+	{
+		"OnTrigger" "proxyProxyRelay0-1"
+	}
+	"origin" "0 32 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "777"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "hack25"
+	connections
+	{
+		"OnTrigger" "proxyProxyRelay0-1"
+	}
+	"origin" "0 48 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "779"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "hack50"
+	connections
+	{
+		"OnTrigger" "proxyProxyRelay0-1"
+	}
+	"origin" "0 64 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "781"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "hack75"
+	connections
+	{
+		"OnTrigger" "proxyProxyRelay0-1"
+	}
+	"origin" "0 80 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "783"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "hack100"
+	connections
+	{
+		"OnTrigger" "proxyProxyRelay0-1"
+	}
+	"origin" "0 96 0"
 	editor
 	{
 		"color" "220 30 220"
