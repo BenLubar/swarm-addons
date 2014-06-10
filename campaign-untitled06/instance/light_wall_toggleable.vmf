@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "3"
+	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "3"
+	"mapversion" "5"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -30,7 +30,7 @@ world
 entity
 {
 	"id" "6"
-	"classname" "env_sprite_clientside"
+	"classname" "env_sprite"
 	"framerate" "10.0"
 	"GlowProxySize" "16"
 	"HDRColorScale" "1.0"
@@ -40,6 +40,7 @@ entity
 	"rendermode" "9"
 	"scale" ".5"
 	"spawnflags" "1"
+	"targetname" "sprite"
 	"origin" "12 0 124.631"
 	editor
 	{
@@ -130,6 +131,7 @@ entity
 	connections
 	{
 		"OnProxyRelay" "lightToggle0-1"
+		"OnProxyRelay" "spriteToggleSprite0-1"
 	}
 	"origin" "0 0 0"
 	editor
