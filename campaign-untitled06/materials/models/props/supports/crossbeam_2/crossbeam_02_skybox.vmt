@@ -1,4 +1,4 @@
 VertexLitGeneric {
 	$basetexture	"models/props/supports/crossbeam_2/crossbeam_02_skybox"
-	$alphatest	"1"
+	$translucent	"1"
 }
