@@ -1,0 +1,6 @@
+forcetextureshadow props/supports/crossbeam_2/crossbeam_02_skybox.mdl
+forcetextureshadow props/supports/crossbeam_2/crossbeam_02_skybox_multi.mdl
+forcetextureshadow props/supports/crossbeam_2/crossbeam_02_skybox_truss_a.mdl
+forcetextureshadow props/supports/crossbeam_2/crossbeam_02_skybox_truss_b.mdl
+forcetextureshadow props_wasteland/exterior_fence002b.mdl
+forcetextureshadow props_wasteland/exterior_fence002c.mdl
