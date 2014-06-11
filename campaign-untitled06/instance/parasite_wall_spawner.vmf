@@ -1,0 +1,266 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5032"
+	"mapversion" "5"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "5"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "blacksky"
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/env/ryberg/outside/outsideventpanel/outsideventpanel.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "0 0 8"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "40"
+	"classname" "asw_spawner"
+	"AlienClass" "2"
+	"AlienOrders" "3"
+	"angles" "0 0 0"
+	"ClearCheck" "1"
+	"HealthScale" "1"
+	"InfiniteAliens" "0"
+	"LongRange" "0"
+	"MaxLiveAliens" "4"
+	"MaxSkillLevel" "5"
+	"MinSkillLevel" "4"
+	"NearDistance" "740"
+	"NumAliens" "21"
+	"SpawnerState" "1"
+	"spawnflags" "0"
+	"SpawnIfMarinesAreNear" "1"
+	"SpawnInterval" "4"
+	"SpawnIntervalJitter" "25"
+	"SpeedScale" "1"
+	"StartBurrowed" "0"
+	"targetname" "spawner"
+	connections
+	{
+		"OnSpawned" "!activatorKill01"
+	}
+	"origin" "24 0 0"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "68"
+	"classname" "asw_spawner"
+	"AlienClass" "7"
+	"AlienOrders" "3"
+	"angles" "0 0 0"
+	"ClearCheck" "1"
+	"HealthScale" "1"
+	"InfiniteAliens" "0"
+	"LongRange" "0"
+	"MaxLiveAliens" "4"
+	"MaxSkillLevel" "5"
+	"MinSkillLevel" "3"
+	"NearDistance" "740"
+	"NumAliens" "21"
+	"SpawnerState" "1"
+	"spawnflags" "0"
+	"SpawnIfMarinesAreNear" "1"
+	"SpawnInterval" "4"
+	"SpawnIntervalJitter" "25"
+	"SpeedScale" "1"
+	"StartBurrowed" "0"
+	"targetname" "spawner"
+	connections
+	{
+		"OnSpawned" "!activatorKill01"
+	}
+	"origin" "24 0 0"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "110"
+	"classname" "asw_spawner"
+	"AlienClass" "4"
+	"AlienOrders" "3"
+	"angles" "0 0 0"
+	"ClearCheck" "1"
+	"HealthScale" "1"
+	"InfiniteAliens" "0"
+	"LongRange" "0"
+	"MaxLiveAliens" "4"
+	"NearDistance" "740"
+	"NumAliens" "4"
+	"SpawnerState" "1"
+	"spawnflags" "0"
+	"SpawnIfMarinesAreNear" "1"
+	"SpawnInterval" "4"
+	"SpawnIntervalJitter" "25"
+	"SpeedScale" "1"
+	"StartBurrowed" "0"
+	"targetname" "spawner"
+	"origin" "24 0 16"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "122"
+	"classname" "trigger_once"
+	"origin" "256 0 64"
+	"spawnflags" "16"
+	"StartDisabled" "0"
+	connections
+	{
+		"OnTrigger" "spawnerStartSpawning0-1"
+	}
+	solid
+	{
+		"id" "120"
+		side
+		{
+			"id" "1"
+			"plane" "(0 256 128) (512 256 128) (512 -256 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(0 -256 0) (512 -256 0) (512 256 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(0 256 128) (0 -256 128) (0 -256 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(512 256 0) (512 -256 0) (512 -256 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(512 256 128) (0 256 128) (0 256 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(512 -256 0) (0 -256 0) (0 -256 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
