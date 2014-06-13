@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "25"
+	"mapversion" "27"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "25"
+	"mapversion" "27"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -136,10 +136,10 @@ entity
 	"spawnflags" "1"
 	connections
 	{
-		"OnMapSpawn" "@tonemap_globalSetTonemapRate.250-1"
-		"OnMapSpawn" "@tonemap_globalSetAutoExposureMin10-1"
-		"OnMapSpawn" "@tonemap_globalSetAutoExposureMax50-1"
-		"OnMapSpawn" "@tonemap_globalSetBloomScale.50-1"
+		"OnMapSpawn" "@tonemap_globalSetTonemapRate0.250-1"
+		"OnMapSpawn" "@tonemap_globalSetAutoExposureMin0.10-1"
+		"OnMapSpawn" "@tonemap_globalSetAutoExposureMax2.00-1"
+		"OnMapSpawn" "@tonemap_globalSetBloomScale0.50-1"
 		"OnMapSpawn" "@ragdoll_body_group_4SetBodyGroup40-1"
 		"OnMapSpawn" "@ragdoll_body_group_2SetBodyGroup20-1"
 		"OnMapSpawn" "@ragdoll_body_group_1SetBodyGroup10-1"
