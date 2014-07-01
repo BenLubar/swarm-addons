@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "5"
+	"mapversion" "1"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "5"
+	"mapversion" "1"
 	"classname" "worldspawn"
-	"detailmaterial" "detail/detailsprites"
-	"detailvbsp" "detail.vbsp"
-	"maxpropscreenwidth" "-1"
 	"skyname" "blacksky"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
 }
 entity
 {
@@ -43,7 +43,7 @@ entity
 	"origin" "12 0 124.631"
 	editor
 	{
-		"color" "20 140 20"
+		"color" "0 112 117"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -65,7 +65,7 @@ entity
 	"origin" "0 0 133.544"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "0 182 235"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -74,25 +74,22 @@ entity
 entity
 {
 	"id" "13"
-	"classname" "env_projectedtexture"
-	"angles" "53.1539 1.81485 -84.345"
-	"brightnessscale" "4.0"
-	"cameraspace" "0"
-	"colortransitiontime" "0.5"
-	"enableshadows" "1"
-	"farz" "1000.0"
-	"lightcolor" "174 198 194 400"
-	"lightfov" "90.0"
-	"lightonlytarget" "0"
-	"lightworld" "1"
-	"nearz" "4.0"
-	"shadowquality" "1"
-	"spawnflags" "1"
-	"texturename" "effects/flashlight001"
+	"classname" "light_spot"
+	"_cone" "45"
+	"_constant_attn" "10000"
+	"_exponent" "1"
+	"_inner_cone" "35"
+	"_light" "174 198 194 400"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "-53.1539 1.81485 -84.345"
+	"pitch" "-53.1539"
+	"spawnflags" "0"
 	"origin" "24 -2 117.015"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 232 129"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[6000 3000]"
@@ -117,7 +114,7 @@ entity
 	"origin" "12 -2 102.13"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 234 187"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6000]"

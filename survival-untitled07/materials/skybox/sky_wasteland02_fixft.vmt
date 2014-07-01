@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+
+$basetexture "skybox/sky_wasteland02_fixft"
+$ignorez 1
+$nofog 1
+}
