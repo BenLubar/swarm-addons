@@ -1,0 +1,4 @@
+UnlitGeneric {
+	$basetexture "ctas_c10/no_entry"
+	$translucent 1
+}
