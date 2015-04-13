@@ -1,0 +1,158 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5032"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "blacksky"
+}
+entity
+{
+	"id" "2"
+	"classname" "env_fog_controller"
+	"angles" "0 0 0"
+	"farz" "-1"
+	"fogcolor" "120 90 60"
+	"fogcolor2" "255 255 255"
+	"fogdir" "1 0 0"
+	"fogenable" "1"
+	"fogend" "6000"
+	"foglerptime" "1"
+	"fogmaxdensity" ".5"
+	"fogstart" "256"
+	"spawnflags" "1"
+	"targetname" "@fog_interior"
+	"origin" "-16 0 0"
+	editor
+	{
+		"color" "255 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "color_correction"
+	"fadeInDuration" "1"
+	"fadeOutDuration" "1"
+	"filename" "scripts/colorcorrection/landingbay_interior.raw"
+	"maxfalloff" "-1"
+	"maxweight" "1.0"
+	"minfalloff" "0.0"
+	"spawnflags" "3"
+	"StartDisabled" "0"
+	"targetname" "@cc_interior"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2268]"
+	}
+}
+entity
+{
+	"id" "8"
+	"classname" "postprocess_controller"
+	"depthblurstrength" ".75"
+	"fadetime" "1"
+	"fadetoblackstrength" "0"
+	"filmgrainstrength" "1.5"
+	"localcontrastedgestrength" "0.1"
+	"localcontraststrength" "0.5"
+	"screenblurstrength" ".1"
+	"spawnflags" "1"
+	"targetname" "@fx_settings_interior"
+	"vignetteblurstrength" "0.08"
+	"vignetteend" "1.1"
+	"vignettestart" "0.8"
+	"origin" "16 0 0"
+	editor
+	{
+		"color" "255 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "10"
+	"classname" "env_tonemap_controller"
+	"targetname" "@tonemap"
+	"origin" "16 16 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "12"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "@tonemapSetBloomScale0.330-1"
+	}
+	"origin" "0 16 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "20"
+	"classname" "asw_director_control"
+	"controlspawners" "0"
+	"hordes" "0"
+	"targetname" "@director"
+	"wanderers" "0"
+	"origin" "-16 16 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2268]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
