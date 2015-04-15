@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "276"
+	"mapversion" "283"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "276"
+	"mapversion" "283"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -27255,7 +27255,7 @@ entity
 	connections
 	{
 		"OnDestroyed" "relay_endhack_0000_00Trigger0-1"
-		"OnDestroyed" "@global_0000_door_yellow_right_destroyedSetCounter10-1"
+		"OnDestroyed" "@global_0000_door_yellow_right_destroyedTurnOn0-1"
 	}
 	"origin" "1216 2064 -128"
 	editor
@@ -27300,7 +27300,9 @@ entity
 	connections
 	{
 		"OnDestroyed" "relay_endhack_0000_00Trigger0-1"
-		"OnDestroyed" "@global_0000_door_yellow_left_destroyedSetCounter10-1"
+		"OnDestroyed" "@global_0000_door_yellow_left_destroyedTurnOn0-1"
+		"OnFullySealed" "@global_0000_door_yellow_weldedTurnOn0-1"
+		"OnFullyCut" "@global_0000_door_yellow_weldedTurnOff0-1"
 	}
 	"origin" "1088 2064 -128"
 	editor
@@ -27341,6 +27343,10 @@ entity
 	"speed" "140"
 	"targetname" "door_0000_red_right"
 	"totalsealtime" "10"
+	connections
+	{
+		"OnDestroyed" "@global_0000_door_red_right_destroyedTurnOn0-1"
+	}
 	"origin" "448 1696 -128"
 	editor
 	{
@@ -27381,6 +27387,12 @@ entity
 	"speed" "140"
 	"targetname" "door_0000_red_left"
 	"totalsealtime" "10"
+	connections
+	{
+		"OnFullySealed" "@global_0000_door_red_weldedTurnOn0-1"
+		"OnFullyCut" "@global_0000_door_red_weldedTurnOff0-1"
+		"OnDestroyed" "@global_0000_door_red_left_destroyedTurnOn0-1"
+	}
 	"origin" "320 1696 -128"
 	editor
 	{
@@ -31132,7 +31144,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"SetBodyGroup" "0"
-	"skin" "0"
+	"skin" "1"
 	"solid" "0"
 	"spawnflags" "0"
 	"StartDisabled" "0"
@@ -31943,11 +31955,11 @@ entity
 	"angles" "0 283 0"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"eludedist" "2048"
+	"eludedist" "1024"
 	"hintlimiting" "0"
 	"ignoreunseenenemies" "0"
 	"physdamagescale" "1.0"
-	"radius" "1024"
+	"radius" "720"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -31955,7 +31967,7 @@ entity
 	"sleepstate" "1"
 	"spawnflags" "256"
 	"visiblewhenasleep" "0"
-	"wakeradius" "1024"
+	"wakeradius" "720"
 	"wakesquad" "0"
 	"origin" "944 1776 -128"
 	editor
@@ -32466,7 +32478,7 @@ entity
 {
 	"id" "39947"
 	"classname" "trigger_once"
-	"origin" "1120 1512 0"
+	"origin" "1024 1416 0"
 	"spawnflags" "16"
 	connections
 	{
@@ -32478,7 +32490,7 @@ entity
 		side
 		{
 			"id" "3002"
-			"plane" "(704 1344 128) (704 1680 128) (1536 1680 128)"
+			"plane" "(512 1152 128) (512 1680 128) (1536 1680 128)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -32489,7 +32501,7 @@ entity
 		side
 		{
 			"id" "3001"
-			"plane" "(704 1680 -128) (704 1344 -128) (1536 1344 -128)"
+			"plane" "(512 1680 -128) (512 1152 -128) (1536 1152 -128)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -32500,7 +32512,7 @@ entity
 		side
 		{
 			"id" "3000"
-			"plane" "(704 1344 -128) (704 1680 -128) (704 1680 128)"
+			"plane" "(512 1152 -128) (512 1680 -128) (512 1680 128)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -32511,7 +32523,7 @@ entity
 		side
 		{
 			"id" "2999"
-			"plane" "(1536 1680 -128) (1536 1344 -128) (1536 1344 128)"
+			"plane" "(1536 1680 -128) (1536 1152 -128) (1536 1152 128)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -32522,7 +32534,7 @@ entity
 		side
 		{
 			"id" "2998"
-			"plane" "(704 1680 -128) (1536 1680 -128) (1536 1680 128)"
+			"plane" "(512 1680 -128) (1536 1680 -128) (1536 1680 128)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -32533,7 +32545,7 @@ entity
 		side
 		{
 			"id" "2997"
-			"plane" "(1536 1344 -128) (704 1344 -128) (704 1344 128)"
+			"plane" "(1536 1152 -128) (512 1152 -128) (512 1152 128)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -32569,7 +32581,6 @@ entity
 	"panelpropname" "door_0000_yellow_panel"
 	"playersrequired" "1"
 	"spawnflags" "16"
-	"targetname" "door_0000_yellow_button"
 	"useafterhack" "1"
 	"usetargetname" "door_0000_yellow_left"
 	"wait" "1"
@@ -32579,7 +32590,8 @@ entity
 	{
 		"OnButtonActivated" "door_0000_yellow_leftEnableAutoOpen01"
 		"OnButtonHackCompleted" "relay_endhack_0000_00Trigger01"
-		"OnButtonHackCompleted" "@global_0000_hack_00_completedSetCounter10-1"
+		"OnButtonHackCompleted" "@global_0000_hack_00_completedTurnOn0-1"
+		"OnButtonHackCompleted" "door_0000_yellow_panel_backSkin20-1"
 	}
 	solid
 	{
@@ -32669,10 +32681,9 @@ entity
 {
 	"id" "40087"
 	"classname" "trigger_asw_door_area"
-	"origin" "1156 2064 -32"
+	"origin" "1152 2064 -32"
 	"playersrequired" "1"
 	"spawnflags" "2"
-	"targetname" "door_0000_yellow_area"
 	"usetargetname" "door_0000_yellow_left"
 	"wait" "1"
 	solid
@@ -32681,7 +32692,7 @@ entity
 		side
 		{
 			"id" "3032"
-			"plane" "(992 2208 64) (1320 2208 64) (1320 1920 64)"
+			"plane" "(992 1968 64) (992 2160 64) (1312 2160 64)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -32692,7 +32703,7 @@ entity
 		side
 		{
 			"id" "3031"
-			"plane" "(992 1920 -128) (1320 1920 -128) (1320 2208 -128)"
+			"plane" "(992 2160 -128) (992 1968 -128) (1312 1968 -128)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -32703,7 +32714,7 @@ entity
 		side
 		{
 			"id" "3030"
-			"plane" "(992 2208 64) (992 1920 64) (992 1920 -128)"
+			"plane" "(992 1968 -128) (992 2160 -128) (992 2160 64)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -32714,7 +32725,7 @@ entity
 		side
 		{
 			"id" "3029"
-			"plane" "(1320 2208 -128) (1320 1920 -128) (1320 1920 64)"
+			"plane" "(1312 2160 -128) (1312 1968 -128) (1312 1968 64)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -32725,7 +32736,7 @@ entity
 		side
 		{
 			"id" "3028"
-			"plane" "(1320 2208 64) (992 2208 64) (992 2208 -128)"
+			"plane" "(992 2160 -128) (1312 2160 -128) (1312 2160 64)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -32736,7 +32747,7 @@ entity
 		side
 		{
 			"id" "3027"
-			"plane" "(1320 1920 -128) (992 1920 -128) (992 1920 64)"
+			"plane" "(1312 1968 -128) (992 1968 -128) (992 1968 64)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -32786,7 +32797,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"SetBodyGroup" "0"
-	"skin" "0"
+	"skin" "2"
 	"solid" "0"
 	"spawnflags" "0"
 	"StartDisabled" "0"
@@ -32813,7 +32824,6 @@ entity
 	"panelpropname" "door_0000_red_panel"
 	"playersrequired" "1"
 	"spawnflags" "2"
-	"targetname" "door_0000_red_button"
 	"useafterhack" "1"
 	"usetargetname" "door_0000_red_left"
 	"wait" "1"
@@ -32907,10 +32917,9 @@ entity
 {
 	"id" "40168"
 	"classname" "trigger_asw_door_area"
-	"origin" "388 1696 -32"
+	"origin" "384 1696 -32"
 	"playersrequired" "1"
 	"spawnflags" "2"
-	"targetname" "door_0000_red_area"
 	"usetargetname" "door_0000_red_left"
 	"wait" "1"
 	solid
@@ -32919,7 +32928,7 @@ entity
 		side
 		{
 			"id" "3056"
-			"plane" "(224 1840 64) (552 1840 64) (552 1552 64)"
+			"plane" "(224 1600 64) (224 1792 64) (544 1792 64)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -32930,7 +32939,7 @@ entity
 		side
 		{
 			"id" "3055"
-			"plane" "(224 1552 -128) (552 1552 -128) (552 1840 -128)"
+			"plane" "(224 1792 -128) (224 1600 -128) (544 1600 -128)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -32941,7 +32950,7 @@ entity
 		side
 		{
 			"id" "3054"
-			"plane" "(224 1840 64) (224 1552 64) (224 1552 -128)"
+			"plane" "(224 1600 -128) (224 1792 -128) (224 1792 64)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -32952,7 +32961,7 @@ entity
 		side
 		{
 			"id" "3053"
-			"plane" "(552 1840 -128) (552 1552 -128) (552 1552 64)"
+			"plane" "(544 1792 -128) (544 1600 -128) (544 1600 64)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -32963,7 +32972,7 @@ entity
 		side
 		{
 			"id" "3052"
-			"plane" "(552 1840 64) (224 1840 64) (224 1840 -128)"
+			"plane" "(224 1792 -128) (544 1792 -128) (544 1792 64)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -32974,7 +32983,7 @@ entity
 		side
 		{
 			"id" "3051"
-			"plane" "(552 1552 -128) (224 1552 -128) (224 1552 64)"
+			"plane" "(544 1600 -128) (224 1600 -128) (224 1600 64)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -34103,7 +34112,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"SetBodyGroup" "0"
-	"skin" "0"
+	"skin" "1"
 	"solid" "0"
 	"spawnflags" "0"
 	"StartDisabled" "0"
@@ -34213,10 +34222,11 @@ entity
 	"id" "49036"
 	"classname" "env_global"
 	"counter" "0"
+	"globalstate" "0000_hack_00_completed"
 	"initialstate" "0"
-	"spawnflags" "0"
+	"spawnflags" "1"
 	"targetname" "@global_0000_hack_00_completed"
-	"origin" "1312 2016 -22.5347"
+	"origin" "1312 2016 -24"
 	editor
 	{
 		"color" "220 30 220"
@@ -34230,10 +34240,11 @@ entity
 	"id" "49061"
 	"classname" "env_global"
 	"counter" "0"
+	"globalstate" "0000_door_yellow_right_destroyed"
 	"initialstate" "0"
-	"spawnflags" "0"
+	"spawnflags" "1"
 	"targetname" "@global_0000_door_yellow_right_destroyed"
-	"origin" "1208 2040 -22.5347"
+	"origin" "1208 2040 -24"
 	editor
 	{
 		"color" "220 30 220"
@@ -34247,10 +34258,83 @@ entity
 	"id" "49067"
 	"classname" "env_global"
 	"counter" "0"
+	"globalstate" "0000_door_yellow_left_destroyed"
 	"initialstate" "0"
-	"spawnflags" "0"
+	"spawnflags" "1"
 	"targetname" "@global_0000_door_yellow_left_destroyed"
-	"origin" "1088 2040 -22.5347"
+	"origin" "1088 2040 -24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "50562"
+	"classname" "env_global"
+	"counter" "0"
+	"globalstate" "0000_door_yellow_welded"
+	"initialstate" "0"
+	"spawnflags" "1"
+	"targetname" "@global_0000_door_yellow_welded"
+	"origin" "1088 2040 -40"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "50674"
+	"classname" "env_global"
+	"counter" "0"
+	"globalstate" "0000_door_red_right_destroyed"
+	"initialstate" "0"
+	"spawnflags" "1"
+	"targetname" "@global_0000_door_red_right_destroyed"
+	"origin" "444 1672 -24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "50676"
+	"classname" "env_global"
+	"counter" "0"
+	"globalstate" "0000_door_red_left_destroyed"
+	"initialstate" "0"
+	"spawnflags" "1"
+	"targetname" "@global_0000_door_red_left_destroyed"
+	"origin" "324 1672 -24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "50678"
+	"classname" "env_global"
+	"counter" "0"
+	"globalstate" "0000_door_red_welded"
+	"initialstate" "1"
+	"spawnflags" "1"
+	"targetname" "@global_0000_door_red_welded"
+	"origin" "324 1672 -40"
 	editor
 	{
 		"color" "220 30 220"
