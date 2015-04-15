@@ -1,0 +1,13 @@
+GAME {
+	"pos_x"	"0"
+	"pos_y"	"0"
+	"scale"	"20.0"
+	"material" "vgui/swarm/Computer/ComputerScan"
+	"briefingmaterial" "vgui/swarm/MissionPics/UnknownMissionPic"
+	"missiontitle"		"MAP 2"
+	"description"	""
+	"version"		"0.0"
+	"author"		"Ben Lubar"
+	"website"		"https://github.com/BenLubar/swarm-addons"
+	"image"			"swarm/missionpics/missionpic"
+}

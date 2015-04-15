@@ -1,0 +1,49 @@
+GAME {
+	"CampaignName" "env_global - BenLubar's Tests"
+	"CampaignDescription" ""
+	"ChooseCampaignTexture" "swarm/campaign/jacob_galacticmap"
+	"CampaignTextureName" "swarm/campaign/jacob_galacticmap"
+	"CampaignTextureLayer1" "swarm/Campaign/CampaignMap_EmptyLayer"
+	"CampaignTextureLayer2" "swarm/Campaign/CampaignMap_EmptyLayer"
+	"CampaignTextureLayer3" "swarm/Campaign/CampaignMap_EmptyLayer"
+	
+	"CustomCreditsFile" 	"resource/CustomCampaignCredits"
+
+	"GalaxyX"   "133"
+	"GalaxyY"   "7"
+		
+	"MISSION" {
+		"MissionName"		"Entry Port"
+		"MapName"		"start_area"
+		"LocationX"		"330"
+		"LocationY"		"780"
+		"DifficultyModifier" 	"-2"
+		"Links"			"bltest_envglobal_00" 
+		"LocationDescription"  	"Home Base"
+		"ShortBriefing"  	""
+	}
+	"MISSION" {
+		"MissionName"		"MAP 1"
+		"MapName"		"bltest_envglobal_00"
+		"LocationX"		"525"
+		"LocationY"		"700"
+		"ThreatString" 		"1"
+		"Links"			"start_area bltest_envglobal_01"
+		"LocationDescription" 	"MAP 1"
+		"ShortBriefing"  	""
+		"AlwaysVisible"		"1"
+		"NeedsMoreThanOneMarine" "0"
+	}
+	"MISSION" {
+		"MissionName"		"MAP 2"
+		"MapName"		"bltest_envglobal_01"
+		"LocationX"		"360"
+		"LocationY"		"506"
+		"ThreatString" 		"1"
+		"Links"			"bltest_envglobal_00"
+		"LocationDescription" 	"MAP 2"
+		"ShortBriefing"  	""
+		"AlwaysVisible"		"1"
+		"NeedsMoreThanOneMarine" "0"
+	}
+}
