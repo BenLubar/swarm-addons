@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "24"
+	"mapversion" "25"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "24"
+	"mapversion" "25"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -257,6 +257,48 @@ entity
 	"classname" "asw_tech_marine_req"
 	"targetname" "@required_tech"
 	"origin" "-48 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2268]"
+	}
+}
+entity
+{
+	"id" "151"
+	"classname" "asw_debrief_info"
+	"origin" "-48 16 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2268]"
+	}
+}
+entity
+{
+	"id" "160"
+	"classname" "asw_gamerules"
+	"speedruntime" "180"
+	"speedruntimesp" "0"
+	"origin" "-64 16 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2268]"
+	}
+}
+entity
+{
+	"id" "173"
+	"classname" "asw_stylincam"
+	"targetname" "@stylincam"
+	"origin" "-64 0 0"
 	editor
 	{
 		"color" "220 30 220"
