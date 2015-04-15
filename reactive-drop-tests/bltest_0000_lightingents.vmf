@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "21"
+	"mapversion" "24"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "21"
+	"mapversion" "24"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -124,6 +124,7 @@ entity
 		"OnMapSpawn" "@tonemapSetBloomScale0.330-1"
 		"OnMapSpawn" "@tonemapSetAutoExposureMax4.00-1"
 		"OnMapSpawn" "@tonemapSetAutoExposureMin0.10-1"
+		"OnMapSpawn" "@required_techDisableTechMarineReq0-1"
 	}
 	"origin" "0 16 0"
 	editor
@@ -200,6 +201,68 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "102"
+	"classname" "math_counter"
+	"max" "1000000"
+	"min" "0"
+	"StartDisabled" "0"
+	"startvalue" "0"
+	"targetname" "@director_hack"
+	connections
+	{
+		"OnChangedFromMin" "@directorEnableHordes0-1"
+		"OnChangedFromMin" "@directorEnableWanderers0-1"
+		"OnHitMin" "@directorDisableWanderers0-1"
+		"OnHitMin" "@directorDisableHordes0-1"
+	}
+	"origin" "-32 16 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2268]"
+	}
+}
+entity
+{
+	"id" "133"
+	"classname" "math_counter"
+	"max" "1000000"
+	"min" "0"
+	"StartDisabled" "0"
+	"startvalue" "0"
+	"targetname" "@required_hack"
+	connections
+	{
+		"OnHitMin" "@required_techDisableTechMarineReq0-1"
+		"OnChangedFromMin" "@required_techEnableTechMarineReq0-1"
+	}
+	"origin" "-32 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2268]"
+	}
+}
+entity
+{
+	"id" "137"
+	"classname" "asw_tech_marine_req"
+	"targetname" "@required_tech"
+	"origin" "-48 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2268]"
 	}
 }
 cameras
