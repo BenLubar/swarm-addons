@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "20"
+	"mapversion" "22"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "20"
+	"mapversion" "22"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1813,7 +1813,7 @@ entity
 	"id" "421"
 	"classname" "func_instance"
 	"angles" "-0 1.00179e-005 0"
-	"file" "../campaign-untitled06/instance/light_wall_static.vmf"
+	"file" "../../campaign-untitled06/instance/light_wall_static.vmf"
 	"fixup_style" "0"
 	"origin" "-3.05176e-005 768 0"
 	editor
@@ -1829,7 +1829,7 @@ entity
 	"id" "446"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "../campaign-untitled06/instance/light_wall_static.vmf"
+	"file" "../../campaign-untitled06/instance/light_wall_static.vmf"
 	"fixup_style" "0"
 	"origin" "0 256 0"
 	editor
@@ -1938,80 +1938,15 @@ entity
 }
 entity
 {
-	"id" "490"
-	"classname" "env_global"
-	"counter" "0"
-	"globalstate" "benlubar_hack_completed"
-	"initialstate" "1"
-	"spawnflags" "0"
-	"targetname" "@global_hack_completed"
-	connections
-	{
-		"Counter" "case_global_hack_completedInValue0-1"
-	}
-	"origin" "160 544 64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 14500]"
-	}
-}
-entity
-{
-	"id" "509"
-	"classname" "env_global"
-	"counter" "0"
-	"globalstate" "benlubar_door_welded"
-	"initialstate" "1"
-	"spawnflags" "0"
-	"targetname" "@global_door_welded"
-	connections
-	{
-		"Counter" "case_global_door_weldedInValue0-1"
-	}
-	"origin" "240 528 64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 14500]"
-	}
-}
-entity
-{
-	"id" "517"
-	"classname" "env_global"
-	"counter" "0"
-	"globalstate" "benlubar_door_destroyed"
-	"initialstate" "1"
-	"spawnflags" "0"
-	"targetname" "@global_door_destroyed"
-	connections
-	{
-		"Counter" "case_global_door_destroyedInValue0-1"
-	}
-	"origin" "272 528 64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 14500]"
-	}
-}
-entity
-{
 	"id" "835"
 	"classname" "logic_auto"
+	"globalstate" "benlubar_door_destroyed"
 	"spawnflags" "1"
 	connections
 	{
-		"OnMapSpawn" "@global_door_weldedGetCounter0-1"
-		"OnMapSpawn" "@global_hack_completedGetCounter0-1"
-		"OnMapSpawn" "@global_door_destroyedGetCounter0-1"
+		"OnMapSpawn" "door_prop_weldedKill01"
+		"OnMapSpawn" "door_prop_normalKill01"
+		"OnMapSpawn" "relay_door_not_destroyedKill01"
 	}
 	"origin" "192 528 64"
 	editor
@@ -2024,66 +1959,17 @@ entity
 }
 entity
 {
-	"id" "860"
-	"classname" "logic_case"
-	"Case01" "1"
-	"Case02" "2"
-	"targetname" "case_global_door_destroyed"
-	connections
-	{
-		"OnCase01" "door_prop_normalKill0-1"
-		"OnCase01" "door_prop_weldedKill0-1"
-		"OnCase02" "door_prop_destroyedKill0-1"
-	}
-	"origin" "272 544 64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 14500]"
-	}
-}
-entity
-{
 	"id" "877"
-	"classname" "logic_case"
-	"Case01" "1"
-	"Case02" "2"
-	"targetname" "case_global_door_welded"
+	"classname" "logic_auto"
+	"globalstate" "benlubar_door_welded"
+	"spawnflags" "1"
 	connections
 	{
-		"OnCase01" "door_prop_normalKill0-1"
-		"OnCase02" "door_prop_weldedKill0-1"
-		"OnCase02" "panel_trigger_weldedKill0-1"
-		"OnCase01" "panel_trigger_normalKill0-1"
+		"OnMapSpawn" "door_prop_normalKill01"
+		"OnMapSpawn" "panel_trigger_normalKill01"
+		"OnMapSpawn" "relay_door_not_weldedKill01"
 	}
-	"origin" "240 544 64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 14500]"
-	}
-}
-entity
-{
-	"id" "924"
-	"classname" "logic_case"
-	"Case01" "1"
-	"Case02" "2"
-	"targetname" "case_global_hack_completed"
-	connections
-	{
-		"OnCase01" "panel_prop_frontSkin20-1"
-		"OnCase01" "panel_prop_backSkin20-1"
-		"OnCase01" "door_prop_normalEnableAutoOpen0-1"
-		"OnCase01" "door_prop_weldedEnableAutoOpen0-1"
-		"OnCase01" "panel_trigger_weldedUnlock0-1"
-		"OnCase01" "panel_trigger_normalUnlock0-1"
-	}
-	"origin" "160 560 64"
+	"origin" "240 528 64"
 	editor
 	{
 		"color" "220 30 220"
@@ -2378,15 +2264,116 @@ entity
 	"id" "1226"
 	"classname" "func_instance"
 	"angles" "-0 1.00179e-005 0"
-	"file" "../campaign-untitled06/instance/lightingents.vmf"
+	"file" "../../campaign-untitled06/instance/lightingents.vmf"
 	"fixup_style" "0"
-	"origin" "256 768 0"
+	"origin" "256 896 0"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 12500]"
+	}
+}
+entity
+{
+	"id" "1286"
+	"classname" "logic_relay"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "relay_door_not_destroyed"
+	connections
+	{
+		"OnTrigger" "door_prop_destroyedKill01"
+	}
+	"origin" "192 544 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
+	}
+}
+entity
+{
+	"id" "1307"
+	"classname" "logic_auto"
+	"globalstate" "benlubar_hack_completed"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "door_prop_normalEnableAutoOpen01"
+		"OnMapSpawn" "door_prop_weldedEnableAutoOpen01"
+		"OnMapSpawn" "panel_prop_backSkin201"
+		"OnMapSpawn" "panel_prop_frontSkin201"
+		"OnMapSpawn" "panel_trigger_normalUnlock01"
+		"OnMapSpawn" "panel_trigger_weldedUnlock01"
+	}
+	"origin" "160 544 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
+	}
+}
+entity
+{
+	"id" "1359"
+	"classname" "logic_relay"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "relay_door_not_welded"
+	connections
+	{
+		"OnTrigger" "door_prop_weldedKill01"
+		"OnTrigger" "panel_trigger_weldedKill01"
+	}
+	"origin" "240 544 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
+	}
+}
+entity
+{
+	"id" "1384"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "relay_door_not_destroyedTrigger0.011"
+	}
+	"origin" "192 560 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
+	}
+}
+entity
+{
+	"id" "1396"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "relay_door_not_weldedTrigger0.011"
+	}
+	"origin" "240 560 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
 	}
 }
 cameras

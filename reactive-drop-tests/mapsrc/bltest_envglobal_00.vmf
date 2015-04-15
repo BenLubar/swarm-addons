@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "12"
+	"mapversion" "16"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "12"
+	"mapversion" "16"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -742,9 +742,9 @@ entity
 	"totalsealtime" "10"
 	connections
 	{
-		"OnDestroyed" "@global_door_destroyedSetCounter101"
-		"OnFullyCut" "@global_door_weldedSetCounter20-1"
-		"OnFullySealed" "@global_door_weldedSetCounter10-1"
+		"OnDestroyed" "@global_door_destroyedTurnOn01"
+		"OnFullyCut" "@global_door_weldedTurnOff0-1"
+		"OnFullySealed" "@global_door_weldedTurnOn0-1"
 	}
 	"origin" "256 544 0"
 	editor
@@ -1537,7 +1537,7 @@ entity
 	{
 		"OnButtonActivated" "door_propEnableAutoOpen01"
 		"OnButtonHackCompleted" "panel_prop_backSkin201"
-		"OnButtonHackCompleted" "@global_hack_completedSetCounter101"
+		"OnButtonHackCompleted" "@global_hack_completedTurnOn01"
 	}
 	solid
 	{
@@ -1818,7 +1818,7 @@ entity
 	"id" "421"
 	"classname" "func_instance"
 	"angles" "-0 180 0"
-	"file" "../campaign-untitled06/instance/light_wall_static.vmf"
+	"file" "../../campaign-untitled06/instance/light_wall_static.vmf"
 	"fixup_style" "0"
 	"origin" "512 256 0"
 	editor
@@ -1834,7 +1834,7 @@ entity
 	"id" "446"
 	"classname" "func_instance"
 	"angles" "-0 -180 0"
-	"file" "../campaign-untitled06/instance/light_wall_static.vmf"
+	"file" "../../campaign-untitled06/instance/light_wall_static.vmf"
 	"fixup_style" "0"
 	"origin" "512 768 0"
 	editor
@@ -1968,9 +1968,9 @@ entity
 {
 	"id" "490"
 	"classname" "env_global"
-	"counter" "2"
+	"counter" "0"
 	"globalstate" "benlubar_hack_completed"
-	"initialstate" "1"
+	"initialstate" "0"
 	"spawnflags" "1"
 	"targetname" "@global_hack_completed"
 	"origin" "352 480 64"
@@ -1986,9 +1986,9 @@ entity
 {
 	"id" "509"
 	"classname" "env_global"
-	"counter" "2"
+	"counter" "0"
 	"globalstate" "benlubar_door_welded"
-	"initialstate" "1"
+	"initialstate" "0"
 	"spawnflags" "1"
 	"targetname" "@global_door_welded"
 	"origin" "272 496 64"
@@ -2004,9 +2004,9 @@ entity
 {
 	"id" "517"
 	"classname" "env_global"
-	"counter" "2"
+	"counter" "0"
 	"globalstate" "benlubar_door_destroyed"
-	"initialstate" "1"
+	"initialstate" "0"
 	"spawnflags" "1"
 	"targetname" "@global_door_destroyed"
 	"origin" "240 496 64"
@@ -2039,6 +2039,22 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "624"
+	"classname" "func_instance"
+	"angles" "-0 180 0"
+	"file" "../../campaign-untitled06/instance/lightingents.vmf"
+	"fixup_style" "0"
+	"origin" "272 128 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 12500]"
 	}
 }
 cameras
