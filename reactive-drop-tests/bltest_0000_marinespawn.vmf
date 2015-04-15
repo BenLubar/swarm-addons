@@ -1,0 +1,506 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5032"
+	"mapversion" "4"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "4"
+	"classname" "worldspawn"
+	"skyname" "blacksky"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+}
+entity
+{
+	"id" "2"
+	"classname" "trigger_multiple"
+	"origin" "768 160 -16"
+	"spawnflags" "16"
+	"wait" "1"
+	connections
+	{
+		"OnStartTouch" "marinespawn_count_marinesAdd10-1"
+		"OnEndTouch" "marinespawn_count_marinesGetValue01"
+	}
+	solid
+	{
+		"id" "3"
+		side
+		{
+			"id" "1"
+			"plane" "(640 224 32) (896 224 32) (896 96 32)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(640 96 -64) (896 96 -64) (896 224 -64)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(640 224 32) (640 96 32) (640 96 -64)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(896 224 -64) (896 96 -64) (896 96 32)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(896 224 32) (640 224 32) (640 224 -64)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(896 96 -64) (640 96 -64) (640 96 32)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "5"
+	"classname" "info_player_start"
+	"angles" "0 90 0"
+	"origin" "672 128 -64"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "7"
+	"classname" "info_player_start"
+	"angles" "0 90 0"
+	"origin" "672 192 -64"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "9"
+	"classname" "info_player_start"
+	"angles" "0 90 0"
+	"origin" "736 192 -64"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "11"
+	"classname" "info_player_start"
+	"angles" "0 90 0"
+	"origin" "736 128 -64"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "13"
+	"classname" "info_player_start"
+	"angles" "0 90 0"
+	"origin" "800 128 -64"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "15"
+	"classname" "info_player_start"
+	"angles" "0 90 0"
+	"origin" "800 192 -64"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "17"
+	"classname" "info_player_start"
+	"angles" "0 90 0"
+	"origin" "864 128 -64"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "19"
+	"classname" "info_player_start"
+	"angles" "0 90 0"
+	"origin" "864 192 -64"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "21"
+	"classname" "logic_case"
+	"Case01" "1"
+	"Case02" "2"
+	"Case03" "3"
+	"Case04" "4"
+	"Case05" "5"
+	"Case06" "6"
+	"Case07" "7"
+	"Case08" "8"
+	"targetname" "marinespawn_case_marines"
+	connections
+	{
+		"OnCase04" "@relay_marine_count_4Trigger0-1"
+		"OnCase02" "@relay_marine_count_2Trigger0-1"
+		"OnCase03" "@relay_marine_count_3Trigger0-1"
+		"OnCase05" "@relay_marine_count_5Trigger0-1"
+		"OnCase06" "@relay_marine_count_6Trigger0-1"
+		"OnCase07" "@relay_marine_count_7Trigger0-1"
+		"OnCase08" "@relay_marine_count_8Trigger0-1"
+		"OnCase01" "@relay_marine_count_1Trigger0-1"
+	}
+	"origin" "784 176 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "23"
+	"classname" "math_counter"
+	"max" "8"
+	"min" "0"
+	"StartDisabled" "0"
+	"startvalue" "0"
+	"targetname" "marinespawn_count_marines"
+	connections
+	{
+		"OutValue" "case_marinesInValue01"
+	}
+	"origin" "752 176 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "25"
+	"classname" "logic_relay"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "@relay_marine_count_1"
+	connections
+	{
+		"OnTrigger" "@relay_marine_count_2_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_3_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_4_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_5_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_6_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_7_or_fewerTrigger01"
+	}
+	"origin" "744 160 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "27"
+	"classname" "logic_relay"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "@relay_marine_count_2"
+	connections
+	{
+		"OnTrigger" "@relay_marine_count_2_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_3_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_4_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_5_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_6_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_7_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_2_or_moreTrigger01"
+	}
+	"origin" "760 160 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "29"
+	"classname" "logic_relay"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "@relay_marine_count_3"
+	connections
+	{
+		"OnTrigger" "@relay_marine_count_2_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_3_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_4_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_5_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_6_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_7_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_3_or_moreTrigger01"
+	}
+	"origin" "776 160 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "31"
+	"classname" "logic_relay"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "@relay_marine_count_4"
+	connections
+	{
+		"OnTrigger" "@relay_marine_count_4_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_5_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_6_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_7_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_2_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_3_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_4_or_moreTrigger01"
+	}
+	"origin" "792 160 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "33"
+	"classname" "logic_relay"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "@relay_marine_count_8"
+	connections
+	{
+		"OnTrigger" "@relay_marine_count_7_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_6_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_5_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_4_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_3_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_2_or_moreTrigger01"
+	}
+	"origin" "792 144 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "35"
+	"classname" "logic_relay"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "@relay_marine_count_7"
+	connections
+	{
+		"OnTrigger" "@relay_marine_count_7_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_2_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_3_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_4_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_5_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_6_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_7_or_moreTrigger01"
+	}
+	"origin" "776 144 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "37"
+	"classname" "logic_relay"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "@relay_marine_count_6"
+	connections
+	{
+		"OnTrigger" "@relay_marine_count_6_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_7_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_2_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_3_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_4_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_5_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_6_or_moreTrigger01"
+	}
+	"origin" "760 144 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "39"
+	"classname" "logic_relay"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "@relay_marine_count_5"
+	connections
+	{
+		"OnTrigger" "@relay_marine_count_5_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_6_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_7_or_fewerTrigger01"
+		"OnTrigger" "@relay_marine_count_2_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_3_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_4_or_moreTrigger01"
+		"OnTrigger" "@relay_marine_count_5_or_moreTrigger01"
+	}
+	"origin" "744 144 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
