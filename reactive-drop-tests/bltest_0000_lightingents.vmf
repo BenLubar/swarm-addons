@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "2"
+	"mapversion" "21"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "21"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -32,13 +32,13 @@ entity
 	"id" "2"
 	"classname" "env_fog_controller"
 	"angles" "0 0 0"
-	"farz" "-1"
+	"farz" "2048"
 	"fogcolor" "120 90 60"
 	"fogcolor2" "255 255 255"
 	"fogdir" "1 0 0"
 	"fogenable" "1"
 	"fogend" "6000"
-	"foglerptime" "1"
+	"foglerptime" "2"
 	"fogmaxdensity" ".5"
 	"fogstart" "256"
 	"spawnflags" "1"
@@ -56,8 +56,8 @@ entity
 {
 	"id" "4"
 	"classname" "color_correction"
-	"fadeInDuration" "1"
-	"fadeOutDuration" "1"
+	"fadeInDuration" "2"
+	"fadeOutDuration" "2"
 	"filename" "scripts/colorcorrection/landingbay_interior.raw"
 	"maxfalloff" "-1"
 	"maxweight" "1.0"
@@ -78,8 +78,9 @@ entity
 {
 	"id" "8"
 	"classname" "postprocess_controller"
+	"depthblurfocaldistance" "0.135"
 	"depthblurstrength" ".75"
-	"fadetime" "1"
+	"fadetime" "2"
 	"fadetoblackstrength" "0"
 	"filmgrainstrength" "1.5"
 	"localcontrastedgestrength" "0.1"
@@ -121,6 +122,8 @@ entity
 	connections
 	{
 		"OnMapSpawn" "@tonemapSetBloomScale0.330-1"
+		"OnMapSpawn" "@tonemapSetAutoExposureMax4.00-1"
+		"OnMapSpawn" "@tonemapSetAutoExposureMin0.10-1"
 	}
 	"origin" "0 16 0"
 	editor
@@ -146,6 +149,57 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -2268]"
+	}
+}
+entity
+{
+	"id" "29"
+	"classname" "postprocess_controller"
+	"depthblurfocaldistance" "0.135"
+	"depthblurstrength" "3.0"
+	"fadetime" "2"
+	"fadetoblackstrength" "0"
+	"filmgrainstrength" "1.5"
+	"localcontrastedgestrength" "0.1"
+	"localcontraststrength" "0.5"
+	"screenblurstrength" ".1"
+	"spawnflags" "0"
+	"targetname" "@fx_settings_0000"
+	"vignetteblurstrength" "0.2"
+	"vignetteend" "1.1"
+	"vignettestart" "0.8"
+	"origin" "32 0 0"
+	editor
+	{
+		"color" "255 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "71"
+	"classname" "env_fog_controller"
+	"angles" "0 0 0"
+	"farz" "2048"
+	"fogcolor" "133 88 48"
+	"fogcolor2" "255 255 255"
+	"fogdir" "1 0 0"
+	"fogenable" "1"
+	"fogend" "3000"
+	"foglerptime" "2"
+	"fogmaxdensity" "1.0"
+	"fogstart" "256"
+	"spawnflags" "0"
+	"targetname" "@fog_0000"
+	"origin" "32 16 0"
+	editor
+	{
+		"color" "255 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
 	}
 }
 cameras
