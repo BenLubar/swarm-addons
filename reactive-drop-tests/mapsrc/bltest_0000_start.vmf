@@ -3782,7 +3782,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "512 -5.53131e-005 -64"
+	"origin" "512 0 -64"
 	editor
 	{
 		"color" "253 198 0"
@@ -3872,7 +3872,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "512 -5.53131e-005 0"
+	"origin" "512 0 0"
 	editor
 	{
 		"color" "253 198 0"
@@ -3902,7 +3902,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "1024 -6.10352e-005 -64"
+	"origin" "1024 0 -64"
 	editor
 	{
 		"color" "253 198 0"
@@ -3932,7 +3932,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "1020 -6.10352e-005 64"
+	"origin" "1020 0 64"
 	editor
 	{
 		"color" "253 198 0"
@@ -3962,7 +3962,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "1020 -6.10352e-005 -64"
+	"origin" "1020 0 -64"
 	editor
 	{
 		"color" "253 198 0"
@@ -3992,7 +3992,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "1024 -6.10352e-005 0"
+	"origin" "1024 0 0"
 	editor
 	{
 		"color" "253 198 0"
@@ -4586,8 +4586,8 @@ entity
 	"angles" "0 180 0"
 	"BasisNormal" "0 0 1"
 	"BasisOrigin" "768 16 -64"
-	"BasisU" "-1 -8.74228e-008 0"
-	"BasisV" "8.74228e-008 -1 0"
+	"BasisU" "-1 0 0"
+	"BasisV" "0 -1 0"
 	"EndU" "1"
 	"EndV" "0"
 	"fademindist" "-1"
@@ -4643,7 +4643,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 0 0"
 	"BasisNormal" "1 -0 0"
-	"BasisOrigin" "512 176 1.52588e-005"
+	"BasisOrigin" "512 176 0"
 	"BasisU" "0 1 0"
 	"BasisV" "-0 0 1"
 	"EndU" "1"
@@ -4657,7 +4657,7 @@ entity
 	"uv1" "-128 128 0"
 	"uv2" "128 128 0"
 	"uv3" "128 -128 0"
-	"origin" "512 176 1.52588e-005"
+	"origin" "512 176 0"
 	editor
 	{
 		"color" "80 150 225"
