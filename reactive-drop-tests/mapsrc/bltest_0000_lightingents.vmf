@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "25"
+	"mapversion" "28"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "25"
+	"mapversion" "28"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -299,6 +299,39 @@ entity
 	"classname" "asw_stylincam"
 	"targetname" "@stylincam"
 	"origin" "-64 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2268]"
+	}
+}
+entity
+{
+	"id" "190"
+	"classname" "asw_objective_triggered"
+	"objectivetitle" "(Optional) Check the generator"
+	"Optional" "1"
+	"targetname" "@objective_optional_biomass"
+	"Visible" "1"
+	"origin" "-80 32 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2268]"
+	}
+}
+entity
+{
+	"id" "229"
+	"classname" "asw_objective_escape"
+	"objectivetitle" "Proceed deeper into the facility"
+	"targetname" "@objective_escape"
+	"Visible" "1"
+	"origin" "-80 0 0"
 	editor
 	{
 		"color" "220 30 220"
