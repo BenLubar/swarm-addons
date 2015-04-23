@@ -1,0 +1,1360 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5032"
+	"mapversion" "7"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "7"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "blacksky"
+}
+entity
+{
+	"id" "2"
+	"classname" "logic_timer"
+	"RefireTime" "120"
+	"StartDisabled" "0"
+	"targetname" "wpn_respawn_timer"
+	"UseRandomTime" "0"
+	connections
+	{
+		"OnTimer" "@wpn_and_ammo_spawnerForceSpawn0.1-1"
+		"OnTimer" "wpn_ammoKill0-1"
+		"OnTimer" "wpn_flamerKill0-1"
+		"OnTimer" "wpn_railgunKill0-1"
+		"OnTimer" "wpn_shotgunKill0-1"
+		"OnTimer" "wpn_glKill0-1"
+		"OnTimer" "wpn_vindicatorKill0-1"
+		"OnTimer" "wpn_autogunKill0-1"
+		"OnTimer" "wpn_pdwKill0-1"
+		"OnTimer" "wpn_pistolKill0-1"
+		"OnTimer" "wpn_minigunKill0-1"
+		"OnTimer" "wpn_prifleKill0-1"
+		"OnTimer" "wpn_sniperKill0-1"
+		"OnTimer" "wpn_healgunKill0-1"
+		"OnTimer" "wpn_blinkKill0-1"
+		"OnTimer" "wpn_jump_jetKill0-1"
+		"OnTimer" "wpn_grenadesKill0-1"
+		"OnTimer" "wpn_medkitKill0-1"
+		"OnTimer" "wpn_minesKill0-1"
+		"OnTimer" "wpn_sentryKill0-1"
+		"OnTimer" "wpn_laser_minesKill0-1"
+		"OnTimer" "wpn_chainsawKill0-1"
+		"OnTimer" "wpn_rifleKill0-1"
+		"OnTimer" "wpn_mining_laserKill0-1"
+		"OnTimer" "wpn_dmgampKill0-1"
+		"OnTimer" "wpn_rifleKill0-1"
+		"OnTimer" "wpn_sentry_flameKill0-1"
+		"OnTimer" "wpn_sentry_cannonKill0-1"
+		"OnTimer" "wpn_healbeaconKill0-1"
+		"OnTimer" "wpn_adrenalineKill0-1"
+		"OnTimer" "wpn_fistKill0-1"
+		"OnTimer" "wpn_minesKill0-1"
+		"OnTimer" "wpn_hornetKill0-1"
+		"OnTimer" "wpn_night_visionKill0-1"
+		"OnTimer" "wpn_armorKill0-1"
+		"OnTimer" "wpn_smartbombKill0-1"
+	}
+	"origin" "48 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@ammo_point_template"
+	"Template01" "wpn_ammo"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "8"
+	"classname" "asw_ammo_drop"
+	"angles" "0 0 0"
+	"targetname" "wpn_ammo"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "10"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@shotgun_point_template"
+	"Template01" "wpn_shotgun"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "14"
+	"classname" "asw_pickup_shotgun"
+	"angles" "0 0 0"
+	"BulletsInGun" "3"
+	"Clips" "8"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SecondaryBullets" "0"
+	"targetname" "wpn_shotgun"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "16"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@flamer_point_template"
+	"Template01" "wpn_flamer"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "20"
+	"classname" "asw_pickup_flamer"
+	"angles" "0 0 0"
+	"BulletsInGun" "60"
+	"Clips" "5"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SecondaryBullets" "0"
+	"targetname" "wpn_flamer"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "22"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@railgun_point_template"
+	"Template01" "wpn_railgun"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "26"
+	"classname" "asw_pickup_railgun"
+	"angles" "0 0 0"
+	"BulletsInGun" "1"
+	"Clips" "72"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"targetname" "wpn_railgun"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "28"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@gl_point_template"
+	"Template01" "wpn_gl"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "30"
+	"classname" "asw_weapon_grenade_launcher"
+	"angles" "0 0 0"
+	"BulletsInGun" "6"
+	"Clips" "3"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SecondaryBullets" "0"
+	"targetname" "wpn_gl"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "34"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@vindicator_point_template"
+	"Template01" "wpn_vindicator"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "36"
+	"classname" "asw_pickup_vindicator"
+	"angles" "0 0 0"
+	"BulletsInGun" "14"
+	"Clips" "5"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SecondaryBullets" "4"
+	"targetname" "wpn_vindicator"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "40"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@autogun_point_template"
+	"Template01" "wpn_autogun"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "42"
+	"classname" "asw_pickup_autogun"
+	"angles" "0 0 0"
+	"BulletsInGun" "250"
+	"Clips" "1"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SecondaryBullets" "0"
+	"targetname" "wpn_autogun"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "46"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@minigun_point_template"
+	"Template01" "wpn_minigun"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "48"
+	"classname" "asw_weapon_minigun"
+	"angles" "0 0 0"
+	"BulletsInGun" "250"
+	"Clips" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"targetname" "wpn_minigun"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "52"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@grenades_point_template"
+	"Template01" "wpn_grenades"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "54"
+	"classname" "asw_pickup_grenades"
+	"angles" "0 0 0"
+	"BulletsInGun" "5"
+	"Clips" "0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SecondaryBullets" "0"
+	"targetname" "wpn_grenades"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "58"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@blink_point_template"
+	"Template01" "wpn_blink"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "60"
+	"classname" "asw_weapon_blink"
+	"angles" "0 0 0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"SkinNumber" "12"
+	"targetname" "wpn_blink"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "64"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@pistol_point_template"
+	"Template01" "wpn_pistol"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "66"
+	"classname" "asw_pickup_pistol"
+	"angles" "0 0 0"
+	"BulletsInGun" "16"
+	"Clips" "10"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SecondaryBullets" "0"
+	"targetname" "wpn_pistol"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "70"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@pdw_point_template"
+	"Template01" "wpn_pdw"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "72"
+	"classname" "asw_pickup_pdw"
+	"angles" "0 0 0"
+	"BulletsInGun" "80"
+	"Clips" "5"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SecondaryBullets" "0"
+	"targetname" "wpn_pdw"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "76"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@sniper_point_template"
+	"Template01" "wpn_sniper"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "78"
+	"classname" "asw_weapon_sniper_rifle"
+	"angles" "0 0 0"
+	"BulletsInGun" "12"
+	"Clips" "5"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SecondaryBullets" "0"
+	"targetname" "wpn_sniper"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "82"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@prifle_point_template"
+	"Template01" "wpn_prifle"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "84"
+	"classname" "asw_pickup_prifle"
+	"angles" "0 0 0"
+	"BulletsInGun" "98"
+	"Clips" "5"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SecondaryBullets" "4"
+	"targetname" "wpn_prifle"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "88"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@healgun_point_template"
+	"Template01" "wpn_healgun"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "90"
+	"classname" "asw_weapon_heal_gun"
+	"angles" "0 0 0"
+	"BulletsInGun" "90"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"targetname" "wpn_healgun"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "94"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@medkit_point_template"
+	"Template01" "wpn_medkit"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "96"
+	"classname" "asw_pickup_medkit"
+	"angles" "0 0 0"
+	"BulletsInGun" "1"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"targetname" "wpn_medkit"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "100"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@laser_mines_point_template"
+	"Template01" "wpn_laser_mines"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "102"
+	"classname" "asw_weapon_laser_mines"
+	"angles" "0 0 0"
+	"BulletsInGun" "12"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SkinNumber" "8"
+	"targetname" "wpn_laser_mines"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "106"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@sentry_point_template"
+	"Template01" "wpn_sentry"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "108"
+	"classname" "asw_pickup_sentry"
+	"angles" "0 0 0"
+	"BulletsInGun" "1"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SkinNumber" "2"
+	"targetname" "wpn_sentry"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "112"
+	"classname" "asw_weapon_jump_jet"
+	"angles" "0 0 0"
+	"BulletsInGun" "5"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SkinNumber" "12"
+	"targetname" "wpn_jump_jet"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "114"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@jump_jet_point_template"
+	"Template01" "wpn_jump_jet"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "118"
+	"classname" "asw_pickup_chainsaw"
+	"angles" "0 0 0"
+	"BulletsInGun" "100"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"targetname" "wpn_chainsaw"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "120"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@chainsaw_point_template"
+	"Template01" "wpn_chainsaw"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "126"
+	"classname" "asw_pickup_rifle"
+	"angles" "0 0 0"
+	"BulletsInGun" "98"
+	"Clips" "5"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SecondaryBullets" "4"
+	"spawnflags" "0"
+	"targetname" "wpn_rifle"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "128"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@rifle_point_template"
+	"Template01" "wpn_rifle"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "130"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "wpn_respawn_timerFireTimer0-1"
+	}
+	"origin" "64 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "134"
+	"classname" "asw_pickup_mining_laser"
+	"angles" "0 0 0"
+	"BulletsInGun" "50"
+	"Clips" "5"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SecondaryBullets" "0"
+	"targetname" "wpn_mining_laser"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "136"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@mining_laser_point_template"
+	"Template01" "wpn_mining_laser"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "140"
+	"classname" "asw_weapon_buff_grenade"
+	"angles" "0 0 0"
+	"BulletsInGun" "1"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SkinNumber" "4"
+	"targetname" "wpn_dmgamp"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "142"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@dmgamp_point_template"
+	"Template01" "wpn_dmgamp"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "146"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@sentry_flame_point_template"
+	"Template01" "wpn_sentry_flame"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "148"
+	"classname" "asw_pickup_sentry_flamer"
+	"angles" "0 0 0"
+	"BulletsInGun" "1"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SkinNumber" "4"
+	"targetname" "wpn_sentry_flame"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "150"
+	"classname" "asw_pickup_sentry_cannon"
+	"angles" "0 0 0"
+	"BulletsInGun" "1"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SkinNumber" "5"
+	"targetname" "wpn_sentry_cannon"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "152"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@sentry_cannon_point_template"
+	"Template01" "wpn_sentry_cannon"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "156"
+	"classname" "asw_pickup_heal_grenade"
+	"angles" "0 0 0"
+	"BulletsInGun" "3"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SkinNumber" "1"
+	"targetname" "wpn_healbeacon"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "158"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@healbeacon_point_template"
+	"Template01" "wpn_healbeacon"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "162"
+	"classname" "asw_pickup_stim"
+	"angles" "0 0 0"
+	"BulletsInGun" "2"
+	"Clips" "0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SecondaryBullets" "0"
+	"targetname" "wpn_adrenaline"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "164"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@adrenaline_point_template"
+	"Template01" "wpn_adrenaline"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "168"
+	"classname" "asw_weapon_fist"
+	"angles" "0 0 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SkinNumber" "10"
+	"targetname" "wpn_fist"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "170"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@fist_point_template"
+	"Template01" "wpn_fist"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "174"
+	"classname" "asw_pickup_mines"
+	"angles" "0 0 0"
+	"BulletsInGun" "2"
+	"Clips" "0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SecondaryBullets" "0"
+	"targetname" "wpn_mines"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "176"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@mines_point_template"
+	"Template01" "wpn_mines"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "180"
+	"classname" "asw_weapon_hornet_barrage"
+	"angles" "0 0 0"
+	"BulletsInGun" "3"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SkinNumber" "3"
+	"targetname" "wpn_hornet"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "182"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@hornet_point_template"
+	"Template01" "wpn_hornet"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "186"
+	"classname" "asw_weapon_night_vision"
+	"angles" "0 0 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SkinNumber" "5"
+	"targetname" "wpn_night_vision"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "188"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@night_vision_point_template"
+	"Template01" "wpn_night_vision"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "192"
+	"classname" "asw_weapon_normal_armor"
+	"angles" "0 0 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SkinNumber" "2"
+	"targetname" "wpn_armor"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "194"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@armor_point_template"
+	"Template01" "wpn_armor"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "198"
+	"classname" "asw_weapon_smart_bomb"
+	"angles" "0 0 0"
+	"BulletsInGun" "1"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"FreezePickup" "No"
+	"SkinNumber" "11"
+	"targetname" "wpn_smartbomb"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "200"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "@smartbomb_point_template"
+	"Template01" "wpn_smartbomb"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
