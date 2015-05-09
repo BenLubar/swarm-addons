@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "2"
+	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "5"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -35,7 +35,7 @@ entity
 	"_distance" "0"
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
-	"_light" "255 255 255 200"
+	"_light" "$color"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "0.7"
 	"_linear_attn" "0"
@@ -64,7 +64,7 @@ entity
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
 	"_inner_cone" "30"
-	"_light" "255 255 255 200"
+	"_light" "$color"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "0.7"
 	"_linear_attn" "0"
@@ -125,7 +125,7 @@ entity
 	"mindxlevel" "0"
 	"model" "sprites/glow01.spr"
 	"renderamt" "255"
-	"rendercolor" "255 255 255"
+	"rendercolor" "$color"
 	"renderfx" "0"
 	"rendermode" "9"
 	"scale" "1.0"
@@ -135,6 +135,20 @@ entity
 	editor
 	{
 		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 6000]"
+	}
+}
+entity
+{
+	"id" "224"
+	"classname" "func_instance_parms"
+	"parm1" "$color color255 255 255 255 200"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 6000]"
