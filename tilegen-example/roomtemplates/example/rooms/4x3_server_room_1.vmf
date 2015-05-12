@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "4961"
-	"mapversion" "9"
+	"editorbuild" "5032"
+	"mapversion" "11"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "1"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "9"
+	"mapversion" "11"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -503,9 +503,9 @@ entity
 		{
 			"id" "377"
 			"plane" "(0 384 0) (0 384 -64) (0 768 -64)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 -1 0 -16] 1"
-			"vaxis" "[0 0 -1 -24] 1"
+			"material" "TOOLS/TOOLSNOLIGHT"
+			"uaxis" "[0 -1 0 -0] 1"
+			"vaxis" "[0 0 -1 -0] 1"
 			"rotation" "0"
 			"lightmapscale" "256"
 			"smoothing_groups" "0"
@@ -591,9 +591,9 @@ entity
 		{
 			"id" "390"
 			"plane" "(320 0 -64) (320 0 -128) (320 384 -128)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 -1 0 -16] 1"
-			"vaxis" "[0 0 -1 -24] 1"
+			"material" "TOOLS/TOOLSNOLIGHT"
+			"uaxis" "[0 1 0 0] 1"
+			"vaxis" "[0 0 -1 0] 1"
 			"rotation" "0"
 			"lightmapscale" "256"
 			"smoothing_groups" "0"
@@ -679,9 +679,9 @@ entity
 		{
 			"id" "402"
 			"plane" "(0 -1.52588e-005 0) (0 -1.52588e-005 -64) (0 384 -64)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 -1 0 -16] 1"
-			"vaxis" "[0 0 -1 -24] 1"
+			"material" "TOOLS/TOOLSNOLIGHT"
+			"uaxis" "[0 -1 0 -0] 1"
+			"vaxis" "[0 0 -1 -0] 1"
 			"rotation" "0"
 			"lightmapscale" "256"
 			"smoothing_groups" "0"
@@ -1204,7 +1204,7 @@ entity
 		side
 		{
 			"id" "472"
-			"plane" "(32.0001 0 160) (32.0001 0 -64) (6.10352e-005 0 -64)"
+			"plane" "(32 0 160) (32 0 -7.62939e-006) (0 0 -7.62939e-006)"
 			"material" "METAL/RES_METALWALL001A"
 			"uaxis" "[1 0 0 -302.286] 0.35"
 			"vaxis" "[0 0 -1 489] 0.35"
@@ -1215,7 +1215,7 @@ entity
 		side
 		{
 			"id" "471"
-			"plane" "(31.9999 768 160) (31.9999 768 -64) (32.0001 0 -64)"
+			"plane" "(32 768 160) (32 768 -7.62939e-006) (32 0 -7.62939e-006)"
 			"material" "METAL/RES_METALWALL001A"
 			"uaxis" "[0 1 0 127] 0.35"
 			"vaxis" "[0 0 -1 489.286] 0.35"
@@ -1226,7 +1226,7 @@ entity
 		side
 		{
 			"id" "470"
-			"plane" "(0 768 160) (0 768 -64) (31.9999 768 -64)"
+			"plane" "(0 768 160) (0 768 -7.62939e-006) (32 768 -7.62939e-006)"
 			"material" "METAL/RES_METALWALL001A"
 			"uaxis" "[-1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 5] 0.5"
@@ -1237,7 +1237,7 @@ entity
 		side
 		{
 			"id" "469"
-			"plane" "(6.10352e-005 0 160) (6.10352e-005 0 -64) (0 768 -64)"
+			"plane" "(0 0 160) (0 0 -7.62939e-006) (0 768 -7.62939e-006)"
 			"material" "TOOLS/TOOLSNOLIGHT"
 			"uaxis" "[0 -1 0 -2] 1"
 			"vaxis" "[0 0 -1 0] 1"
@@ -1248,7 +1248,7 @@ entity
 		side
 		{
 			"id" "468"
-			"plane" "(0 768 160) (31.9999 768 160) (32.0001 0 160)"
+			"plane" "(32 0 160) (0 0 160) (0 768 160)"
 			"material" "TOOLS/TOOLSNOLIGHT"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
@@ -1259,7 +1259,7 @@ entity
 		side
 		{
 			"id" "467"
-			"plane" "(6.10352e-005 0 -64) (32.0001 0 -64) (31.9999 768 -64)"
+			"plane" "(0 0 -7.62939e-006) (32 0 -7.62939e-006) (32 768 -7.62939e-006)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 2] 1"
 			"vaxis" "[-1 0 0 16] 1"
@@ -1802,7 +1802,7 @@ entity
 		side
 		{
 			"id" "532"
-			"plane" "(96 256 160) (96 256 -64) (32 256 -64)"
+			"plane" "(96 256 160) (96 256 -7.62939e-006) (32 256 -7.62939e-006)"
 			"material" "METAL/RES_METALWALL001A"
 			"uaxis" "[1 0 0 -393.714] 0.35"
 			"vaxis" "[0 0 -1 489] 0.35"
@@ -1813,7 +1813,7 @@ entity
 		side
 		{
 			"id" "531"
-			"plane" "(95.9999 512 160) (95.9999 512 -64) (96 256 -64)"
+			"plane" "(96 512 160) (96 512 -7.62939e-006) (96 256 -7.62939e-006)"
 			"material" "METAL/RES_METALWALL001A"
 			"uaxis" "[0 1 0 127] 0.35"
 			"vaxis" "[0 0 -1 489.286] 0.35"
@@ -1824,7 +1824,7 @@ entity
 		side
 		{
 			"id" "530"
-			"plane" "(32 512 160) (32 512 -64) (95.9999 512 -64)"
+			"plane" "(32 512 160) (32 512 -7.62939e-006) (96 512 -7.62939e-006)"
 			"material" "METAL/RES_METALWALL001A"
 			"uaxis" "[-1 0 0 492.714] 0.35"
 			"vaxis" "[0 0 -1 489] 0.35"
@@ -1835,7 +1835,7 @@ entity
 		side
 		{
 			"id" "529"
-			"plane" "(32 256 160) (32 256 -64) (32 512 -64)"
+			"plane" "(32 256 160) (32 256 -7.62939e-006) (32 512 -7.62939e-006)"
 			"material" "TOOLS/TOOLSNOLIGHT"
 			"uaxis" "[0 -1 0 -2] 1"
 			"vaxis" "[0 0 -1 0] 1"
@@ -1846,7 +1846,7 @@ entity
 		side
 		{
 			"id" "528"
-			"plane" "(32 512 160) (95.9999 512 160) (96 256 160)"
+			"plane" "(96 256 160) (32 256 160) (32 512 160)"
 			"material" "TOOLS/TOOLSNOLIGHT"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
@@ -1857,7 +1857,7 @@ entity
 		side
 		{
 			"id" "527"
-			"plane" "(32 256 -64) (96 256 -64) (95.9999 512 -64)"
+			"plane" "(32 256 -7.62939e-006) (96 256 -7.62939e-006) (96 512 -7.62939e-006)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 2] 1"
 			"vaxis" "[-1 0 0 48] 1"
@@ -3667,19 +3667,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
+	"healthscalesp" "1"
 	"InfiniteAliens" "0"
 	"MaxLiveAliens" "2"
 	"NearDistance" "740"
 	"NumAliens" "4"
+	"sizescalesp" "1"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "1"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "drone_wall_spawn_05"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_DOWN_WALL_128"
 	"origin" "376 660 0"
 	editor
@@ -3724,19 +3730,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
+	"healthscalesp" "1"
 	"InfiniteAliens" "0"
 	"MaxLiveAliens" "2"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "1"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "drone_wall_spawn_06"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_DOWN_WALL_128"
 	"origin" "856 660 0"
 	editor
@@ -3949,7 +3961,10 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 270 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
+	"healthscalesp" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "1"
@@ -3957,13 +3972,16 @@ entity
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "2"
+	"sizescalesp" "1"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "4"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "drone_wall_spawn_05"
+	"teslablesp" "1"
 	"origin" "640 299.95 -63"
 	editor
 	{
@@ -4007,19 +4025,25 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 90 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
+	"healthscalesp" "1"
 	"InfiniteAliens" "0"
 	"MaxLiveAliens" "2"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1"
 	"SpawnerState" "1"
 	"spawnflags" "0"
 	"SpawnIfMarinesAreNear" "1"
 	"SpawnInterval" "1"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "drone_wall_spawn_06"
+	"teslablesp" "1"
 	"UnburrowActivity" "ACT_CLIMB_DOWN_WALL_128"
 	"origin" "728 108 -64"
 	editor
@@ -4038,7 +4062,10 @@ entity
 	"AlienOrders" "3"
 	"angles" "0 0 0"
 	"ClearCheck" "1"
+	"flammablesp" "1"
+	"freezablesp" "1"
 	"HealthScale" "1"
+	"healthscalesp" "1"
 	"InfiniteAliens" "0"
 	"LongRange" "0"
 	"MaxLiveAliens" "3"
@@ -4046,13 +4073,16 @@ entity
 	"MinSkillLevel" "0"
 	"NearDistance" "740"
 	"NumAliens" "3"
+	"sizescalesp" "1"
 	"SpawnerState" "1"
 	"SpawnIfMarinesAreNear" "0"
 	"SpawnInterval" "1"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
+	"speedscalesp" "1"
 	"StartBurrowed" "0"
 	"targetname" "server_random_spawn_02"
+	"teslablesp" "1"
 	"origin" "351.067 474.875 1.00001"
 	editor
 	{
