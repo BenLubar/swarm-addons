@@ -1,0 +1,10 @@
+"Credits"
+{
+	"show_credits_logo" "1"
+	"custom_logo"	"example_200_logo"
+	"asw_credits_"	"Alien Swarm"
+	"asw_credits_"	"Valve"
+	"asw_credits_"	""
+	"asw_credits_"	"Swarm Director 2"
+	"asw_credits_"	"Ben Lubar"
+}

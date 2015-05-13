@@ -1,0 +1,12 @@
+"AddonInfo"
+{
+     addonSteamAppID         630
+     addontitle              "Example TileGen Campaign"
+     addonversion            1.0
+     addontagline            "Example TileGen Campaign"
+     addonauthor             "Valve and Ben Lubar"
+     addonContent_Campaign   1
+     addonURL0               "http://www.moddb.com/mods/swarm-director-2/addons/example-tilegen-campaign"
+
+     addonDescription        "Example TileGen Campaign"
+}

@@ -11,7 +11,7 @@ GAME
 	"missiontitle"		"Example 200"
 	"description"		"Example 200"
 	
-	"image"			"swarm/campaign/jacob_galacticmap"
+	"image"			"example_200_logo"
 
 	"version"		"1.0"
 	"author"		"Valve"
