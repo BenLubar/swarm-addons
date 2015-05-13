@@ -1,0 +1,21 @@
+GAME
+{
+	"pos_x"		"0"
+	"pos_y"		"0"
+	"scale"		"20.0"
+
+	"material" 		"vgui/swarm/Computer/ComputerScan"
+
+	"briefingmaterial" 	"vgui/swarm/MissionPics/UnknownMissionPic"
+
+	"missiontitle"		"Example 200"
+	"description"		"Example 200"
+	
+	"image"			"swarm/campaign/jacob_galacticmap"
+
+	"version"		"1.0"
+	"author"		"Valve"
+	"website"		""
+
+	"use_overview"	"0"
+}

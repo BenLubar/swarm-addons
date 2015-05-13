@@ -1,0 +1,54 @@
+GAME
+{
+	"CampaignName" "Example TileGen Campaign"
+	
+	// description shown on the main menu when choosing which campaign to play
+	"CampaignDescription" "Example TileGen Campaign"
+	
+	// texture used on the main menu when choosing which campaign to play
+	"ChooseCampaignTexture" "swarm/campaign/jacob_galacticmap"
+	
+	// texture used on the campaign screen for the map
+	"CampaignTextureName" "swarm/campaign/jacob_galacticmap"
+	
+	// these textures are overlaid on top of the campaign map in order
+	"CampaignTextureLayer1" "swarm/Campaign/CampaignMap_EmptyLayer"
+	"CampaignTextureLayer2" "swarm/Campaign/CampaignMap_EmptyLayer"
+	"CampaignTextureLayer3" "swarm/Campaign/CampaignMap_EmptyLayer"
+	
+	// custom campaign credits file
+	"CustomCreditsFile" 	"resource/Example_TileGen_Credits"
+
+	// position of this campaign in the galactic map (coords go from 0 to 1023)
+	"GalaxyX"   "132"
+	"GalaxyY"   "463"
+
+	// first mission entry is a dummy for the starting point
+	"MISSION"
+	{
+		"MissionName"		"Entry Port"
+		"MapName"		"start_area"
+		"LocationX"		"330"
+		"LocationY"		"780"
+		"DifficultyModifier" 	"-2"
+		"Links"			"example_200" 
+		"LocationDescription"  	"Home Base"
+		"ShortBriefing"  	"Dropship Bloodhound will enter atmosphere at these co-ordinates and proceed to primary objective."
+	}
+	
+	// each mission listed
+	"MISSION"
+	{
+		"MissionName"		"Example 200"
+		"MapName"		"example_200"
+		"LocationX"		"525"
+		"LocationY"		"700"
+		"ThreatString" 		"1"
+		"Links"			"start_area"
+		"LocationDescription" 	"Example 200"
+		"ShortBriefing"  	"Example 200"
+		"AlwaysVisible"		"1"
+		"NeedsMoreThanOneMarine" "0"
+		"RandomlyGenerated"	"1"
+	}
+}
