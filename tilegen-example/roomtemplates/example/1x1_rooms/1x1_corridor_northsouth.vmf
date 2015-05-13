@@ -702,7 +702,7 @@ entity
 entity
 {
 	"id" "77"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"angles" "0 270 0"
 	"nodeid" "1"
 	"origin" "144 16 8"
@@ -717,7 +717,7 @@ entity
 entity
 {
 	"id" "79"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"angles" "0 270 0"
 	"nodeid" "2"
 	"origin" "144 240 8"

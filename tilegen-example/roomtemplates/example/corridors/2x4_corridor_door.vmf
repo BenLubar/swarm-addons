@@ -3160,7 +3160,7 @@ entity
 entity
 {
 	"id" "343"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "1"
 	"origin" "70.3879 59.0758 1.00001"
 	editor
@@ -3174,7 +3174,7 @@ entity
 entity
 {
 	"id" "345"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "2"
 	"origin" "200.249 72.3123 1.00007"
 	editor
@@ -3188,7 +3188,7 @@ entity
 entity
 {
 	"id" "347"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "3"
 	"origin" "132.801 169.034 1.00001"
 	editor
@@ -3202,7 +3202,7 @@ entity
 entity
 {
 	"id" "349"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "4"
 	"origin" "127.812 294.924 1.00001"
 	editor
@@ -3216,7 +3216,7 @@ entity
 entity
 {
 	"id" "351"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "5"
 	"origin" "79.7803 414.042 1.00001"
 	editor
@@ -3230,7 +3230,7 @@ entity
 entity
 {
 	"id" "353"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "6"
 	"origin" "197.774 428.727 1.00001"
 	editor
@@ -3244,7 +3244,7 @@ entity
 entity
 {
 	"id" "355"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "7"
 	"origin" "332.511 380.681 1.00001"
 	editor
@@ -3258,7 +3258,7 @@ entity
 entity
 {
 	"id" "357"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "8"
 	"origin" "461.362 439.534 0.999981"
 	editor
@@ -3272,7 +3272,7 @@ entity
 entity
 {
 	"id" "359"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "9"
 	"origin" "92.0925 655.773 1.00001"
 	editor
@@ -3286,7 +3286,7 @@ entity
 entity
 {
 	"id" "361"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "10"
 	"origin" "452.399 644.791 1.00001"
 	editor
@@ -3300,7 +3300,7 @@ entity
 entity
 {
 	"id" "363"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "11"
 	"origin" "71.6776 891.606 1.00004"
 	editor
@@ -3314,7 +3314,7 @@ entity
 entity
 {
 	"id" "365"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "12"
 	"origin" "162.212 960.582 1.00001"
 	editor
@@ -3328,7 +3328,7 @@ entity
 entity
 {
 	"id" "367"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "13"
 	"origin" "380.741 969.774 0.999981"
 	editor
@@ -3342,7 +3342,7 @@ entity
 entity
 {
 	"id" "369"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "14"
 	"origin" "449.241 886.765 1.00004"
 	editor
@@ -3356,7 +3356,7 @@ entity
 entity
 {
 	"id" "371"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "15"
 	"origin" "132.832 519.474 1.00001"
 	editor
@@ -3370,7 +3370,7 @@ entity
 entity
 {
 	"id" "373"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "16"
 	"origin" "256.35 512.114 1.00001"
 	editor
@@ -3384,7 +3384,7 @@ entity
 entity
 {
 	"id" "375"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "17"
 	"origin" "386.216 499.753 1.00001"
 	editor
@@ -3398,7 +3398,7 @@ entity
 entity
 {
 	"id" "377"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "18"
 	"origin" "160.748 685.348 1.00001"
 	editor
@@ -3412,7 +3412,7 @@ entity
 entity
 {
 	"id" "379"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "19"
 	"origin" "142.847 816.118 1.00001"
 	editor
@@ -3426,7 +3426,7 @@ entity
 entity
 {
 	"id" "381"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "20"
 	"origin" "262.276 921.837 1.00001"
 	editor
@@ -3440,7 +3440,7 @@ entity
 entity
 {
 	"id" "383"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "21"
 	"origin" "357.615 869.571 1.00001"
 	editor
@@ -3454,7 +3454,7 @@ entity
 entity
 {
 	"id" "385"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "22"
 	"origin" "241.212 784.258 1.00001"
 	editor
@@ -3468,7 +3468,7 @@ entity
 entity
 {
 	"id" "387"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "23"
 	"origin" "447.158 769.984 1.00001"
 	editor

@@ -2904,7 +2904,7 @@ entity
 entity
 {
 	"id" "1274"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "1"
 	"origin" "610.132 67.3057 1.00001"
 	editor
@@ -2918,7 +2918,7 @@ entity
 entity
 {
 	"id" "1276"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "2"
 	"origin" "399.943 261.373 1.00001"
 	editor
@@ -2932,7 +2932,7 @@ entity
 entity
 {
 	"id" "1278"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "3"
 	"origin" "218.126 272.809 -62.9999"
 	editor
@@ -2946,7 +2946,7 @@ entity
 entity
 {
 	"id" "1280"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "4"
 	"origin" "88.449 542.858 -63"
 	editor
@@ -2960,7 +2960,7 @@ entity
 entity
 {
 	"id" "1282"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "5"
 	"origin" "92.2602 728.332 1.00001"
 	editor
@@ -2974,7 +2974,7 @@ entity
 entity
 {
 	"id" "1284"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "6"
 	"origin" "462.544 153.324 1.00001"
 	editor
@@ -2988,7 +2988,7 @@ entity
 entity
 {
 	"id" "1286"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "7"
 	"origin" "603.353 171.014 1.00001"
 	editor
@@ -3002,7 +3002,7 @@ entity
 entity
 {
 	"id" "1288"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "8"
 	"origin" "685.824 267.36 1.00001"
 	editor
@@ -3016,7 +3016,7 @@ entity
 entity
 {
 	"id" "1290"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "9"
 	"origin" "528.597 282.322 1.00001"
 	editor
@@ -3030,7 +3030,7 @@ entity
 entity
 {
 	"id" "1292"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "10"
 	"origin" "428.578 464.64 1.00001"
 	editor
@@ -3044,7 +3044,7 @@ entity
 entity
 {
 	"id" "1294"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "11"
 	"origin" "556.526 447.641 1.00001"
 	editor
@@ -3058,7 +3058,7 @@ entity
 entity
 {
 	"id" "1296"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "12"
 	"origin" "497.075 530.966 1.00001"
 	editor
@@ -3072,7 +3072,7 @@ entity
 entity
 {
 	"id" "1298"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "13"
 	"origin" "697.663 589.859 1.00001"
 	editor
@@ -3086,7 +3086,7 @@ entity
 entity
 {
 	"id" "1300"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "14"
 	"origin" "682.526 677.208 1.00001"
 	editor
@@ -3100,7 +3100,7 @@ entity
 entity
 {
 	"id" "1302"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "15"
 	"origin" "587.7 657.122 1.00001"
 	editor
@@ -3114,7 +3114,7 @@ entity
 entity
 {
 	"id" "1304"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "16"
 	"origin" "492.438 632.635 1.00001"
 	editor
@@ -3128,7 +3128,7 @@ entity
 entity
 {
 	"id" "1306"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "17"
 	"origin" "428.399 690.049 1.00001"
 	editor
@@ -3142,7 +3142,7 @@ entity
 entity
 {
 	"id" "1308"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "18"
 	"origin" "699.453 904.408 1.00001"
 	editor
@@ -3156,7 +3156,7 @@ entity
 entity
 {
 	"id" "1310"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "19"
 	"origin" "44.4376 905.89 1.00001"
 	editor
@@ -3170,7 +3170,7 @@ entity
 entity
 {
 	"id" "1312"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "20"
 	"origin" "106.082 801.66 1.00007"
 	editor
@@ -3184,7 +3184,7 @@ entity
 entity
 {
 	"id" "1314"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "21"
 	"origin" "149.238 931.454 1.00001"
 	editor
@@ -3198,7 +3198,7 @@ entity
 entity
 {
 	"id" "1316"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "22"
 	"origin" "214.769 813.066 1.00001"
 	editor
@@ -3212,7 +3212,7 @@ entity
 entity
 {
 	"id" "1318"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "23"
 	"origin" "302.558 816.31 1.00001"
 	editor
@@ -3226,7 +3226,7 @@ entity
 entity
 {
 	"id" "1320"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "24"
 	"origin" "382.486 880.726 0.99995"
 	editor
@@ -3240,7 +3240,7 @@ entity
 entity
 {
 	"id" "1322"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "25"
 	"origin" "441.33 768.422 1.00001"
 	editor
@@ -3254,7 +3254,7 @@ entity
 entity
 {
 	"id" "1324"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "26"
 	"origin" "553.249 874.814 1.00001"
 	editor
@@ -3268,7 +3268,7 @@ entity
 entity
 {
 	"id" "1326"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "27"
 	"origin" "614.273 790.876 1.00001"
 	editor
@@ -3282,7 +3282,7 @@ entity
 entity
 {
 	"id" "1328"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "28"
 	"origin" "461.627 365.697 1.00001"
 	editor
@@ -3296,7 +3296,7 @@ entity
 entity
 {
 	"id" "1330"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "29"
 	"origin" "666.4 117.374 1.00001"
 	editor
@@ -3310,7 +3310,7 @@ entity
 entity
 {
 	"id" "1332"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "30"
 	"origin" "293.798 144.562 -63"
 	editor
@@ -3324,7 +3324,7 @@ entity
 entity
 {
 	"id" "1334"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "31"
 	"origin" "156.798 151.78 -63"
 	editor
@@ -3338,7 +3338,7 @@ entity
 entity
 {
 	"id" "1336"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "32"
 	"origin" "76.5086 477.25 -63"
 	editor
@@ -3352,7 +3352,7 @@ entity
 entity
 {
 	"id" "1338"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "33"
 	"origin" "215.304 648.183 -63"
 	editor
@@ -3366,7 +3366,7 @@ entity
 entity
 {
 	"id" "1340"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "34"
 	"origin" "180.296 517.906 -62.9999"
 	editor
@@ -3380,7 +3380,7 @@ entity
 entity
 {
 	"id" "1342"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "35"
 	"origin" "248.098 380.841 -63"
 	editor
@@ -3394,7 +3394,7 @@ entity
 entity
 {
 	"id" "1344"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "36"
 	"origin" "96.9808 339.822 -63"
 	editor
@@ -3408,7 +3408,7 @@ entity
 entity
 {
 	"id" "1346"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"nodeid" "37"
 	"origin" "134.033 254.258 -63"
 	editor

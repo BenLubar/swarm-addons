@@ -519,7 +519,7 @@ entity
 entity
 {
 	"id" "76"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"angles" "0 0 0"
 	"nodeid" "1"
 	"origin" "240 160 9.00001"
@@ -534,7 +534,7 @@ entity
 entity
 {
 	"id" "78"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"angles" "0 0 0"
 	"nodeid" "2"
 	"origin" "16 160 9.00001"
@@ -549,7 +549,7 @@ entity
 entity
 {
 	"id" "80"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"angles" "0 0 0"
 	"nodeid" "3"
 	"origin" "128 32 9.00001"
@@ -910,7 +910,7 @@ entity
 entity
 {
 	"id" "856"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"angles" "0 0 0"
 	"nodeid" "4"
 	"origin" "132 156 9.00001"

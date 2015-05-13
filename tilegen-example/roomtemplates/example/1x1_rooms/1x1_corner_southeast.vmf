@@ -956,7 +956,7 @@ entity
 entity
 {
 	"id" "684"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"angles" "0 0 0"
 	"nodeid" "4"
 	"origin" "128 32 16"
@@ -971,7 +971,7 @@ entity
 entity
 {
 	"id" "692"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"angles" "0 0 0"
 	"nodeid" "5"
 	"origin" "224 160 16"
@@ -986,7 +986,7 @@ entity
 entity
 {
 	"id" "694"
-	"classname" "info_node"
+	"classname" "info_node_marine_hint"
 	"angles" "0 0 0"
 	"nodeid" "6"
 	"origin" "128 160 16"
