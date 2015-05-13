@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "4958"
-	"mapversion" "2"
+	"editorbuild" "5032"
+	"mapversion" "3"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "3"
 	"classname" "worldspawn"
-	"skyname" "blacksky"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "blacksky"
 	group
 	{
 		"id" "2"
@@ -459,10 +459,10 @@ entity
 		{
 			"id" "55"
 			"plane" "(16.0001 47.9999 128) (16.0001 144 128) (7.62939e-005 144 128)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 50] 1"
-			"vaxis" "[0 1 0 -48] 1"
-			"rotation" "0"
+			"material" "METAL/RES_METALWALL001A"
+			"uaxis" "[0 1 0 0] 0.35"
+			"vaxis" "[1 0 0 489] 0.35"
+			"rotation" "90"
 			"lightmapscale" "32"
 			"smoothing_groups" "0"
 		}
