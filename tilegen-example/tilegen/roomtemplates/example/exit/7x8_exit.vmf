@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "103"
+	"mapversion" "105"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "103"
+	"mapversion" "105"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2238,10 +2238,10 @@ world
 			"id" "210"
 			"plane" "(1792 1344 320) (1792 1344 224) (992 1344 224)"
 			"material" "METAL/RES_METALWALL001A"
-			"uaxis" "[1 0 0 -300.866] 0.35"
-			"vaxis" "[0 0 -1 434.429] 0.35"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 0 -1 96] 1"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -2271,10 +2271,10 @@ world
 			"id" "207"
 			"plane" "(992 1344 320) (992 1344 224) (992 1600 224)"
 			"material" "METAL/RES_METALWALL001A"
-			"uaxis" "[0 -1 0 -301] 0.35"
-			"vaxis" "[0 0 -1 434] 0.35"
+			"uaxis" "[0 1 0 0] 1"
+			"vaxis" "[0 0 -1 96] 1"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -4746,10 +4746,10 @@ world
 			"id" "204"
 			"plane" "(704 1344 320) (704 1344 224) (3.65652e-006 1344 224)"
 			"material" "METAL/RES_METALWALL001A"
-			"uaxis" "[1 0 0 289] 0.35"
-			"vaxis" "[0 0 -1 434] 0.35"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 0 -1 96] 1"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -4757,10 +4757,10 @@ world
 			"id" "203"
 			"plane" "(704 1600 320) (704 1600 224) (704 1344 224)"
 			"material" "METAL/RES_METALWALL001A"
-			"uaxis" "[0 1 0 -301] 0.35"
-			"vaxis" "[0 0 -1 434] 0.35"
+			"uaxis" "[0 1 0 0] 1"
+			"vaxis" "[0 0 -1 96] 1"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -9471,7 +9471,7 @@ entity
 	"origin" "832 1288 161.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2500]"
@@ -9486,7 +9486,7 @@ entity
 	"origin" "832 1400 161.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3000]"
@@ -10295,7 +10295,7 @@ entity
 	"origin" "208 1308 32"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
@@ -10310,7 +10310,7 @@ entity
 	"origin" "208 1392 32"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
@@ -10346,7 +10346,7 @@ entity
 	"origin" "1416 1308 32"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
@@ -10381,7 +10381,7 @@ entity
 	"origin" "1416 1392 32"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
@@ -10396,7 +10396,7 @@ entity
 	"origin" "1656 1308 32"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
@@ -10431,7 +10431,7 @@ entity
 	"origin" "1656 1392 32"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
@@ -13014,11 +13014,12 @@ entity
 {
 	"id" "12985"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "54"
 	"origin" "85.6133 369.765 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -13768]"
@@ -13028,11 +13029,12 @@ entity
 {
 	"id" "12987"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "55"
 	"origin" "84.5957 1148.91 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -13268]"
@@ -13042,11 +13044,12 @@ entity
 {
 	"id" "12989"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "56"
 	"origin" "395.249 81.0731 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -12768]"
@@ -13056,11 +13059,12 @@ entity
 {
 	"id" "12991"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "57"
 	"origin" "1424.29 84.2409 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -12268]"
@@ -13070,11 +13074,12 @@ entity
 {
 	"id" "12993"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "58"
 	"origin" "1717 403.491 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -11768]"
@@ -13089,7 +13094,7 @@ entity
 	"origin" "1700 1204 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -11268]"
@@ -13099,11 +13104,12 @@ entity
 {
 	"id" "12997"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "60"
 	"origin" "1473.72 1255.49 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -10768]"
@@ -13118,7 +13124,7 @@ entity
 	"origin" "1608 1240 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -10268]"
@@ -13128,11 +13134,12 @@ entity
 {
 	"id" "13001"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "62"
 	"origin" "1640.51 1119.08 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -9768]"
@@ -13142,11 +13149,12 @@ entity
 {
 	"id" "13003"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "63"
 	"origin" "1467.04 1122.66 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -9268]"
@@ -13156,11 +13164,12 @@ entity
 {
 	"id" "13005"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "64"
 	"origin" "1640.03 1001.85 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -8768]"
@@ -13170,11 +13179,12 @@ entity
 {
 	"id" "13007"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "65"
 	"origin" "1522.29 958.819 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -8268]"
@@ -13184,11 +13194,12 @@ entity
 {
 	"id" "13009"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "66"
 	"origin" "1625.09 764.976 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -7768]"
@@ -13198,11 +13209,12 @@ entity
 {
 	"id" "13011"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "67"
 	"origin" "1395.67 1020.48 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -7268]"
@@ -13212,11 +13224,12 @@ entity
 {
 	"id" "13013"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "68"
 	"origin" "1289.19 1005.15 35"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -6768]"
@@ -13226,11 +13239,12 @@ entity
 {
 	"id" "13015"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "69"
 	"origin" "1179.42 976.378 34"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -6268]"
@@ -13240,11 +13254,12 @@ entity
 {
 	"id" "13017"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "70"
 	"origin" "1247.53 881.298 34"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -5768]"
@@ -13254,11 +13269,12 @@ entity
 {
 	"id" "13019"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "71"
 	"origin" "1481.01 754.96 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -5268]"
@@ -13268,11 +13284,12 @@ entity
 {
 	"id" "13021"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "72"
 	"origin" "1480.07 611.713 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -4768]"
@@ -13282,11 +13299,12 @@ entity
 {
 	"id" "13023"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "73"
 	"origin" "1641.99 617.837 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -4268]"
@@ -13296,11 +13314,12 @@ entity
 {
 	"id" "13025"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "74"
 	"origin" "1638.62 411.86 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -3768]"
@@ -13310,11 +13329,12 @@ entity
 {
 	"id" "13027"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "75"
 	"origin" "1458.86 431.956 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -3268]"
@@ -13324,11 +13344,12 @@ entity
 {
 	"id" "13029"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "76"
 	"origin" "1668.92 218.916 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -2768]"
@@ -13338,11 +13359,12 @@ entity
 {
 	"id" "13031"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "77"
 	"origin" "1487.84 205.796 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -2268]"
@@ -13352,11 +13374,12 @@ entity
 {
 	"id" "13033"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "78"
 	"origin" "1565.17 358.762 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -1768]"
@@ -13366,11 +13389,12 @@ entity
 {
 	"id" "13035"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "79"
 	"origin" "1562.13 555.992 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -1268]"
@@ -13380,11 +13404,12 @@ entity
 {
 	"id" "13037"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "80"
 	"origin" "1555.26 691.922 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -768]"
@@ -13394,11 +13419,12 @@ entity
 {
 	"id" "13039"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "81"
 	"origin" "1572.04 873.072 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 0]"
@@ -13408,11 +13434,12 @@ entity
 {
 	"id" "13041"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "82"
 	"origin" "1563.06 1059.97 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 500]"
@@ -13422,11 +13449,12 @@ entity
 {
 	"id" "13043"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "83"
 	"origin" "1300.59 200.447 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 1000]"
@@ -13436,11 +13464,12 @@ entity
 {
 	"id" "13045"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "84"
 	"origin" "1318.09 367.568 0.99995"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 1500]"
@@ -13450,11 +13479,12 @@ entity
 {
 	"id" "13047"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "85"
 	"origin" "1213.71 456.951 1.00007"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 2000]"
@@ -13464,11 +13494,12 @@ entity
 {
 	"id" "13049"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "86"
 	"origin" "1202.39 307.614 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 2500]"
@@ -13478,11 +13509,12 @@ entity
 {
 	"id" "13051"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "87"
 	"origin" "1047.61 318.395 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 3000]"
@@ -13492,11 +13524,12 @@ entity
 {
 	"id" "13053"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "88"
 	"origin" "1093.39 447.504 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 3500]"
@@ -13506,11 +13539,12 @@ entity
 {
 	"id" "13055"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "89"
 	"origin" "1020.17 171.32 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 4000]"
@@ -13520,11 +13554,12 @@ entity
 {
 	"id" "13057"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "90"
 	"origin" "901.818 216.268 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 4500]"
@@ -13534,11 +13569,12 @@ entity
 {
 	"id" "13059"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "91"
 	"origin" "773.942 209.648 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 5000]"
@@ -13548,11 +13584,12 @@ entity
 {
 	"id" "13061"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "92"
 	"origin" "836.11 131.508 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 5500]"
@@ -13562,11 +13599,12 @@ entity
 {
 	"id" "13063"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "93"
 	"origin" "638.018 143.653 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 6000]"
@@ -13576,11 +13614,12 @@ entity
 {
 	"id" "13065"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "94"
 	"origin" "627.105 298.311 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 6500]"
@@ -13590,11 +13629,12 @@ entity
 {
 	"id" "13067"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "95"
 	"origin" "493.777 160.022 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 7000]"
@@ -13604,11 +13644,12 @@ entity
 {
 	"id" "13069"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "96"
 	"origin" "507.106 333.729 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 7500]"
@@ -13618,11 +13659,12 @@ entity
 {
 	"id" "13071"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "97"
 	"origin" "277.008 162.519 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 8000]"
@@ -13632,11 +13674,12 @@ entity
 {
 	"id" "13073"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "98"
 	"origin" "372.418 237.088 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 8500]"
@@ -13646,11 +13689,12 @@ entity
 {
 	"id" "13075"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "99"
 	"origin" "113.339 185.607 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 9000]"
@@ -13660,11 +13704,12 @@ entity
 {
 	"id" "13077"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "100"
 	"origin" "186.176 286.893 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 9500]"
@@ -13674,11 +13719,12 @@ entity
 {
 	"id" "13079"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "101"
 	"origin" "183.522 500.963 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 10000]"
@@ -13688,11 +13734,12 @@ entity
 {
 	"id" "13081"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "102"
 	"origin" "306.094 471.071 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 10500]"
@@ -13702,11 +13749,12 @@ entity
 {
 	"id" "13083"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "103"
 	"origin" "349.541 341.751 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 11000]"
@@ -13716,11 +13764,12 @@ entity
 {
 	"id" "13085"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "104"
 	"origin" "504.637 509.849 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 11500]"
@@ -13730,11 +13779,12 @@ entity
 {
 	"id" "13087"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "105"
 	"origin" "370.109 569.746 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 12000]"
@@ -13744,11 +13794,12 @@ entity
 {
 	"id" "13089"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "106"
 	"origin" "529.053 691.797 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 12500]"
@@ -13758,11 +13809,12 @@ entity
 {
 	"id" "13091"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "107"
 	"origin" "584.047 438.079 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 13000]"
@@ -13772,11 +13824,12 @@ entity
 {
 	"id" "13093"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "108"
 	"origin" "420.235 700.002 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 13500]"
@@ -13786,11 +13839,12 @@ entity
 {
 	"id" "13095"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "109"
 	"origin" "166.33 702.752 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 14000]"
@@ -13800,11 +13854,12 @@ entity
 {
 	"id" "13097"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "110"
 	"origin" "293.994 600.562 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 14500]"
@@ -13814,11 +13869,12 @@ entity
 {
 	"id" "13099"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "111"
 	"origin" "284.49 828.19 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 15000]"
@@ -13828,11 +13884,12 @@ entity
 {
 	"id" "13101"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "112"
 	"origin" "295.343 1029.78 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 15500]"
@@ -13842,11 +13899,12 @@ entity
 {
 	"id" "13103"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "113"
 	"origin" "154.672 865.726 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 16000]"
@@ -13856,11 +13914,12 @@ entity
 {
 	"id" "13105"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "114"
 	"origin" "275.865 935.644 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -16268]"
@@ -13870,11 +13929,12 @@ entity
 {
 	"id" "13107"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "115"
 	"origin" "152.531 1052.93 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -15768]"
@@ -13884,11 +13944,12 @@ entity
 {
 	"id" "13109"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "116"
 	"origin" "170.97 1227.76 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -15268]"
@@ -13898,11 +13959,12 @@ entity
 {
 	"id" "13113"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "118"
 	"origin" "321.81 1257.61 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14268]"
@@ -13912,11 +13974,12 @@ entity
 {
 	"id" "13115"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "119"
 	"origin" "447.831 1230.76 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -13768]"
@@ -13926,11 +13989,12 @@ entity
 {
 	"id" "13117"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "120"
 	"origin" "561.174 1145.46 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -13268]"
@@ -13940,11 +14004,12 @@ entity
 {
 	"id" "13119"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "121"
 	"origin" "583.068 1276.47 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -12768]"
@@ -13959,7 +14024,7 @@ entity
 	"origin" "726.214 1014.48 157.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -12268]"
@@ -13974,7 +14039,7 @@ entity
 	"origin" "724.351 905.301 157.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -11768]"
@@ -13989,7 +14054,7 @@ entity
 	"origin" "788.475 605.603 157.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -11268]"
@@ -14004,7 +14069,7 @@ entity
 	"origin" "900.756 608.516 157.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -10768]"
@@ -14019,7 +14084,7 @@ entity
 	"origin" "1056.62 757.312 157.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -10268]"
@@ -14034,7 +14099,7 @@ entity
 	"origin" "1068.45 632.174 157.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -9768]"
@@ -14049,7 +14114,7 @@ entity
 	"origin" "1054.56 1256.75 157.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -9268]"
@@ -14064,7 +14129,7 @@ entity
 	"origin" "1043.62 1150.41 157.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -8768]"
@@ -14074,11 +14139,12 @@ entity
 {
 	"id" "13169"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "130"
 	"origin" "959.487 722.686 149.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -8268]"
@@ -14088,11 +14154,12 @@ entity
 {
 	"id" "13171"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "131"
 	"origin" "837.483 714.798 149.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -7768]"
@@ -14102,11 +14169,12 @@ entity
 {
 	"id" "13173"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "132"
 	"origin" "774.846 737.609 149.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -7268]"
@@ -14116,11 +14184,12 @@ entity
 {
 	"id" "13175"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "133"
 	"origin" "836.363 879.173 149.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -6768]"
@@ -14130,11 +14199,12 @@ entity
 {
 	"id" "13177"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "134"
 	"origin" "984.651 896.5 149.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -6268]"
@@ -14144,11 +14214,12 @@ entity
 {
 	"id" "13179"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "135"
 	"origin" "987.981 1016.51 149.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -5768]"
@@ -14158,11 +14229,12 @@ entity
 {
 	"id" "13181"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "136"
 	"origin" "850.971 1005.08 149.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -5268]"
@@ -14172,11 +14244,12 @@ entity
 {
 	"id" "13183"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "137"
 	"origin" "860.534 1108.08 149.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -4768]"
@@ -14186,11 +14259,12 @@ entity
 {
 	"id" "13185"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "138"
 	"origin" "990.123 1260.53 149.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -4268]"
@@ -14200,11 +14274,12 @@ entity
 {
 	"id" "13187"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "139"
 	"origin" "844.173 1238.15 149.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -3768]"
@@ -14214,11 +14289,12 @@ entity
 {
 	"id" "13189"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "140"
 	"origin" "773.432 1187.74 149.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -3268]"
@@ -14234,7 +14310,7 @@ entity
 	"origin" "832 1568 176"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -2768]"
@@ -14244,11 +14320,12 @@ entity
 {
 	"id" "13196"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "142"
 	"origin" "781.94 1477.49 153.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -2268]"
@@ -14258,11 +14335,12 @@ entity
 {
 	"id" "13198"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "143"
 	"origin" "869.764 1480.54 153.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -1768]"
@@ -14278,7 +14356,7 @@ entity
 	"origin" "832 1664 176"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -1268]"
@@ -14288,11 +14366,12 @@ entity
 {
 	"id" "13216"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "145"
 	"origin" "829.374 1775.61 153.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -768]"
@@ -14302,11 +14381,12 @@ entity
 {
 	"id" "13218"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "146"
 	"origin" "813.226 1937.71 153.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 0]"
@@ -14316,11 +14396,12 @@ entity
 {
 	"id" "13220"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "147"
 	"origin" "707.085 1941.17 161.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 500]"
@@ -14330,11 +14411,12 @@ entity
 {
 	"id" "13222"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "148"
 	"origin" "703.514 1782.35 161.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 1000]"
@@ -14344,11 +14426,12 @@ entity
 {
 	"id" "13224"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "149"
 	"origin" "689.238 1686.41 161.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 1500]"
@@ -14358,11 +14441,12 @@ entity
 {
 	"id" "13226"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "150"
 	"origin" "952.802 1950.38 161.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 2000]"
@@ -14372,11 +14456,12 @@ entity
 {
 	"id" "13228"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "151"
 	"origin" "946.605 1774.73 161.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 2500]"
@@ -14386,11 +14471,12 @@ entity
 {
 	"id" "13230"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "152"
 	"origin" "950.072 1684.56 161.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 3000]"
@@ -14400,11 +14486,12 @@ entity
 {
 	"id" "13232"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "153"
 	"origin" "1014.4 1842.94 161.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 3500]"
@@ -14414,11 +14501,12 @@ entity
 {
 	"id" "13234"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "154"
 	"origin" "1030.07 1747.09 161.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 4000]"
@@ -14428,11 +14516,12 @@ entity
 {
 	"id" "13236"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "155"
 	"origin" "836.839 1864.97 153.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 4500]"
@@ -14442,11 +14531,12 @@ entity
 {
 	"id" "13238"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "156"
 	"origin" "643.968 1879.45 161.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 5000]"
@@ -14456,11 +14546,12 @@ entity
 {
 	"id" "13240"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "157"
 	"origin" "623.74 1712.23 161.326"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 5500]"
@@ -14551,11 +14642,12 @@ entity
 {
 	"id" "13275"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "159"
 	"origin" "371.741 1469.9 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 6500]"
@@ -14565,11 +14657,12 @@ entity
 {
 	"id" "13277"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "160"
 	"origin" "263.643 1468 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 7000]"
@@ -14579,11 +14672,12 @@ entity
 {
 	"id" "13279"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "161"
 	"origin" "166.593 1453.93 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 7500]"
@@ -14593,11 +14687,12 @@ entity
 {
 	"id" "13281"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "162"
 	"origin" "297.513 1412.82 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 8000]"
@@ -14607,11 +14702,12 @@ entity
 {
 	"id" "13283"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "163"
 	"origin" "339.155 1539.88 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 8500]"
@@ -14621,11 +14717,12 @@ entity
 {
 	"id" "13285"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "164"
 	"origin" "185.462 1542.7 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 9000]"
@@ -14635,11 +14732,12 @@ entity
 {
 	"id" "13287"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "165"
 	"origin" "421.478 1549.8 1.00003"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 9500]"
@@ -14649,11 +14747,12 @@ entity
 {
 	"id" "13289"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "166"
 	"origin" "1727.16 1430.87 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 10000]"
@@ -14663,11 +14762,12 @@ entity
 {
 	"id" "13291"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "167"
 	"origin" "1630.16 1438.22 0.999996"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 10500]"
@@ -14677,11 +14777,12 @@ entity
 {
 	"id" "13293"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "168"
 	"origin" "1532.97 1434.31 0.999996"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 11000]"
@@ -14691,11 +14792,12 @@ entity
 {
 	"id" "13295"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "169"
 	"origin" "1424.08 1434.05 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 11500]"
@@ -14705,11 +14807,12 @@ entity
 {
 	"id" "13297"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "170"
 	"origin" "1447.86 1510.25 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 12000]"
@@ -14719,11 +14822,12 @@ entity
 {
 	"id" "13299"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "171"
 	"origin" "1499.37 1545.21 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 12500]"
@@ -14733,11 +14837,12 @@ entity
 {
 	"id" "13301"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "172"
 	"origin" "1572.76 1539.49 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 13000]"
@@ -14747,11 +14852,12 @@ entity
 {
 	"id" "13303"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "173"
 	"origin" "1561.87 1489.65 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 13500]"
@@ -14761,11 +14867,12 @@ entity
 {
 	"id" "13305"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "174"
 	"origin" "1703.78 1552.37 0.999996"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 14000]"
@@ -14775,11 +14882,12 @@ entity
 {
 	"id" "13331"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "175"
 	"origin" "73.5701 1432.98 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 14500]"
@@ -14789,11 +14897,12 @@ entity
 {
 	"id" "13333"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "176"
 	"origin" "83.4318 1542.72 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 15000]"
@@ -14803,11 +14912,12 @@ entity
 {
 	"id" "13335"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "177"
 	"origin" "271.775 1540.88 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 15500]"
@@ -14817,11 +14927,12 @@ entity
 {
 	"id" "13337"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "178"
 	"origin" "1401.02 1550.62 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 16000]"
@@ -14831,11 +14942,12 @@ entity
 {
 	"id" "13350"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "179"
 	"origin" "1400.78 298.729 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 -16268]"
@@ -14845,11 +14957,12 @@ entity
 {
 	"id" "13352"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "180"
 	"origin" "1577.75 185.749 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 -15768]"
@@ -14859,11 +14972,12 @@ entity
 {
 	"id" "13354"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "181"
 	"origin" "1309.05 111.494 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 -15268]"
@@ -14873,11 +14987,12 @@ entity
 {
 	"id" "13356"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "182"
 	"origin" "1659.68 306.897 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 -14768]"
@@ -14887,11 +15002,12 @@ entity
 {
 	"id" "13358"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "183"
 	"origin" "1373.87 500.368 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 -14268]"
@@ -14901,11 +15017,12 @@ entity
 {
 	"id" "13360"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "184"
 	"origin" "270.258 362.154 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 -13768]"
@@ -14915,11 +15032,12 @@ entity
 {
 	"id" "13362"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "185"
 	"origin" "434.287 450.931 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 -13268]"
@@ -14929,11 +15047,12 @@ entity
 {
 	"id" "13364"
 	"classname" "info_node_marine_hint"
+	"angles" "0 0 0"
 	"nodeid" "186"
 	"origin" "221.484 1098.76 1.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 -12768]"
@@ -14957,10 +15076,10 @@ entity
 {
 	"id" "14356"
 	"classname" "env_instructor_hint"
-	"hint_activator_caption" "Kill 200 drones first. Then the door will open."
+	"hint_activator_caption" "Kill 100 drones first. Then the door will open."
 	"hint_allow_nodraw_target" "1"
 	"hint_alphaoption" "0"
-	"hint_caption" "Kill 200 drones first. Then the door will open."
+	"hint_caption" "Kill 100 drones first. Then the door will open."
 	"hint_color" "255 255 255"
 	"hint_forcecaption" "1"
 	"hint_icon_offscreen" "icon_tip"
@@ -15963,8 +16082,8 @@ entity
 			"id" "1734"
 			"plane" "(1760 1344 896) (1760 32 896) (1760 32 224)"
 			"material" "METAL/RES_METALWALL001A"
-			"uaxis" "[0 1 0 289] 0.35"
-			"vaxis" "[0 0 -1 434] 0.35"
+			"uaxis" "[0 1 0 0] 1"
+			"vaxis" "[0 0 -1 96] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -16061,8 +16180,8 @@ entity
 			"id" "1738"
 			"plane" "(1760 32 896) (32 32 896) (32 32 224)"
 			"material" "METAL/RES_METALWALL001A"
-			"uaxis" "[1 0 0 289] 0.35"
-			"vaxis" "[0 0 -1 434] 0.35"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 0 -1 96] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -16202,8 +16321,8 @@ entity
 			"id" "1751"
 			"plane" "(32 1344 224) (32 32 224) (32 32 896)"
 			"material" "METAL/RES_METALWALL001A"
-			"uaxis" "[0 1 0 289] 0.35"
-			"vaxis" "[0 0 -1 434] 0.35"
+			"uaxis" "[0 1 0 0] 1"
+			"vaxis" "[0 0 -1 96] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -16278,8 +16397,8 @@ entity
 			"id" "1757"
 			"plane" "(704 1600 320) (704 1344 320) (704 1344 896)"
 			"material" "METAL/RES_METALWALL001A"
-			"uaxis" "[0 1 0 289] 0.35"
-			"vaxis" "[0 0 -1 434] 0.35"
+			"uaxis" "[0 1 0 0] 1"
+			"vaxis" "[0 0 -1 96] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -16300,8 +16419,8 @@ entity
 			"id" "1755"
 			"plane" "(704 1344 320) (32 1344 320) (32 1344 896)"
 			"material" "METAL/RES_METALWALL001A"
-			"uaxis" "[1 0 0 289] 0.35"
-			"vaxis" "[0 0 -1 434] 0.35"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 0 -1 96] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -16376,8 +16495,8 @@ entity
 			"id" "1761"
 			"plane" "(992 1600 320) (704 1600 320) (704 1600 896)"
 			"material" "METAL/RES_METALWALL001A"
-			"uaxis" "[1 0 0 289] 0.35"
-			"vaxis" "[0 0 -1 434] 0.35"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 0 -1 96] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -16419,8 +16538,8 @@ entity
 			"id" "1770"
 			"plane" "(992 1600 896) (992 1344 896) (992 1344 320)"
 			"material" "METAL/RES_METALWALL001A"
-			"uaxis" "[0 1 0 289] 0.35"
-			"vaxis" "[0 0 -1 434] 0.35"
+			"uaxis" "[0 1 0 0] 1"
+			"vaxis" "[0 0 -1 96] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -16452,8 +16571,8 @@ entity
 			"id" "1767"
 			"plane" "(1760 1344 320) (992 1344 320) (992 1344 896)"
 			"material" "METAL/RES_METALWALL001A"
-			"uaxis" "[1 0 0 289] 0.35"
-			"vaxis" "[0 0 -1 434] 0.35"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 0 -1 96] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
