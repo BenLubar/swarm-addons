@@ -1,0 +1,112 @@
+"SpawnSet" {
+	"Name"	"Example 200"
+	"Map"	"example_200"
+	"MinDifficulty"	"1"
+	"MaxDifficulty"	"99"
+	"MinHordeSize"	"10"
+	"MaxHordeSize"	"30"
+	"MinWandererSize"	"2"
+	"MaxWandererSize"	"6"
+
+	"WANDERER" {
+		"SelectionWeight"	"50"
+		"NPC" {
+			"AlienClass"	"asw_drone"
+		}
+	}
+	"WANDERER" {
+		"SelectionWeight"	"5"
+		"NPC" {
+			"AlienClass"	"asw_drone_uber"
+		}
+	}
+	"WANDERER" {
+		"SelectionWeight"	"2.5"
+		"NPC" {
+			"AlienClass"	"asw_drone_redgiant"
+		}
+	}
+	"WANDERER" {
+		"SelectionWeight"	"5"
+		"NPC" {
+			"AlienClass"	"asw_drone_summoner"
+		}
+	}
+	"WANDERER" {
+		"SelectionWeight"	"2.5"
+		"NPC" {
+			"AlienClass"	"asw_drone_carrier"
+		}
+	}
+	"WANDERER" {
+		"SelectionWeight"	"20"
+		"NPC" {
+			"AlienClass"	"asw_buzzer"
+		}
+	}
+	"WANDERER" {
+		"SelectionWeight"	"15"
+		"NPC" {
+			"AlienClass"	"asw_ranger"
+		}
+	}
+	"WANDERER" {
+		"SelectionWeight"	"1"
+		"NPC" {
+			"AlienClass"	"asw_parasite"
+		}
+	}
+	"WANDERER" {
+		"SelectionWeight"	"1"
+		"NPC" {
+			"AlienClass"	"asw_shieldbug"
+		}
+	}
+	"WANDERER" {
+		"SelectionWeight"	"8"
+		"NPC" {
+			"AlienClass"	"asw_boomer"
+		}
+	}
+	"WANDERER" {
+		"SelectionWeight"	"4"
+		"NPC" {
+			"AlienClass"	"asw_harvester"
+		}
+	}
+	"WANDERER" {
+		"SelectionWeight"	"0.75"
+		"NPC" {
+			"AlienClass"	"asw_shaman"
+		}
+		"NPC" {
+			"AlienClass"	"asw_shaman"
+		}
+	}
+	"WANDERER" {
+		"SelectionWeight"	"0.1"
+		"NPC" {
+			"AlienClass"	"asw_shieldbug"
+		}
+		"NPC" {
+			"AlienClass"	"asw_shaman"
+			"HealthScale"	"3"
+			"SizeScale"		"1.5"
+		}
+		"NPC" {
+			"AlienClass"	"asw_shaman"
+			"HealthScale"	"3"
+			"SizeScale"		"1.5"
+		}
+		"NPC" {
+			"AlienClass"	"asw_shaman"
+			"HealthScale"	"3"
+			"SizeScale"		"1.5"
+		}
+		"NPC" {
+			"AlienClass"	"asw_shaman"
+			"HealthScale"	"3"
+			"SizeScale"		"1.5"
+		}
+	}
+}
