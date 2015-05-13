@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "2"
+	"mapversion" "3"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,27 +20,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "3"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "blacksky"
-	group
-	{
-		"id" "2"
-		editor
-		{
-			"color" "233 158 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-}
-entity
-{
-	"id" "3"
-	"classname" "func_detail"
 	solid
 	{
 		"id" "4"
@@ -112,24 +97,11 @@ entity
 		}
 		editor
 		{
-			"color" "233 158 0"
+			"color" "0 113 246"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
-	editor
-	{
-		"color" "233 158 0"
-		"groupid" "2"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[10000 15000]"
-	}
-}
-entity
-{
-	"id" "5"
-	"classname" "func_detail"
 	solid
 	{
 		"id" "6"
@@ -201,24 +173,11 @@ entity
 		}
 		editor
 		{
-			"color" "233 158 0"
+			"color" "0 211 204"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
-	editor
-	{
-		"color" "233 158 0"
-		"groupid" "2"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[10500 10500]"
-	}
-}
-entity
-{
-	"id" "7"
-	"classname" "func_detail"
 	solid
 	{
 		"id" "8"
@@ -290,24 +249,11 @@ entity
 		}
 		editor
 		{
-			"color" "233 158 0"
+			"color" "0 165 190"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
-	editor
-	{
-		"color" "233 158 0"
-		"groupid" "2"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[10500 10500]"
-	}
-}
-entity
-{
-	"id" "9"
-	"classname" "func_detail"
 	solid
 	{
 		"id" "10"
@@ -379,24 +325,11 @@ entity
 		}
 		editor
 		{
-			"color" "233 158 0"
+			"color" "0 135 124"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
-	editor
-	{
-		"color" "233 158 0"
-		"groupid" "2"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[10500 10500]"
-	}
-}
-entity
-{
-	"id" "11"
-	"classname" "func_detail"
 	solid
 	{
 		"id" "12"
@@ -468,18 +401,10 @@ entity
 		}
 		editor
 		{
-			"color" "233 158 0"
+			"color" "0 157 150"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
-	}
-	editor
-	{
-		"color" "233 158 0"
-		"groupid" "2"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[10500 10500]"
 	}
 }
 entity
@@ -505,8 +430,7 @@ entity
 	"origin" "249 164 152"
 	editor
 	{
-		"color" "233 158 0"
-		"groupid" "2"
+		"color" "0 239 156"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6000]"
@@ -535,8 +459,7 @@ entity
 	"origin" "248 168 -9.35924"
 	editor
 	{
-		"color" "233 158 0"
-		"groupid" "2"
+		"color" "0 137 110"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6000]"
@@ -565,8 +488,7 @@ entity
 	"origin" "248 176 -9.35924"
 	editor
 	{
-		"color" "233 158 0"
-		"groupid" "2"
+		"color" "0 179 148"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6000]"
@@ -587,8 +509,7 @@ entity
 	"origin" "249 192 2"
 	editor
 	{
-		"color" "233 158 0"
-		"groupid" "2"
+		"color" "0 197 202"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 -6268]"
@@ -609,8 +530,7 @@ entity
 	"origin" "249 192 83"
 	editor
 	{
-		"color" "233 158 0"
-		"groupid" "2"
+		"color" "0 195 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 -6268]"
@@ -631,8 +551,7 @@ entity
 	"origin" "249 191.87 2.72498"
 	editor
 	{
-		"color" "233 158 0"
-		"groupid" "2"
+		"color" "0 109 214"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 -6268]"
@@ -653,8 +572,7 @@ entity
 	"origin" "256 80 36.0107"
 	editor
 	{
-		"color" "233 158 0"
-		"groupid" "2"
+		"color" "0 227 104"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 -6268]"
@@ -683,8 +601,7 @@ entity
 	"origin" "240 175.775 86.8881"
 	editor
 	{
-		"color" "233 158 0"
-		"groupid" "2"
+		"color" "0 181 130"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -713,8 +630,7 @@ entity
 	"origin" "256 147.852 146.707"
 	editor
 	{
-		"color" "233 158 0"
-		"groupid" "2"
+		"color" "0 235 192"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 7500]"

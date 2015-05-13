@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "12"
+	"mapversion" "13"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "12"
+	"mapversion" "13"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -653,7 +653,7 @@ world
 		{
 			"id" "2"
 			"plane" "(0 0 -32) (256 0 -32) (256 256 -32)"
-			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -826,7 +826,7 @@ entity
 	"origin" "224 160 9.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3500]"
@@ -841,7 +841,7 @@ entity
 	"origin" "96 128 9.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3500]"
@@ -856,7 +856,7 @@ entity
 	"origin" "128 224 9.00001"
 	editor
 	{
-		"color" "232 219 8"
+		"color" "8 64 232"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3500]"
@@ -1237,8 +1237,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[362.494 130.607 125.414]"
-		"look" "[116.461 113.926 26.433]"
+		"position" "[-152.097 -92.8893 -233.63]"
+		"look" "[-44.1243 10.8053 -14.092]"
 	}
 }
 cordons
