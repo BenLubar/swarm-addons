@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "31"
+	"mapversion" "32"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "31"
+	"mapversion" "32"
 	"classname" "worldspawn"
 	"chaptertitle" "Find the Queen and kill her"
 	"comment" "Decompiled by BSPSource v1.3.6 from area9800_lz.bsp"
@@ -43772,7 +43772,7 @@ entity
 		{
 			"id" "1747"
 			"plane" "(256 1312 -256) (256 2176 -256) (576 2176 -256)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -44828,7 +44828,7 @@ entity
 		{
 			"id" "1819"
 			"plane" "(-128 1728 -256) (-128 2176 -256) (256 2176 -256)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -45180,7 +45180,7 @@ entity
 		{
 			"id" "1843"
 			"plane" "(-640 2720 0) (-640 3160 0) (-472 3160 0)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -50592,7 +50592,7 @@ entity
 		{
 			"id" "2231"
 			"plane" "(576 1920 -256) (576 2176 -256) (960 2176 -256)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -54640,7 +54640,7 @@ entity
 		{
 			"id" "2519"
 			"plane" "(1088 1472 -256) (1088 2176 -256) (1152 2176 -256)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -60250,7 +60250,7 @@ entity
 		{
 			"id" "2935"
 			"plane" "(-192 1536 -192) (-192 1792 -192) (-80 1792 -192)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -68533,7 +68533,7 @@ entity
 		{
 			"id" "3526"
 			"plane" "(-1792 1280 -32) (-1792 1824 -32) (-1488 1824 -32)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -82228,7 +82228,7 @@ entity
 		{
 			"id" "4507"
 			"plane" "(-1176 2688 -128) (-1176 3392 -128) (-472 3392 -128)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -83768,7 +83768,7 @@ entity
 		{
 			"id" "4613"
 			"plane" "(-1152 2720 0) (-1152 2912 0) (-639 2912 0)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 4] 0.25"
 			"rotation" "0"
@@ -84835,7 +84835,7 @@ entity
 		{
 			"id" "4688"
 			"plane" "(-1152 2912 -0.00195313) (-1152 3168 -128) (-932 3168 -128)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 128] 0.25"
 			"rotation" "0"
@@ -86496,7 +86496,7 @@ entity
 		{
 			"id" "4805"
 			"plane" "(-672 3360 -128) (-472 3360 0) (-472 3192 0)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 128] 0.25"
 			"rotation" "0"
@@ -88234,7 +88234,7 @@ entity
 		{
 			"id" "4929"
 			"plane" "(-1176 3392 -128) (-1176 3548 -128) (-628 3548 -128)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"

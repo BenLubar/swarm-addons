@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "88"
+	"mapversion" "89"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "88"
+	"mapversion" "89"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.6 from yanaurus_01.bsp"
 	"detailmaterial" "detail/detailsprites"
@@ -58428,7 +58428,7 @@ entity
 		{
 			"id" "1253"
 			"plane" "(4204 8272 -32) (4204 8272 -168) (4204 8116 -168)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[0 -1 0 384] 0.25"
 			"vaxis" "[0 0 -1 -416] 0.25"
 			"rotation" "0"
@@ -67195,7 +67195,7 @@ entity
 		{
 			"id" "1854"
 			"plane" "(3692 8012 -168) (3692 8576 -168) (3900 8576 -168)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 -300] 0.25"
 			"vaxis" "[0 -1 0 304] 0.25"
 			"rotation" "0"
@@ -67591,7 +67591,7 @@ entity
 		{
 			"id" "1880"
 			"plane" "(4036 8452 -168) (4036 8452 -251) (4036 8272 -251)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[0 -1 0 384] 0.25"
 			"vaxis" "[0 0 -1 -416] 0.25"
 			"rotation" "0"
@@ -67635,7 +67635,7 @@ entity
 		{
 			"id" "1884"
 			"plane" "(3900 8272 -168) (3900 8452 -168) (4036 8452 -168)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 -240] 0.25"
 			"vaxis" "[0 -1 0 304] 0.25"
 			"rotation" "0"
@@ -67723,7 +67723,7 @@ entity
 		{
 			"id" "1890"
 			"plane" "(4026 8137 -168) (4026 8272 -168) (4159 8272 -168)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 -252] 0.25"
 			"vaxis" "[0 -1 0 276] 0.25"
 			"rotation" "0"
@@ -67767,7 +67767,7 @@ entity
 		{
 			"id" "1892"
 			"plane" "(4356 8272 -168) (4356 8272 -251) (4356 8116 -251)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[0 1 0 -348] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -67811,7 +67811,7 @@ entity
 		{
 			"id" "1896"
 			"plane" "(4204 8116 -168) (4204 8272 -168) (4356 8272 -168)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 -360] 0.25"
 			"vaxis" "[0 -1 0 156] 0.25"
 			"rotation" "0"
@@ -68075,7 +68075,7 @@ entity
 		{
 			"id" "1914"
 			"plane" "(4356 8116 -202) (4356 8452 -202) (4508 8452 -202)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 -456] 0.25"
 			"vaxis" "[0 -1 0 156] 0.25"
 			"rotation" "0"
@@ -68867,7 +68867,7 @@ entity
 		{
 			"id" "1968"
 			"plane" "(4487 8452 74) (4487 9147 74) (4508 9147 74)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 -456] 0.25"
 			"vaxis" "[0 -1 0 476] 0.25"
 			"rotation" "0"
@@ -68955,7 +68955,7 @@ entity
 		{
 			"id" "1974"
 			"plane" "(4508 9147 74) (4508 9168 74) (5321 9168 74)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[0 -1 0 404] 0.25"
 			"vaxis" "[-1 0 0 60] 0.25"
 			"rotation" "0"
@@ -69131,7 +69131,7 @@ entity
 		{
 			"id" "1986"
 			"plane" "(5321 8116 74) (5321 9147 74) (5342 9147 74)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 -208] 0.25"
 			"vaxis" "[0 -1 0 480] 0.25"
 			"rotation" "0"
@@ -71771,7 +71771,7 @@ entity
 		{
 			"id" "2166"
 			"plane" "(5436 7270 -64) (5436 7574 -64) (5928 7574 -64)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[0 -1 0 192] 0.25"
 			"vaxis" "[-1 0 0 240] 0.25"
 			"rotation" "0"
@@ -71859,7 +71859,7 @@ entity
 		{
 			"id" "2172"
 			"plane" "(5583 7192 -64) (5583 7270 -64) (5928 7270 -64)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[0 -1 0 192] 0.25"
 			"vaxis" "[-1 0 0 240] 0.25"
 			"rotation" "0"
@@ -71947,7 +71947,7 @@ entity
 		{
 			"id" "2178"
 			"plane" "(5452 7192 -64) (5452 7270 -64) (5519 7270 -64)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[0 -1 0 192] 0.25"
 			"vaxis" "[-1 0 0 240] 0.25"
 			"rotation" "0"
@@ -72035,7 +72035,7 @@ entity
 		{
 			"id" "2184"
 			"plane" "(5583 7574 -64) (5583 7648 -64) (5928 7648 -64)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[0 -1 0 192] 0.25"
 			"vaxis" "[-1 0 0 240] 0.25"
 			"rotation" "0"
@@ -72123,7 +72123,7 @@ entity
 		{
 			"id" "2190"
 			"plane" "(5452 7574 -64) (5452 7648 -64) (5519 7648 -64)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[0 -1 0 192] 0.25"
 			"vaxis" "[-1 0 0 240] 0.25"
 			"rotation" "0"
@@ -72211,7 +72211,7 @@ entity
 		{
 			"id" "2196"
 			"plane" "(5519 7634 -64) (5519 7648 -64) (5583 7648 -64)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[0 -1 0 192] 0.25"
 			"vaxis" "[-1 0 0 240] 0.25"
 			"rotation" "0"
@@ -72299,7 +72299,7 @@ entity
 		{
 			"id" "2202"
 			"plane" "(5519 7192 -64) (5519 7206 -64) (5583 7206 -64)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[0 -1 0 192] 0.25"
 			"vaxis" "[-1 0 0 240] 0.25"
 			"rotation" "0"
@@ -73971,7 +73971,7 @@ entity
 		{
 			"id" "2316"
 			"plane" "(4036 8272 -168) (4036 8576 -168) (4156 8576 -168)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 -144] 0.25"
 			"vaxis" "[0 -1 0 304] 0.25"
 			"rotation" "0"
@@ -74103,7 +74103,7 @@ entity
 		{
 			"id" "2324"
 			"plane" "(4036 8603 -168) (4036 8603 -251) (4036 8576 -251)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[0 1 0 -48] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -74147,7 +74147,7 @@ entity
 		{
 			"id" "2328"
 			"plane" "(3900 8576 -168) (3900 8603 -168) (4036 8603 -168)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 -240] 0.25"
 			"vaxis" "[0 -1 0 496] 0.25"
 			"rotation" "0"
@@ -74323,7 +74323,7 @@ entity
 		{
 			"id" "2340"
 			"plane" "(4156 8272 -168) (4156 8452 -168) (4356 8452 -168)"
-			"material" "CONCRETE/CONCRETEFLOOR051_WVT_PATCH"
+			"material" "CONCRETE/CONCRETEFLOOR051"
 			"uaxis" "[1 0 0 -112] 0.25"
 			"vaxis" "[0 -1 0 264] 0.25"
 			"rotation" "0"
