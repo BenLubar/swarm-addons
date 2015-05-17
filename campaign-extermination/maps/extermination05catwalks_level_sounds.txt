@@ -1,0 +1,10 @@
+"extermination.CatwalksBattleMusic"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music\extermination\i_dont.mp3"
+}

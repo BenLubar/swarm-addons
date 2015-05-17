@@ -1,0 +1,14 @@
+GAME
+{
+"pos_x"                      "-7056"
+"pos_y"                      "7671"
+"scale"                      "8.00"
+"material"                   "vgui/swarm/overviews/docks-minimap"
+"briefingmaterial"           "vgui/swarm/overviews/docks-minimap"
+"missiontitle"               "Extermination: Midnight Port"
+"description"                "Raid the Midnight Port."
+"image"                      "swarm/missionpics/midhav_docks_picture"
+"version"                    "1.5.2"
+"author"                     "Jarhchief and DIMEDROLL"
+"website"                    "http://mappack.tk/"
+}

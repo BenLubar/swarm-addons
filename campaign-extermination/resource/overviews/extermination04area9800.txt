@@ -1,0 +1,15 @@
+GAME
+{
+"pos_x"                      "-6350"
+"pos_y"                      "5203"
+"scale"                      "10.0"
+"material"                   "vgui/swarm/overvieuw/lz_groundoverview"
+"briefingmaterial"           "vgui/swarm/overvieuw/lz_briefgroundoverview"
+"mapyoffset"                 "-60"
+"missiontitle"               "Extermination: Area9800 LandingZone"
+"description"                "Check the place out!"
+"image"                      "swarm/missionpics/lz_start"
+"version"                    "1.5.2"
+"author"                     "DK9800 and DIMEDROLL"
+"website"                    "http://mappack.tk/"
+}

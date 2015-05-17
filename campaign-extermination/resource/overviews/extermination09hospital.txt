@@ -1,0 +1,15 @@
+GAME
+{
+"pos_x"                      "-7149"
+"pos_y"                      "5322"
+"scale"                      "10.0"
+"material"                   "vgui/swarm/overviews/full_treatment_syntek_hospital_overview"
+"briefingmaterial"           "vgui/swarm/overviews/full_treatment_syntek_hospital_briefingoverview"
+"mapyoffset"                 "-60"
+"missiontitle"               "Extermination: Full Treatment"
+"description"                "Let's clear the remaining aliens. This is the place where everything started!"
+"image"                      "swarm/missionpics/syntek_hospitalmpic"
+"version"                    "1.5.2"
+"author"                     "x-ray surgeon"
+"website"                    "http://mappack.tk/"
+}

@@ -1,0 +1,197 @@
+//////////////////////////area9800_lz//////////////////////////////
+///////////////////////////////////////////////////////////////
+
+//Utility interior scapes
+
+//////////////
+//////////////
+
+
+"area9800_binnen_gen"
+{
+	"dsp"	"4"
+	//"fadetime" "2"
+	
+	"playsoundscape"
+	{
+		"name" "util_metal.rattles"
+		"volume" ".4"
+	}
+	
+	"playsoundscape"
+	{
+		"name" "interior2.DistantCritters"
+		"volume" "0.7"
+	}
+	
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"soundlevel"	"0"
+		"pitch"		"100"
+		"wave"		"scapes/2D/interior1/GeneratorRoomLarge_Amb.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"scapes/3D/machine_big_amb_loop.wav"
+		"origin"	" -7916.812500, -2085.906250, 702.718750;"
+		"soundlevel" 	"SNDLVL_90dB"
+	}
+
+	"playlooping"
+	{
+		"volume"	".9"
+		"pitch"		"40"
+		"wave"		"scapes/3D/steam_loop_01.wav"
+		"origin"	"-7400.187500, -1764.062500, 799.593750;"
+		"soundlevel" 	"SNDLVL_80dB"
+	}
+}
+
+"area9800_binnen_gen_steam"
+{
+	"dsp"	"4"
+	//"fadetime" "2"
+	
+	"playsoundscape"
+	{
+		"name" "util_metal.rattles"
+		"volume" ".4"
+	}
+	
+	"playsoundscape"
+	{
+		"name" "interior2.DistantCritters"
+		"volume" "0.7"
+	}
+	
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"soundlevel"	"0"
+		"pitch"		"100"
+		"wave"		"scapes/2D/interior1/GeneratorRoomLarge_Amb.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"scapes/3D/machine_big_amb_loop.wav"
+		"origin"	" -7916.812500, -2085.906250, 702.718750;"
+		"soundlevel" 	"SNDLVL_90dB"
+	}
+
+	"playlooping"
+	{
+		"volume"	".9"
+		"pitch"		"40"
+		"wave"		"scapes/3D/steam_loop_01.wav"
+		"origin"	"-7400.187500, -1764.062500, 799.593750;"
+		"soundlevel" 	"SNDLVL_80dB"
+	}
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"soundlevel"	"0"
+		"pitch"		"100"
+		"wave"		"scapes/3D/steam_loop_01.WAV"
+        }
+
+}
+
+
+"area9800_waterdruppels"
+{
+	"dsp"	"4"
+	//"fadetime" "2"
+	
+	"playsoundscape"
+	{
+		"name" "util_metal.rattles"
+		"volume" ".4"
+	}
+	
+	"playsoundscape"
+	{
+		"name" "interior2.DistantCritters"
+		"volume" "0.7"
+	}
+	
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"soundlevel"	"0"
+		"pitch"		"100"
+		"wave"		"scapes/2D/interior1/GeneratorRoomLarge_Amb.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"scapes/3D/machine_big_amb_loop.wav"
+		"origin"	" -7916.812500, -2085.906250, 702.718750;"
+		"soundlevel" 	"SNDLVL_90dB"
+	}
+
+	"playlooping"
+	{
+		"volume"	".9"
+		"pitch"		"40"
+		"wave"		"scapes/3D/steam_loop_01.wav"
+		"origin"	"-7400.187500, -1764.062500, 799.593750;"
+		"soundlevel" 	"SNDLVL_80dB"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"soundlevel"	"0"
+		"pitch"		"100"
+		"wave"		"scapes/3D/water_drip_loop.wav"
+        }
+	
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"soundlevel"	"0"
+		"pitch"		"100"
+		"wave"		"scapes/3D/steam_loop_01.WAV"
+        }
+
+}
+
+
+"area9800_buiten_wind"
+{
+	"dsp"	"0"
+	//"fadetime" ".5"
+
+
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"pitch"		"100"
+		"wave"		"#scapes/2D/exterior1/icy_wind01.wav"
+	}
+
+		"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	"0.6, 0.9"
+		"pitch"		"80, 110"
+		"soundlevel"	"0"
+		"rndwave"
+		{
+			"wave"	"#scapes/2D/exterior1/disquiet01.wav"
+			"wave"	"#scapes/2D/exterior1/disquiet02.wav"
+			"wave"	"#scapes/2D/exterior1/disquiet03.wav"
+			"wave"	"#scapes/2D/exterior1/organic_drone01.wav"
+			
+		}
+	}
+}

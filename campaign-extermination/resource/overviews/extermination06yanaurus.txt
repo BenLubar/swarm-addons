@@ -1,0 +1,15 @@
+GAME
+{
+"pos_x"                      "857"
+"pos_y"                      "9927"
+"scale"                      "8.0"
+"material"                   "vgui/swarm/overviews/yanaurus_01overview"
+"briefingmaterial"           "vgui/swarm/overviews/yanaurus_01overviewbriefing"
+"mapyoffset"                 "-60"
+"missiontitle"               "Extermination: Yanaurus Mine"
+"description"                "Explore the Yanaurus Mine."
+"image"                      "swarm/missionpics/yanaurus_mission_pic"
+"version"                    "1.5.2"
+"author"                     "Silver.Fox and DIMEDROLL"
+"website"                    "http://mappack.tk/"
+}

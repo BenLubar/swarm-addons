@@ -1,0 +1,13 @@
+"AddonInfo"
+{
+addonSteamAppID              630
+addontitle                   "Extermination"
+addonversion                 1.5.2
+addontagline                 "Combined effort!"
+addonauthor                  "DIMEDROLL and Zak"
+addonSteamGroupName          "moddb"
+addonauthorSteamID           "STEAM_0:0:34761691"
+addonContent_Campaign        1
+addonURL0                    "http://mappack.tk/"
+addonDescription             "Combined effort, a united campaign!"
+}

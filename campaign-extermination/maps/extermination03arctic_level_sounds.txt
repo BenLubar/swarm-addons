@@ -1,0 +1,20 @@
+"extermination.ArcticBattleMusic"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music\extermination\cry_mus01.mp3"
+}
+"extermination.ArcticBattleMusicGenerator"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music\specur\holdtheline.mp3"
+}

@@ -1,0 +1,15 @@
+GAME
+{
+"pos_x"                      "-7454"
+"pos_y"                      "1795"
+"scale"                      "8.0"
+"material"                   "vgui/swarm/overviews/asi-sj1-coldcatwalksoverview2"
+"briefingmaterial"           "vgui/swarm/overviews/asi-sj1-coldcatwalksoverviewbriefing"
+"mapyoffset"                 "0"
+"missiontitle"               "Extermination: Cold Catwalks"
+"description"                "There are rumors of a possible bio-weapon for use against the aliens in this area. Your mission is to find this chemical, and if it exists, secure it."
+"image"                      "swarm/missionpics/mission1"
+"version"                    "1.5.2"
+"author"                     "Hemuuuli and DIMEDROLL"
+"website"                    "http://mappack.tk/"
+}

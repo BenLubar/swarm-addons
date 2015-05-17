@@ -1,0 +1,14 @@
+GAME
+{
+"pos_x"                      "-4949"
+"pos_y"                      "8333"
+"scale"                      "10.00"
+"material"                   "vgui/swarm/overviews/road_to_dawn_map"
+"briefingmaterial"           "vgui/swarm/overviews/road_to_dawn_map"
+"missiontitle"               "Extermination: Road to Dawn"
+"description"                "Start the journey towards Dawn."
+"image"                      "swarm/missionpics/midhav_road_to_dawn_missionpic"
+"version"                    "1.5.2"
+"author"                     "Jarhchief and DIMEDROLL"
+"website"                    "http://mappack.tk/"
+}

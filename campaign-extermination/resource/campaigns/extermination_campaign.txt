@@ -1,0 +1,151 @@
+GAME
+{
+"CampaignName"               "Extermination"
+"CampaignDescription"        "Combined effort, a united campaign!"
+"ChooseCampaignTexture"      "swarm/campaign/extermination_pic"
+"CampaignTextureName"        "swarm/missionpics/exterminationmap512"
+"CampaignTextureLayer1"      "swarm/Campaign/CampaignMap_EmptyLayer"
+"CampaignTextureLayer2"      "swarm/Campaign/CampaignMap_EmptyLayer"
+"CampaignTextureLayer3"      "swarm/Campaign/CampaignMap_EmptyLayer"
+"CustomCreditsFile"          "resource/extermination_credits"
+"GalaxyX"                    "777"
+"GalaxyY"                    "777"
+
+"MISSION"
+{
+"MissionName"                "Entry Point"
+"MapName"                    "extermination00starting_point"
+"LocationX"                  "900"
+"LocationY"                  "550"
+"DifficultyModifier"         "-2"
+"Links"                      "extermination01port"
+"LocationDescription"        "Entry Point"
+"ShortBriefing"              "Dropship Bloodhound will enter atmosphere at these co-ordinates and proceed to primary objective."
+}
+
+"MISSION"
+{
+"MissionName"                "Extermination: Midnight Port"
+"MapName"                    "extermination01port"
+"LocationX"                  "876"
+"LocationY"                  "454"
+"ThreatString"               "1"
+"Links"                      "extermination00starting_point extermination02road"
+"LocationDescription"        "Midnight Port"
+"ShortBriefing"              "Raid the Midnight Port."
+"AlwaysVisible"              "1"
+"NeedsMoreThanOneMarine"     "0"
+}
+
+"MISSION"
+{
+"MissionName"                "Extermination: Road to Dawn"
+"MapName"                    "extermination02road"
+"LocationX"                  "800"
+"LocationY"                  "418"
+"ThreatString"               "1"
+"Links"                      "extermination01port extermination03arctic"
+"LocationDescription"        "Transportation Road"
+"ShortBriefing"              "Start the journey towards Dawn."
+"AlwaysVisible"              "1"
+"NeedsMoreThanOneMarine"     "0"
+}
+
+"MISSION"
+{
+"MissionName"                "Extermination: Arctic Infiltration"
+"MapName"                    "extermination03arctic"
+"LocationX"                  "686"
+"LocationY"                  "384"
+"ThreatString"               "1"
+"Links"                      "extermination02road extermination04area9800"
+"LocationDescription"        "SynTek Research Facility"
+"ShortBriefing"              "Investigate a distress call from a mysterious SynTek Research Facility."
+"AlwaysVisible"              "1"
+"NeedsMoreThanOneMarine"     "0"
+}
+
+"MISSION"
+{
+"MissionName"                "Extermination: Area9800 LandingZone"
+"MapName"                    "extermination04area9800"
+"LocationX"                  "630"
+"LocationY"                  "344"
+"ThreatString"               "1"
+"Links"                      "extermination03arctic extermination05catwalks"
+"LocationDescription"        "Area 9800"
+"ShortBriefing"              "Check the place out!"
+"AlwaysVisible"              "1"
+"NeedsMoreThanOneMarine"     "0"
+}
+
+"MISSION"
+{
+"MissionName"                "Extermination: Cold Catwalks"
+"MapName"                    "extermination05catwalks"
+"LocationX"                  "578"
+"LocationY"                  "308"
+"ThreatString"               "1"
+"Links"                      "extermination04area9800 extermination06yanaurus"
+"LocationDescription"        "Cold Catwalks"
+"ShortBriefing"              "There are rumors of a possible bio-weapon for use against the aliens in this area. Your mission is to find this chemical, and if it exists, secure it."
+"AlwaysVisible"              "1"
+"NeedsMoreThanOneMarine"     "0"
+}
+
+"MISSION"
+{
+"MissionName"                "Extermination: Yanaurus Mine"
+"MapName"                    "extermination06yanaurus"
+"LocationX"                  "870"
+"LocationY"                  "260"
+"ThreatString"               "1"
+"Links"                      "extermination05catwalks extermination07factory"
+"LocationDescription"        "Yanaurus Mine"
+"ShortBriefing"              "Explore the Yanaurus Mine."
+"AlwaysVisible"              "1"
+"NeedsMoreThanOneMarine"     "0"
+}
+
+"MISSION"
+{
+"MissionName"                "Extermination: Forgotten Factory"
+"MapName"                    "extermination07factory"
+"LocationX"                  "734"
+"LocationY"                  "238"
+"ThreatString"               "1"
+"Links"                      "extermination06yanaurus extermination08comcenter"
+"LocationDescription"        "Forgotten Factory"
+"ShortBriefing"              "There are at least 15 alien eggs inside the factory. Destroy them all."
+"AlwaysVisible"              "1"
+"NeedsMoreThanOneMarine"     "0"
+}
+
+"MISSION"
+{
+"MissionName"                "Extermination: Communication Center"
+"MapName"                    "extermination08comcenter"
+"LocationX"                  "620"
+"LocationY"                  "230"
+"ThreatString"               "1"
+"Links"                      "extermination07factory extermination09hospital"
+"LocationDescription"        "Communication Center"
+"ShortBriefing"              "Gain entry to communication building to destroy infestation within."
+"AlwaysVisible"              "1"
+"NeedsMoreThanOneMarine"     "0"
+}
+
+"MISSION"
+{
+"MissionName"                "Extermination: Full Treatment"
+"MapName"                    "extermination09hospital"
+"LocationX"                  "384"
+"LocationY"                  "508"
+"ThreatString"               "1"
+"Links"                      "extermination08comcenter"
+"LocationDescription"        "Syntek Hospital"
+"ShortBriefing"              "Let's clear the remaining aliens. This is the place where everything started!"
+"AlwaysVisible"              "1"
+"NeedsMoreThanOneMarine"     "0"
+}
+}

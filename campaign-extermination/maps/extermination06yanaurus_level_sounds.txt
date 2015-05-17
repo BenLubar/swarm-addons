@@ -1,0 +1,10 @@
+"extermination.YanaurusBattleMusic"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music\extermination\mus03.mp3"
+}

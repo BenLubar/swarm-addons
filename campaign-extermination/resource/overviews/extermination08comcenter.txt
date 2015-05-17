@@ -1,0 +1,14 @@
+GAME
+{
+"pos_x"                      "-8817"
+"pos_y"                      "8928"
+"scale"                      "15.0"
+"material"                   "vgui/swarm/overviews/comm_st_overview"
+"briefingmaterial"           "vgui/swarm/overviews/comm_st_overviewbriefing"
+"missiontitle"               "Extermination: Communication Center"
+"description"                "Gain entry to communication building to destroy infestation within."
+"image"                      "swarm/missionpics/comm_st_mission1"
+"version"                    "1.5.2"
+"author"                     "HappyHiker82, DIMEDROLL and Zak"
+"website"                    "http://mappack.tk/"
+}

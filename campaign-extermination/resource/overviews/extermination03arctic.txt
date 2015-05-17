@@ -1,0 +1,14 @@
+GAME
+{
+"pos_x"                      "-7055"
+"pos_y"                      "6686"
+"scale"                      "10"
+"material"                   "vgui/swarm/overviews/arcticinfiltrationoverview"
+"briefingmaterial"           "vgui/swarm/overviews/arcticinfiltrationoverview"
+"missiontitle"               "Extermination: Arctic Infiltration"
+"description"                "Investigate a distress call from a mysterious SynTek Research Facility."
+"image"                      "swarm/missionpics/arcticinfiltrationmission"
+"version"                    "1.5.2"
+"author"                     "Specur and DIMEDROLL"
+"website"                    "http://mappack.tk/"
+}

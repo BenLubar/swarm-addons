@@ -1,0 +1,32 @@
+"extermination.AreaBattleMusic01"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music\extermination\cry_mus01.mp3"
+}
+
+"extermination.AreaBattleMusic02"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music\extermination\cry_mus01.mp3"
+}
+
+"extermination.AreaBattleMusic03"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music\extermination\cry_mus02.mp3"
+}

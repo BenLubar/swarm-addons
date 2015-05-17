@@ -1,0 +1,21 @@
+"extermination.CommCenterBattleMusic"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music\extermination\mus01.mp3"
+}
+
+"extermination.CommCenterBattleMusic2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music\extermination\mus03.mp3"
+}

@@ -1,0 +1,14 @@
+GAME
+{
+"pos_x"                      "-3594"
+"pos_y"                      "4674"
+"scale"                      "8.0"
+"material"                   "vgui/swarm/overviews/forgotten_factory"
+"briefingmaterial"           "vgui/swarm/overviews/forgotten_factory"
+"missiontitle"               "Extermination: The Factory"
+"description"                "There are at least 15 alien eggs inside the factory. Destroy them all."
+"image"                      "forgotten_factory"
+"version"                    "1.5.2"
+"author"                     "Rohschinken"
+"website"                    "http://mappack.tk/"
+}

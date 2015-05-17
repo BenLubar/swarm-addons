@@ -1,0 +1,255 @@
+//////////////////////////Landing_Bay//////////////////////////////
+///////////////////////////////////////////////////////////////
+
+//Utility interior scapes
+
+//////////////
+//////////////
+
+"util_interior.bursts"
+{
+	"playrandom"
+	{
+		"time"		"15,30"
+		"volume"	".55,.95"
+		"pitch"		"50,105"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"scapes/2d/random_amb/Interior_Random_01.wav"
+			"wave"	"scapes/2d/random_amb/Interior_Random_02.wav"
+			"wave"	"scapes/2d/random_amb/Interior_Random_03.wav"
+			"wave"	"scapes/2d/random_amb/Interior_Random_04.wav"
+			"wave"	"scapes/2d/random_amb/Interior_Random_05.wav"
+			"wave"	"scapes/2d/random_amb/Interior_Random_06.wav"
+			"wave"	"scapes/2d/random_amb/Interior_Random_07.wav"
+		}
+	}
+}
+
+"util_abstract.interior"
+{
+	"playrandom"
+	{
+		"time"		"9,22"
+		"volume"	".55,.95"
+		"pitch"		"50,105"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"scapes/2d/random_amb/RandomAbAmb_04.wav"
+			"wave"	"scapes/2d/random_amb/RandomAbAmb_05.wav"
+			"wave"	"scapes/2d/random_amb/RandomAbAmb_06.wav"
+			"wave"	"scapes/2d/random_amb/RandomAbAmb_07.wav"
+			"wave"	"scapes/2d/random_amb/RandomAbAmb_08.wav"
+		}
+	}
+}
+
+
+"util_metal.moans"
+{
+
+	
+	"playrandom"
+	{
+		"time"		"10,30"
+		"volume"	".55,.95"
+		"pitch"		"50,105"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"scapes/2d/random_amb/Interior_MetalMoan_01.wav"
+			"wave"	"scapes/2d/random_amb/Interior_MetalMoan_02.wav"
+			"wave"	"scapes/2d/random_amb/Interior_MetalMoan_03.wav"
+			"wave"	"scapes/2d/random_amb/Interior_MetalMoan_04.wav"
+			"wave"	"scapes/2d/random_amb/Interior_MetalMoan_05.wav"
+		}
+	}
+
+}
+
+////////////////////////////////
+
+"yanaurus.exterior"
+{
+
+	//"fadetime" "1"
+	"dsp"	"0"
+
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"soundlevel"	"0"
+		"pitch"		"100"
+		"wave"		"ambient/map/newrain.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	"0.6, 0.9"
+		"pitch"		"80, 110"
+		"soundlevel"	"0"
+		"rndwave"
+		{
+			"wave"	"#scapes/2D/random_amb/lightning_strike_01.wav"
+			"wave"	"#scapes/2D/random_amb/lightning_strike_02.wav"
+		}
+	}
+}
+
+"yanaurus.interior1"
+{
+	//"fadetime" "2"
+
+	"playlooping"
+	{
+		"volume"	"1.0"
+		"soundlevel"	"0"
+		"pitch"		"100"
+		"wave"		"ambient/map/rainroof.wav"
+	}
+
+	"playsoundscape"
+	{
+		"name" "util_interior.bursts"
+		"volume" ".4"
+	}
+
+	"playsoundscape"
+	{
+		"name" "util_abstract.interior"
+		"volume" ".55"
+	}
+}
+
+/////////////////////////////////////////////////////////////
+
+
+"interior.generator.big"
+{
+	"dsp"	"4"
+	//"fadetime" "2"
+	
+	"playsoundscape"
+	{
+		"name" "util_metal.rattles"
+		"volume" ".4"
+	}
+	
+	"playsoundscape"
+	{
+		"name" "interior2.DistantCritters"
+		"volume" "0.7"
+	}
+	
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"soundlevel"	"0"
+		"pitch"		"100"
+		"wave"		"scapes/2D/interior1/GeneratorRoomLarge_Amb.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"scapes/3D/machine_big_amb_loop.wav"
+		"origin"	" -7916.812500, -2085.906250, 702.718750;"
+		"soundlevel" 	"SNDLVL_90dB"
+	}
+
+	"playlooping"
+	{
+		"volume"	".9"
+		"pitch"		"40"
+		"wave"		"scapes/3D/steam_loop_01.wav"
+		"origin"	"-7400.187500, -1764.062500, 799.593750;"
+		"soundlevel" 	"SNDLVL_80dB"
+	}
+}
+
+"interior2.Pits"
+{
+	"dsp"	"4"
+	//"fadetime" ".5"
+	
+	"playsoundscape"
+	{
+		"name" "interior2.Base"
+		"volume" "1.0"
+	}
+	
+	"playsoundscape"
+	{
+		"name" "interior2.DistantCritters"
+		"volume" "0.7"
+	}
+	
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"soundlevel"	"0"
+		"pitch"		"100"
+		"wave"		"scapes/2D/interior2/interiorD_pits.wav"
+	}
+
+	"playsoundscape"
+	{
+		"name" "util_interior.bursts"
+		"volume" ".4"
+	}
+
+	"playsoundscape"
+	{
+		"name" "util_metal.moans"
+		"volume" ".7"
+	}
+
+	"playsoundscape"
+	{
+		"name" "util_abstract.interior"
+		"volume" ".5"
+	}
+
+}
+
+
+"TS.mineambience.01"
+{
+	"dsp"	"19"
+	"fadetime" "3"
+
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"scapes/2D/interior1/caveambience1.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"scapes/2D/interior1/lavaloop_01.wav"
+	}
+
+		"playsoundscape"
+	{
+		"name"	"util_rockslides"
+		"volume" "0.8"
+	}
+
+
+		"playsoundscape"
+	{
+		"name"	"util_abstract.interior2"
+		"volume" "1"
+	}
+}
