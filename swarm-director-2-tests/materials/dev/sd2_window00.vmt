@@ -1,0 +1,5 @@
+LightmappedGeneric {
+	$basetexture "dev/sd2_window00"
+	$selfillum 1
+	$surfaceprop "glass"
+}
