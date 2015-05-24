@@ -1,0 +1,83 @@
+Water
+{
+	$forceexpensive 1
+	$normalmap "ctas_holdout_holodeck/brook/water_brook"
+	$flowmap "liquids/flowmap_flow_temp"
+	$flow_normaluvscale 800.0
+	$flow_worlduvscale .065
+	$flow_timeintervalinseconds 0.3 
+	$flow_uvscrolldistance 0.15 
+	$flow_bumpstrength .4
+	$flow_timescale .08
+	$flow_noise_texture "water/water_noise"
+
+	$flow_noise_scale 0.0005
+	$flow_debug 0
+	$reflecttexture _rt_WaterReflection
+	$reflectamount ".5"
+	$reflecttint "{ 100 120 180 }"
+	$reflectskyboxonly 0
+	$reflectentities 1
+	$refracttexture _rt_WaterRefraction
+	$refractamount ".5 "
+	$refracttint "{ 120 180 255 }"
+	$abovewater 1
+	$bottommaterial "nature/toxicslime002a_beneath"
+	$fogenable 1
+	$fogstart 2
+	$fogend 100
+	$lightmapwaterfog 1
+
+	$fogcolor "{ 0 5 20}"
+	$flashlighttint 1
+	"%compilewater" 1
+	"%tooltexture" "ctas_holdout_holodeck/brook/water_brook"
+	$surfaceprop slime
+	$forcefresnel .2
+
+	"$temp" "[0 0]"
+	"$curr" 0.0
+	"$curr2" 0.0
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+
+		"Sine"
+		{
+			"sineperiod" "48"
+			"sinemin" -0.5
+			"sinemax" 0.5
+			"resultVar" "$curr"
+		}
+		"Sine"
+		{
+			"sineperiod" "32"
+			"sinemin" 0.5
+			"sinemax" -0.5
+			"resultVar" "$curr2"
+		}
+
+		"Equals"
+		{
+			"srcVar1" "$curr2"
+			"resultVar" "$temp[0]"
+		}
+		"Equals"
+		{
+			"srcVar1" "$curr"
+			"resultVar" "$temp[1]"
+		}
+
+		"TextureTransform"
+		{
+			"translateVar" "$temp"
+			"resultVar" "$bumptransform"
+		}
+	}
+}

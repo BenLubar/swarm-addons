@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ctas_holdout_holodeck/brook/stonewall006a"
+	"$surfaceprop" "concrete"
+	"%keywords" "c17downtown"
+	"$bumpmap" "ctas_holdout_holodeck/brook/stonewall006a_normal"
+}

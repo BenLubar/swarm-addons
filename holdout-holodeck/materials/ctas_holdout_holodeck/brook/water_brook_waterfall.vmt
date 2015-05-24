@@ -1,0 +1,17 @@
+Refract
+{
+	$normalmap "ctas_holdout_holodeck/brook/water_brook_waterfall"
+	$refractamount .1
+
+	$refracttint "{ 255 300 500 }"
+
+	Proxies
+	{
+		TextureScroll
+		{
+			texturescrollvar $bumpTransform
+			texturescrollrate 1.7
+			texturescrollangle 270.00
+		}
+	}
+}
