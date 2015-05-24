@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ctas_holdout_holodeck/tarnor/cliffface002a_orange"
+	"$surfaceprop" "dirt"
+	"$bumpmap" "ctas_holdout_holodeck/tarnor/cliffface002a_normal"
+	"$ssbump" "1"
+
+$seamless_scale 0.002
+}

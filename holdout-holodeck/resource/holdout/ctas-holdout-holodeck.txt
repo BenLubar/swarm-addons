@@ -1,0 +1,90 @@
+WAVE {
+	Name "XCOM"
+	EnvironmentModifiers "0"
+	Resupply "0"
+	ENTRY {
+		AlienClass "asw_drone"
+		Quantity "5"
+		SpawnDelay "0.0"
+		SpawnDuration "0.0"
+		SpawnGroup "@room1_spawn_any"
+	}
+}
+
+WAVE {
+	Name "Brook"
+	EnvironmentModifiers "0"
+	Resupply "0"
+	ENTRY {
+		AlienClass "asw_drone"
+		Quantity "5"
+		SpawnDelay "0.0"
+		SpawnDuration "0.0"
+		SpawnGroup "@room2_spawn_any"
+	}
+}
+
+WAVE {
+	Name "Area9800"
+	EnvironmentModifiers "0"
+	Resupply "0"
+	ENTRY {
+		AlienClass "asw_drone"
+		Quantity "5"
+		SpawnDelay "0.0"
+		SpawnDuration "0.0"
+		SpawnGroup "@room3_spawn_any"
+	}
+}
+
+WAVE {
+	Name "Tarnor"
+	EnvironmentModifiers "0"
+	Resupply "0"
+	ENTRY {
+		AlienClass "asw_drone"
+		Quantity "5"
+		SpawnDelay "0.0"
+		SpawnDuration "0.0"
+		SpawnGroup "@room4_spawn_any"
+	}
+}
+
+WAVE {
+	Name "Rydberg"
+	EnvironmentModifiers "0"
+	Resupply "0"
+	ENTRY {
+		AlienClass "asw_drone"
+		Quantity "5"
+		SpawnDelay "0.0"
+		SpawnDuration "0.0"
+		SpawnGroup "@room5_spawn_any"
+	}
+}
+
+WAVE {
+	Name "Deima"
+	EnvironmentModifiers "0"
+	Resupply "0"
+	ENTRY {
+		AlienClass "asw_drone"
+		Quantity "5"
+		SpawnDelay "0.0"
+		SpawnDuration "0.0"
+		SpawnGroup "@room6_spawn_any"
+	}
+}
+
+WAVE {
+	Name "Timor"
+	EnvironmentModifiers "0"
+	Resupply "0"
+	ENTRY {
+		AlienClass "asw_drone"
+		Quantity "5"
+		SpawnDelay "0.0"
+		SpawnDuration "0.0"
+		SpawnGroup "@room7_spawn_any"
+	}
+}

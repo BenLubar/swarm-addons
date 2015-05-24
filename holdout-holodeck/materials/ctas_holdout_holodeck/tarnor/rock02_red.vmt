@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ctas_holdout_holodeck/tarnor/rock02_red2"
+	"$bumpmap" "ctas_holdout_holodeck/tarnor/rock02_normal"
+	"$surfaceprop" "rock"
+	"$ssbump" "1"
+
+$seamless_scale 0.004
+}

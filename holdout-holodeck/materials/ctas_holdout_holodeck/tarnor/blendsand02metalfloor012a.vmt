@@ -1,0 +1,21 @@
+
+WorldVertexTransition
+{
+$basetexture "ctas_holdout_holodeck/tarnor/sand/sand02"
+$basetexture2 "metal/metalfloor012a"
+$bumpmap "ctas_holdout_holodeck/tarnor/sand02_normal"
+$bumpmap2 "metal/metalfloor012a_normal"
+"%tooltexture" "ctas_holdout_holodeck/tarnor/blendsand02sand01"
+$surfaceprop sand
+$surfaceprop2 metal
+$basetexturetransform "center 1 1 scale 1 1 rotate 0 translate 0 0"
+$basetexturetransform2 "center 1 1 scale 2 2 rotate 0 translate 0 0"
+
+$blendmodulatetexture "nature/snowblendtexture"
+//$envmap env_cubemap
+$envmapsaturation 1
+$envmapcontrast 1
+$envmaptint "[ .007 .005 .005 ]"
+$envmaptint2 "[ .2 .2 .2 ]"
+
+}

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ctas_holdout_holodeck/tarnor/sand07"
+	"$bumpmap" "ctas_holdout_holodeck/tarnor/sand07_normal"
+	"$surfaceprop" "sand"
+	"$ssbump" "1"
+
+}
