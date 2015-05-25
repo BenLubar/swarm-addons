@@ -1,0 +1,19 @@
+GAME {
+	pos_x            "0"
+	pos_y            "0"
+	scale            "20.0"
+
+	material         "vgui/swarm/Computer/ComputerScan"
+	briefingmaterial "vgui/swarm/Computer/ComputerScan"
+
+	missiontitle     "Holdout Holodeck"
+	description      "A holdout map that revisits popular locations in campaigns."
+
+	image            "swarm/MissionPics/UnknownMissionPic"
+
+	version          "0.0"
+	author           "Ben Lubar"
+	website          "https://github.com/BenLubar/swarm-addons"
+
+	use_overview     "0"
+}

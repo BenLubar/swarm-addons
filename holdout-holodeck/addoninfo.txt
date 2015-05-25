@@ -1,0 +1,10 @@
+AddonInfo {
+	addonSteamAppID         "630"
+	addontitle              "Holdout Holodeck"
+	addonversion            "0.0"
+	addontagline            "A holdout map that revisits popular locations in campaigns."
+	addonauthor             "Ben 'Casimer the Adequately Skilled' Lubar"
+	addonContent_Campaign   "1"
+	addonURL0               "https://github.com/BenLubar/swarm-addons"
+	addonDescription        "A holdout map that revisits popular locations in campaigns."
+}

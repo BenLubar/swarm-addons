@@ -1,0 +1,37 @@
+GAME {
+	CampaignName               "Holdout Holodeck"
+	CampaignDescription        "A holdout map that revisits popular locations in campaigns."
+	ChooseCampaignTexture      "swarm/campaign/jacob_galacticmap"
+	CampaignTextureName        "swarm/campaign/jacob_galacticmap"
+
+	CampaignTextureLayer1      "swarm/Campaign/CampaignMap_EmptyLayer"
+	CampaignTextureLayer2      "swarm/Campaign/CampaignMap_EmptyLayer"
+	CampaignTextureLayer3      "swarm/Campaign/CampaignMap_EmptyLayer"
+	CustomCreditsFile          "resource/ctas-holdout-holodeck-credits"
+
+	GalaxyX                    "768"
+	GalaxyY                    "384"
+	
+	// first mission entry is a dummy for the starting point
+	MISSION {
+		MissionName            "Entry Port"
+		MapName                "start_area"
+		LocationX              "330"
+		LocationY              "780"
+		Links                  "ctas-holdout-holodeck"
+		LocationDescription    "Home Base"
+		ShortBriefing          "Dropship Bloodhound will enter atmosphere at these co-ordinates and proceed to primary objective."
+	}
+	MISSION {
+		MissionName            "Holdout Holodeck"
+		MapName                "ctas-holdout-holodeck"
+		LocationX              "525"
+		LocationY              "700"
+		Links                  "start_area"
+		LocationDescription    "Holdout Holodeck"
+		ShortBriefing          "A holdout map that revisits popular locations in campaigns."
+		AlwaysVisible          "1"
+		DifficultyModifier     "2"
+		NeedsMoreThanOneMarine "0"
+	}
+}
