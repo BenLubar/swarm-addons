@@ -5,10 +5,11 @@ WorldVertexTransition
 	"%tooltexture"	"nature/dirtfloor006a"
 	"%keywords"		brook
 	$surfaceprop	dirt
+	$blendmodulatetexture "nature/snowblendtexture"
 
 	$detail "detail/noise_detail_01"
 	$detailscale "5.0"
 	$detailblendfactor .6
 	$detailblendmode 0
-	%detailtype "grass01"
+	%detailtype "citygrass01"
 }
