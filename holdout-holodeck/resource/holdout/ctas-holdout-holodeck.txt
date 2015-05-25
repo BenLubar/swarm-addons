@@ -1,7 +1,7 @@
 WAVE {
 	Name "XCOM"
 	EnvironmentModifiers "0"
-	Resupply "0"
+	Resupply "1"
 	ENTRY {
 		AlienClass "asw_drone"
 		Quantity "5"
@@ -14,20 +14,104 @@ WAVE {
 WAVE {
 	Name "Brook"
 	EnvironmentModifiers "0"
-	Resupply "0"
+	Resupply "1"
 	ENTRY {
 		AlienClass "asw_drone"
-		Quantity "5"
+		Quantity "20"
 		SpawnDelay "0.0"
+		SpawnDuration "20.0"
+		SpawnGroup "@room2_spawn_drone"
+	}
+	ENTRY {
+		AlienClass "asw_drone_jumper"
+		Quantity "10"
+		SpawnDelay "5.0"
+		SpawnDuration "15.0"
+		SpawnGroup "@room2_spawn_drone"
+	}
+	ENTRY {
+		AlienClass "asw_drone"
+		Quantity "60"
+		SpawnDelay "10.0"
+		SpawnDuration "40.0"
+		SpawnGroup "@room2_spawn_drone"
+	}
+	ENTRY {
+		AlienClass "asw_ranger"
+		Quantity "3"
+		SpawnDelay "10.0"
 		SpawnDuration "0.0"
 		SpawnGroup "@room2_spawn_any"
+	}
+	ENTRY {
+		AlienClass "asw_mortarbug"
+		Quantity "1"
+		SpawnDelay "10.0"
+		SpawnDuration "0.0"
+		SpawnGroup "@room2_spawn_mortar"
+	}
+	ENTRY {
+		AlienClass "asw_ranger"
+		Quantity "3"
+		SpawnDelay "20.0"
+		SpawnDuration "0.0"
+		SpawnGroup "@room2_spawn_any"
+	}
+	ENTRY {
+		AlienClass "asw_ranger"
+		Quantity "3"
+		SpawnDelay "30.0"
+		SpawnDuration "0.0"
+		SpawnGroup "@room2_spawn_any"
+	}
+	ENTRY {
+		AlienClass "asw_mortarbug"
+		Quantity "1"
+		SpawnDelay "30.0"
+		SpawnDuration "0.0"
+		SpawnGroup "@room2_spawn_mortar"
+	}
+	ENTRY {
+		AlienClass "asw_ranger"
+		Quantity "3"
+		SpawnDelay "40.0"
+		SpawnDuration "0.0"
+		SpawnGroup "@room2_spawn_any"
+	}
+	ENTRY {
+		AlienClass "asw_ranger"
+		Quantity "3"
+		SpawnDelay "50.0"
+		SpawnDuration "0.0"
+		SpawnGroup "@room2_spawn_any"
+	}
+	ENTRY {
+		AlienClass "asw_mortarbug"
+		Quantity "2"
+		SpawnDelay "50.0"
+		SpawnDuration "0.0"
+		SpawnGroup "@room2_spawn_mortar"
+	}
+	ENTRY {
+		AlienClass "asw_parasite"
+		Quantity "10"
+		SpawnDelay "50.0"
+		SpawnDuration "0.0"
+		SpawnGroup "@room2_spawn_any"
+	}
+	ENTRY {
+		AlienClass "asw_drone"
+		Quantity "25"
+		SpawnDelay "50.0"
+		SpawnDuration "20.0"
+		SpawnGroup "@room2_spawn_drone"
 	}
 }
 
 WAVE {
 	Name "Area9800"
 	EnvironmentModifiers "0"
-	Resupply "0"
+	Resupply "1"
 	ENTRY {
 		AlienClass "asw_drone"
 		Quantity "5"
@@ -40,7 +124,7 @@ WAVE {
 WAVE {
 	Name "Tarnor"
 	EnvironmentModifiers "0"
-	Resupply "0"
+	Resupply "1"
 	ENTRY {
 		AlienClass "asw_drone"
 		Quantity "5"
@@ -53,7 +137,7 @@ WAVE {
 WAVE {
 	Name "Rydberg"
 	EnvironmentModifiers "0"
-	Resupply "0"
+	Resupply "1"
 	ENTRY {
 		AlienClass "asw_drone"
 		Quantity "5"
@@ -66,7 +150,7 @@ WAVE {
 WAVE {
 	Name "Deima"
 	EnvironmentModifiers "0"
-	Resupply "0"
+	Resupply "1"
 	ENTRY {
 		AlienClass "asw_drone"
 		Quantity "5"
@@ -79,7 +163,7 @@ WAVE {
 WAVE {
 	Name "Timor"
 	EnvironmentModifiers "0"
-	Resupply "0"
+	Resupply "1"
 	ENTRY {
 		AlienClass "asw_drone"
 		Quantity "5"

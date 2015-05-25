@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "150"
+	"mapversion" "158"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "150"
+	"mapversion" "158"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -14406,386 +14406,6 @@ world
 	}
 	solid
 	{
-		"id" "5616"
-		side
-		{
-			"id" "2803"
-			"plane" "(-3056 -8176 1008) (-3056 -6160 1008) (-3040 -6160 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2802"
-			"plane" "(-3056 -6160 -512) (-3056 -8176 -512) (-3040 -8176 -512)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2801"
-			"plane" "(-3056 -8176 -512) (-3056 -6160 -512) (-3056 -6160 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2800"
-			"plane" "(-3040 -6160 -512) (-3040 -8176 -512) (-3040 -8176 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2799"
-			"plane" "(-3056 -6160 -512) (-3040 -6160 -512) (-3040 -6160 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2798"
-			"plane" "(-3040 -8176 -512) (-3056 -8176 -512) (-3056 -8176 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 202 255"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "5617"
-		side
-		{
-			"id" "2809"
-			"plane" "(-1056 -8176 1008) (-1056 -6160 1008) (-1040 -6160 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2808"
-			"plane" "(-1056 -6160 -512) (-1056 -8176 -512) (-1040 -8176 -512)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2807"
-			"plane" "(-1056 -8176 -512) (-1056 -6160 -512) (-1056 -6160 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2806"
-			"plane" "(-1040 -6160 -512) (-1040 -8176 -512) (-1040 -8176 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2805"
-			"plane" "(-1056 -6160 -512) (-1040 -6160 -512) (-1040 -6160 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2804"
-			"plane" "(-1040 -8176 -512) (-1056 -8176 -512) (-1056 -8176 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 202 255"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "5618"
-		side
-		{
-			"id" "2815"
-			"plane" "(-3056 -6176 1008) (-3056 -6160 1008) (-1040 -6160 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2814"
-			"plane" "(-3056 -6160 -512) (-3056 -6176 -512) (-1040 -6176 -512)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2813"
-			"plane" "(-3056 -6176 -512) (-3056 -6160 -512) (-3056 -6160 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2812"
-			"plane" "(-1040 -6160 -512) (-1040 -6176 -512) (-1040 -6176 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2811"
-			"plane" "(-3056 -6160 -512) (-1040 -6160 -512) (-1040 -6160 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2810"
-			"plane" "(-1040 -6176 -512) (-3056 -6176 -512) (-3056 -6176 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 202 255"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "5619"
-		side
-		{
-			"id" "2821"
-			"plane" "(-3056 -8176 1008) (-3056 -8160 1008) (-1040 -8160 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2820"
-			"plane" "(-3056 -8160 -512) (-3056 -8176 -512) (-1040 -8176 -512)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2819"
-			"plane" "(-3056 -8176 -512) (-3056 -8160 -512) (-3056 -8160 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2818"
-			"plane" "(-1040 -8160 -512) (-1040 -8176 -512) (-1040 -8176 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2817"
-			"plane" "(-3056 -8160 -512) (-1040 -8160 -512) (-1040 -8160 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2816"
-			"plane" "(-1040 -8176 -512) (-3056 -8176 -512) (-3056 -8176 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 202 255"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "5620"
-		side
-		{
-			"id" "2827"
-			"plane" "(-3056 -8176 1008) (-3056 -6160 1008) (-1040 -6160 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2826"
-			"plane" "(-3056 -6160 992) (-3056 -8176 992) (-1040 -8176 992)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2825"
-			"plane" "(-3056 -8176 992) (-3056 -6160 992) (-3056 -6160 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2824"
-			"plane" "(-1040 -6160 992) (-1040 -8176 992) (-1040 -8176 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2823"
-			"plane" "(-3056 -6160 992) (-1040 -6160 992) (-1040 -6160 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2822"
-			"plane" "(-1040 -8176 992) (-3056 -8176 992) (-3056 -8176 1008)"
-			"material" "TOOLS/TOOLSBLOCKLIGHT"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 202 255"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
 		"id" "5776"
 		side
 		{
@@ -16093,7 +15713,7 @@ world
 					"row5" "0.000652687 -0.063051 -0.99801 0.00335417 -0.148297 -0.988937 0.00964581 -0.337357 -0.941327 0.0300242 -0.914496 -0.40348 0.0354077 -0.900001 -0.434446 0.0430368 -0.897157 -0.43961 0.0459874 -0.816578 -0.5754 0.0137643 -0.219077 -0.97561 0.0142911 -0.213891 -0.976753"
 					"row6" "0 0 -1 0.00191112 -0.0948347 -0.995491 0.00679398 -0.262204 -0.964989 0.0254107 -0.840122 -0.541802 0.0280092 -0.761379 -0.647702 0.0412741 -0.910293 -0.411903 0.0325472 -0.604161 -0.796198 0.00889826 -0.146218 -0.989212 0.00519498 -0.0795555 -0.996817"
 					"row7" "0 0 -1 -3.92217e-011 3.92217e-011 -1 0.00233679 -0.0934638 -0.99562 0.0114233 -0.394455 -0.918844 0.0197238 -0.558819 -0.829055 0.0248759 -0.570294 -0.821064 0.0121865 -0.233748 -0.972221 0.00327012 -0.055062 -0.998478 0.00177148 -0.0276173 -0.999617"
-					"row8" "0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1"
+					"row8" "0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.00144093 -0.039636 -0.999213 0.00197632 -0.0467793 -0.998903 0.00125789 -0.0262115 -0.999656 0.000386817 -0.0070125 -0.999975 0.000188762 -0.00306309 -0.99999"
 				}
 				distances
 				{
@@ -16105,7 +15725,7 @@ world
 					"row5" "96.8802 155.328 79.3232 31.1353 31.9314 30.8488 29.5703 81.0061 59.0916"
 					"row6" "49.8931 122.51 58.7176 22.4245 28.1715 22.4537 26.4264 72.8723 92.0642"
 					"row7" "31.652 71.2352 62.8951 24.9627 24.4464 21.4836 34.7785 92.1281 125.689"
-					"row8" "13.8367 53.2963 47.1552 27.1827 42.8534 25.6627 30.9071 80.5232 65.1553"
+					"row8" "13.8367 53.2963 47.1552 27.1827 35.0724 25.4478 34.0623 73.5293 75.2591"
 				}
 				offsets
 				{
@@ -21205,7 +20825,7 @@ world
 				"subdiv" "0"
 				normals
 				{
-					"row0" "0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.0036918 -0.101551 -0.994823 0.00397738 -0.0941441 -0.995551 0.0023013 -0.0479536 -0.998847 0.000854897 -0.0154982 -0.999879 0.000377524 -0.00612618 -0.999981"
+					"row0" "0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.00144093 -0.039636 -0.999213 0.00197632 -0.0467793 -0.998903 0.00125789 -0.0262115 -0.999656 0.000386817 -0.0070125 -0.999975 0.000188762 -0.00306309 -0.99999"
 					"row1" "0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1"
 					"row2" "0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1"
 					"row3" "0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1"
@@ -21217,7 +20837,7 @@ world
 				}
 				distances
 				{
-					"row0" "13.8367 53.2963 47.1552 27.1827 27.378 25.2895 37.237 66.5399 85.363"
+					"row0" "13.8367 53.2963 47.1552 27.1827 35.0724 25.4478 34.0623 73.5293 75.2591"
 					"row1" "70.8719 59.7946 81.2108 7.52488 14.7337 13.2665 24.7875 60.664 93.4115"
 					"row2" "98.5085 107.483 15.7194 2.51901 1.05235 2.27953 18.5254 59.8915 97.1002"
 					"row3" "41.2891 38.1276 6.1207 2.48714 0.987815 4.19796 22.4791 58.9776 87.1829"
@@ -21265,7 +20885,7 @@ world
 				}
 				triangle_tags
 				{
-					"row0" "9 1 9 9 0 9 9 9 9 9 9 9 1 9 9 9"
+					"row0" "9 1 9 9 0 9 9 9 9 9 9 9 1 1 9 9"
 					"row1" "9 9 0 1 0 9 9 9 9 9 9 9 1 1 1 9"
 					"row2" "9 9 0 9 9 9 9 9 9 9 9 9 9 1 1 9"
 					"row3" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
@@ -35245,7 +34865,7 @@ entity
 		side
 		{
 			"id" "4245"
-			"plane" "(3072 7744 64) (3558 7744 64) (3558 7696 64)"
+			"plane" "(3072 7696 64) (3072 7744 64) (3302 7744 64)"
 			"material" "CONCRETE/CONCRETEFLOOR027A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -35256,7 +34876,7 @@ entity
 		side
 		{
 			"id" "4244"
-			"plane" "(3072 7696 0) (3558 7696 0) (3558 7744 0)"
+			"plane" "(3072 7744 0) (3072 7696 0) (3302 7696 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -35278,7 +34898,7 @@ entity
 		side
 		{
 			"id" "4242"
-			"plane" "(3558 7744 0) (3558 7744 64) (3072 7744 64)"
+			"plane" "(3302 7744 0) (3302 7744 64) (3072 7744 64)"
 			"material" "CTAS_HOLDOUT_HOLODECK/BROOK/STONEWALL004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35289,7 +34909,7 @@ entity
 		side
 		{
 			"id" "4241"
-			"plane" "(3072 7696 0) (3072 7696 64) (3558 7696 64)"
+			"plane" "(3072 7696 0) (3072 7696 64) (3302 7696 64)"
 			"material" "CTAS_HOLDOUT_HOLODECK/BROOK/STONEWALL004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35300,7 +34920,7 @@ entity
 		side
 		{
 			"id" "4240"
-			"plane" "(3558 7696 0) (3558 7696 64) (3558 7744 64)"
+			"plane" "(3302 7696 0) (3302 7696 64) (3302 7744 64)"
 			"material" "CTAS_HOLDOUT_HOLODECK/BROOK/STONEWALL004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35321,7 +34941,7 @@ entity
 		side
 		{
 			"id" "4281"
-			"plane" "(3584 7696 0) (3584 7744 0) (3558 7744 0)"
+			"plane" "(3328 7696 0) (3328 7744 0) (3302 7744 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -35332,7 +34952,7 @@ entity
 		side
 		{
 			"id" "4280"
-			"plane" "(3584 7744 0) (3584 7696 0) (3584 7696 35)"
+			"plane" "(3328 7744 0) (3328 7696 0) (3328 7696 35)"
 			"material" "CTAS_HOLDOUT_HOLODECK/BROOK/STONEWALL004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35343,7 +34963,7 @@ entity
 		side
 		{
 			"id" "4279"
-			"plane" "(3558 7744 0) (3584 7744 0) (3584 7744 35)"
+			"plane" "(3302 7744 0) (3328 7744 0) (3328 7744 35)"
 			"material" "CTAS_HOLDOUT_HOLODECK/BROOK/STONEWALL004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35354,7 +34974,7 @@ entity
 		side
 		{
 			"id" "4278"
-			"plane" "(3584 7696 0) (3558 7696 0) (3558 7696 35)"
+			"plane" "(3328 7696 0) (3302 7696 0) (3302 7696 35)"
 			"material" "CTAS_HOLDOUT_HOLODECK/BROOK/STONEWALL004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35365,7 +34985,7 @@ entity
 		side
 		{
 			"id" "4277"
-			"plane" "(3558 7696 0) (3558 7744 0) (3558 7744 35)"
+			"plane" "(3302 7696 0) (3302 7744 0) (3302 7744 35)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35376,7 +34996,7 @@ entity
 		side
 		{
 			"id" "4276"
-			"plane" "(3584 7744 35) (3584 7696 35) (3558 7696 35)"
+			"plane" "(3328 7744 35) (3328 7696 35) (3302 7696 35)"
 			"material" "CONCRETE/CONCRETEFLOOR027A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -35397,7 +35017,7 @@ entity
 		side
 		{
 			"id" "4287"
-			"plane" "(3584 7696 35) (3584 7696 38) (3584 7712 38)"
+			"plane" "(3328 7712 35) (3328 7696 35) (3328 7696 38)"
 			"material" "CTAS_HOLDOUT_HOLODECK/BROOK/STONEWALL004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35408,7 +35028,7 @@ entity
 		side
 		{
 			"id" "4286"
-			"plane" "(3584 7712 35) (3584 7712 38) (3565 7712 38)"
+			"plane" "(3309 7712 35) (3328 7712 35) (3328 7712 38)"
 			"material" "CTAS_HOLDOUT_HOLODECK/BROOK/STONEWALL004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35419,7 +35039,7 @@ entity
 		side
 		{
 			"id" "4285"
-			"plane" "(3565 7696 35) (3565 7696 38) (3584 7696 38)"
+			"plane" "(3328 7696 35) (3309 7696 35) (3309 7696 38)"
 			"material" "CTAS_HOLDOUT_HOLODECK/BROOK/STONEWALL004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35430,7 +35050,7 @@ entity
 		side
 		{
 			"id" "4284"
-			"plane" "(3565 7712 35) (3565 7712 38) (3565 7696 38)"
+			"plane" "(3309 7696 35) (3309 7712 35) (3309 7712 38)"
 			"material" "CTAS_HOLDOUT_HOLODECK/BROOK/STONEWALL004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35441,7 +35061,7 @@ entity
 		side
 		{
 			"id" "4283"
-			"plane" "(3584 7696 38) (3565 7696 38) (3565 7712 38)"
+			"plane" "(3328 7712 38) (3328 7696 38) (3309 7696 38)"
 			"material" "CONCRETE/CONCRETEFLOOR027A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -35452,7 +35072,7 @@ entity
 		side
 		{
 			"id" "4282"
-			"plane" "(3584 7712 35) (3565 7712 35) (3565 7696 35)"
+			"plane" "(3328 7696 35) (3328 7712 35) (3309 7712 35)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -35473,7 +35093,7 @@ entity
 		side
 		{
 			"id" "4311"
-			"plane" "(3584 7744 35) (3584 7712 35) (3584 7712 53)"
+			"plane" "(3328 7744 35) (3328 7712 35) (3328 7712 53)"
 			"material" "CTAS_HOLDOUT_HOLODECK/BROOK/STONEWALL004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35484,7 +35104,7 @@ entity
 		side
 		{
 			"id" "4310"
-			"plane" "(3558 7744 35) (3584 7744 35) (3584 7744 53)"
+			"plane" "(3302 7744 35) (3328 7744 35) (3328 7744 53)"
 			"material" "CTAS_HOLDOUT_HOLODECK/BROOK/STONEWALL004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35495,7 +35115,7 @@ entity
 		side
 		{
 			"id" "4309"
-			"plane" "(3584 7712 35) (3558 7712 35) (3558 7712 53)"
+			"plane" "(3328 7712 35) (3302 7712 35) (3302 7712 53)"
 			"material" "CTAS_HOLDOUT_HOLODECK/BROOK/STONEWALL004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35506,7 +35126,7 @@ entity
 		side
 		{
 			"id" "4308"
-			"plane" "(3558 7712 35) (3558 7744 35) (3558 7744 53)"
+			"plane" "(3302 7712 35) (3302 7744 35) (3302 7744 53)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35517,7 +35137,7 @@ entity
 		side
 		{
 			"id" "4307"
-			"plane" "(3584 7744 53) (3584 7712 53) (3558 7712 53)"
+			"plane" "(3328 7744 53) (3328 7712 53) (3302 7712 53)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -35528,7 +35148,7 @@ entity
 		side
 		{
 			"id" "4306"
-			"plane" "(3584 7712 35) (3584 7744 35) (3558 7744 35)"
+			"plane" "(3328 7712 35) (3328 7744 35) (3302 7744 35)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -35549,7 +35169,7 @@ entity
 		side
 		{
 			"id" "4323"
-			"plane" "(3558 7744 64) (3584 7744 64) (3584 7704 64)"
+			"plane" "(3328 7744 64) (3328 7704 64) (3302 7704 64)"
 			"material" "CONCRETE/CONCRETEFLOOR027A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -35560,7 +35180,7 @@ entity
 		side
 		{
 			"id" "4322"
-			"plane" "(3584 7696 53) (3584 7696 60) (3584 7704 64)"
+			"plane" "(3328 7696 60) (3328 7704 64) (3328 7744 64)"
 			"material" "CTAS_HOLDOUT_HOLODECK/BROOK/STONEWALL004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35571,7 +35191,7 @@ entity
 		side
 		{
 			"id" "4321"
-			"plane" "(3584 7744 53) (3584 7744 64) (3558 7744 64)"
+			"plane" "(3328 7744 64) (3302 7744 64) (3302 7744 53)"
 			"material" "CTAS_HOLDOUT_HOLODECK/BROOK/STONEWALL004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35582,7 +35202,7 @@ entity
 		side
 		{
 			"id" "4320"
-			"plane" "(3558 7696 53) (3558 7696 60) (3584 7696 60)"
+			"plane" "(3302 7696 60) (3328 7696 60) (3328 7696 53)"
 			"material" "CTAS_HOLDOUT_HOLODECK/BROOK/STONEWALL004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35593,7 +35213,7 @@ entity
 		side
 		{
 			"id" "4319"
-			"plane" "(3558 7744 53) (3558 7744 64) (3558 7704 64)"
+			"plane" "(3302 7744 64) (3302 7704 64) (3302 7696 60)"
 			"material" "CONCRETE/CONCRETEFLOOR027A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35604,7 +35224,7 @@ entity
 		side
 		{
 			"id" "4318"
-			"plane" "(3558 7696 53) (3584 7696 53) (3584 7744 53)"
+			"plane" "(3328 7696 53) (3328 7744 53) (3302 7744 53)"
 			"material" "CONCRETE/CONCRETEFLOOR027A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -35615,7 +35235,7 @@ entity
 		side
 		{
 			"id" "4317"
-			"plane" "(3558 7704 64) (3584 7704 64) (3584 7696 60)"
+			"plane" "(3328 7704 64) (3328 7696 60) (3302 7696 60)"
 			"material" "CONCRETE/CONCRETEFLOOR027A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -35636,7 +35256,7 @@ entity
 		side
 		{
 			"id" "4328"
-			"plane" "(3576 7696 64) (3558 7696 64) (3558 7704 64)"
+			"plane" "(3302 7696 64) (3302 7704 64) (3320 7704 64)"
 			"material" "CONCRETE/CONCRETEFLOOR027A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -35647,7 +35267,7 @@ entity
 		side
 		{
 			"id" "4327"
-			"plane" "(3558 7696 60) (3558 7696 64) (3576 7696 64)"
+			"plane" "(3302 7696 60) (3302 7696 64) (3320 7696 64)"
 			"material" "CTAS_HOLDOUT_HOLODECK/BROOK/STONEWALL004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35658,7 +35278,7 @@ entity
 		side
 		{
 			"id" "4326"
-			"plane" "(3558 7704 64) (3558 7696 64) (3558 7696 60)"
+			"plane" "(3302 7696 64) (3302 7696 60) (3302 7704 64)"
 			"material" "CONCRETE/CONCRETEFLOOR027A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35669,7 +35289,7 @@ entity
 		side
 		{
 			"id" "4325"
-			"plane" "(3576 7704 64) (3558 7704 64) (3558 7696 60)"
+			"plane" "(3302 7704 64) (3302 7696 60) (3320 7696 60)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -35680,7 +35300,7 @@ entity
 		side
 		{
 			"id" "4324"
-			"plane" "(3576 7696 60) (3576 7696 64) (3576 7704 64)"
+			"plane" "(3320 7696 64) (3320 7704 64) (3320 7696 60)"
 			"material" "CTAS_HOLDOUT_HOLODECK/BROOK/STONEWALL004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35713,7 +35333,7 @@ entity
 		side
 		{
 			"id" "3879"
-			"plane" "(3008 7760 32) (3600 7760 32) (3600 7680 32)"
+			"plane" "(3008 7680 32) (3008 7760 32) (3344 7760 32)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -35724,7 +35344,7 @@ entity
 		side
 		{
 			"id" "3878"
-			"plane" "(3008 7680 -32) (3600 7680 -32) (3600 7760 -32)"
+			"plane" "(3008 7760 -32) (3008 7680 -32) (3344 7680 -32)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -35735,7 +35355,7 @@ entity
 		side
 		{
 			"id" "3877"
-			"plane" "(3008 7760 32) (3008 7680 32) (3008 7680 -32)"
+			"plane" "(3008 7680 -32) (3008 7760 -32) (3008 7760 32)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35746,7 +35366,7 @@ entity
 		side
 		{
 			"id" "3876"
-			"plane" "(3600 7760 -32) (3600 7680 -32) (3600 7680 32)"
+			"plane" "(3344 7760 -32) (3344 7680 -32) (3344 7680 32)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35757,7 +35377,7 @@ entity
 		side
 		{
 			"id" "3875"
-			"plane" "(3600 7760 32) (3008 7760 32) (3008 7760 -32)"
+			"plane" "(3008 7760 -32) (3344 7760 -32) (3344 7760 32)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -35768,7 +35388,7 @@ entity
 		side
 		{
 			"id" "3874"
-			"plane" "(3600 7680 -32) (3008 7680 -32) (3008 7680 32)"
+			"plane" "(3344 7680 -32) (3008 7680 -32) (3008 7680 32)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -40076,14 +39696,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "0"
 	"targetname" "room2_spawner_mortar"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "3200 8704 0"
+	"origin" "3200 8704 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -40165,14 +39785,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "0"
 	"targetname" "room2_spawner_mortar"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "3264 8832 0"
+	"origin" "3264 8832 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -40197,14 +39817,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "0"
 	"targetname" "room2_spawner_mortar"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "3456 8832 0"
+	"origin" "3456 8832 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -40248,14 +39868,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "0"
 	"targetname" "room2_spawner_mortar"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "1792 7424 0"
+	"origin" "1792 7424 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -40294,14 +39914,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_below"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "4592 5920 -384"
+	"origin" "4592 5920 -368"
 	editor
 	{
 		"color" "0 0 255"
@@ -40325,14 +39945,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_below"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "4704 6048 -384"
+	"origin" "4704 6048 -368"
 	editor
 	{
 		"color" "0 0 255"
@@ -40356,13 +39976,13 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_below"
 	"teslablesp" "1"
-	"NearDistance" "740"
 	"origin" "4368 5936 -384"
 	editor
 	{
@@ -40387,14 +40007,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_below"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "4528 6272 -384"
+	"origin" "4528 6272 -368"
 	editor
 	{
 		"color" "0 0 255"
@@ -40418,14 +40038,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_below"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "4736 6688 -384"
+	"origin" "4736 6688 -368"
 	editor
 	{
 		"color" "0 0 255"
@@ -40449,14 +40069,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_below"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "4608 6560 -384"
+	"origin" "4608 6560 -368"
 	editor
 	{
 		"color" "0 0 255"
@@ -40480,14 +40100,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_below"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "4016 5808 -384"
+	"origin" "4016 5808 -368"
 	editor
 	{
 		"color" "0 0 255"
@@ -40511,14 +40131,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_below"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "4192 5984 -384"
+	"origin" "4192 5984 -368"
 	editor
 	{
 		"color" "0 0 255"
@@ -40542,14 +40162,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_below"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "3728 5968 -384"
+	"origin" "3728 5968 -368"
 	editor
 	{
 		"color" "0 0 255"
@@ -40573,14 +40193,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_below"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "3440 5808 -384"
+	"origin" "3440 5808 -368"
 	editor
 	{
 		"color" "0 0 255"
@@ -40604,14 +40224,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_below"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "3296 5952 -384"
+	"origin" "3296 5952 -368"
 	editor
 	{
 		"color" "0 0 255"
@@ -40635,14 +40255,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_below"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "3184 5760 -384"
+	"origin" "3184 5760 -368"
 	editor
 	{
 		"color" "0 0 255"
@@ -40666,13 +40286,13 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_below"
 	"teslablesp" "1"
-	"NearDistance" "740"
 	"origin" "2576 5728 -368"
 	editor
 	{
@@ -40697,14 +40317,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_below"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "4656 6976 -384"
+	"origin" "4656 6976 -368"
 	editor
 	{
 		"color" "0 0 255"
@@ -40728,14 +40348,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_below"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "4768 7168 -384"
+	"origin" "4768 7168 -368"
 	editor
 	{
 		"color" "0 0 255"
@@ -40759,14 +40379,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "3328 8752 0"
+	"origin" "3328 8752 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -40790,14 +40410,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "2912 8832 0"
+	"origin" "2912 8832 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -40821,14 +40441,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "2752 8672 0"
+	"origin" "2752 8672 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -40852,14 +40472,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "2480 8832 0"
+	"origin" "2480 8832 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -40883,14 +40503,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "2336 8640 0"
+	"origin" "2336 8640 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -40914,14 +40534,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "2128 8800 0"
+	"origin" "2128 8800 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -40945,14 +40565,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "1968 8656 0"
+	"origin" "1968 8656 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -40976,14 +40596,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "1792 8832 0"
+	"origin" "1792 8832 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -41007,14 +40627,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "1664 8656 0"
+	"origin" "1664 8656 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -41038,14 +40658,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "1472 8832 0"
+	"origin" "1472 8832 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -41069,14 +40689,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "1328 8624 0"
+	"origin" "1328 8624 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -41100,14 +40720,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "1136 8832 0"
+	"origin" "1136 8832 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -41131,14 +40751,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "1152 7728 0"
+	"origin" "1152 7728 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -41162,13 +40782,13 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
 	"origin" "1216 7600 0"
 	editor
 	{
@@ -41193,14 +40813,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "1120 7184 0"
+	"origin" "1120 7184 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -41224,14 +40844,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "1376 7360 0"
+	"origin" "1376 7360 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -41255,14 +40875,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "1488 7664 0"
+	"origin" "1488 7664 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -41286,14 +40906,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "1424 6848 0"
+	"origin" "1424 6848 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -41317,14 +40937,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "1472 6576 0"
+	"origin" "1472 6576 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -41348,14 +40968,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "1152 6208 0"
+	"origin" "1152 6208 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -41379,14 +40999,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "1200 6688 0"
+	"origin" "1200 6688 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -41410,14 +41030,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "1488 6064 0"
+	"origin" "1488 6064 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -41441,14 +41061,14 @@ entity
 	"LongRange" "1"
 	"MaxSkillLevel" "0"
 	"MinSkillLevel" "0"
+	"NearDistance" "740"
 	"sizescalesp" "1"
 	"SpawnIfMarinesAreNear" "1"
 	"speedscalesp" "1"
 	"StartBurrowed" "1"
 	"targetname" "room2_spawner_outer"
 	"teslablesp" "1"
-	"NearDistance" "740"
-	"origin" "1216 5808 0"
+	"origin" "1216 5808 16"
 	editor
 	{
 		"color" "0 0 255"
@@ -41471,6 +41091,138 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 6500]"
+	}
+}
+entity
+{
+	"id" "20812"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "196"
+	"origin" "2368 6960 32"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "20814"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "197"
+	"origin" "2368 7440 32"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "20816"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "198"
+	"origin" "2352 7824 32"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "20827"
+	"classname" "light_spot"
+	"_cone" "80"
+	"_constant_attn" "8000"
+	"_distance" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_inner_cone" "70"
+	"_light" "67 83 146 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"angles" "-32 128 0"
+	"pitch" "-32"
+	"style" "0"
+	"origin" "-6400 -976 896"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "20885"
+	"classname" "light_spot"
+	"_cone" "45"
+	"_constant_attn" "8000"
+	"_distance" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_inner_cone" "30"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"angles" "-30 0 0"
+	"pitch" "-30"
+	"style" "0"
+	"origin" "2304 0 384"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "20930"
+	"classname" "light_spot"
+	"_cone" "80"
+	"_constant_attn" "8000"
+	"_distance" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_inner_cone" "70"
+	"_light" "67 83 146 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"angles" "-32 128 0"
+	"pitch" "-32"
+	"style" "0"
+	"origin" "-6272 -8144 896"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
