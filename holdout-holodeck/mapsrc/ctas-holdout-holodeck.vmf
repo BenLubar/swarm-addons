@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "5032"
-	"mapversion" "145"
+	"mapversion" "146"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "145"
+	"mapversion" "146"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -39595,8 +39595,8 @@ entity
 {
 	"id" "18762"
 	"classname" "env_detail_controller"
-	"fademaxdist" "2800"
-	"fademindist" "2000"
+	"fademaxdist" "2400"
+	"fademindist" "2800"
 	"origin" "-7056 7136 32"
 	editor
 	{
