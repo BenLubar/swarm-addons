@@ -1857,201 +1857,86 @@
 	// TODO
 }
 
-// map rd-lan1_bridge
-// Searching for entities with class/target name containing substring: 'env_global'
-// Found 0 matches.
-// Searching for entities with class/target name containing substring: 'asw_objective'
-//    'asw_objective_escape' : 'obj_goto' (entindex 413) 
-//    'asw_objective_triggered' : 'obj_bridge_access' (entindex 456) 
-//    'asw_objective_triggered' : 'obj_bridge' (entindex 550) 
-// Found 3 matches.
-// Searching for entities with class/target name containing substring: 'asw_spawner'
-//    'asw_spawner' : 'Buzzers_spawn' (entindex 155) 
-//    'asw_spawner' : 'Buzzers_spawn' (entindex 156) 
-//    'asw_spawner' : 'Buzzers_spawn' (entindex 157) 
-//    'asw_spawner' : 'Buzzers_spawn' (entindex 158) 
-//    'asw_spawner' : 'Spawn_fortress_1' (entindex 227) 
-//    'asw_spawner' : 'Spawn_fortress_1' (entindex 229) 
-//    'asw_spawner' : 'Spawn_fortress_1' (entindex 230) 
-//    'asw_spawner' : 'Spawn_fortress_1' (entindex 231) 
-//    'asw_spawner' : 'Spawn_fortress_1' (entindex 232) 
-//    'asw_spawner' : 'Spawn_fortress_1' (entindex 240) 
-//    'asw_spawner' : 'Spawn_fortress_1' (entindex 241) 
-//    'asw_spawner' : 'Spawn_fortress_1' (entindex 364) 
-//    'asw_spawner' : 'Spawn_fortress_1' (entindex 365) 
-//    'asw_spawner' : 'Door_battle_spawner_1' (entindex 428) 
-//    'asw_spawner' : 'Door_battle_spawner_mortar_1' (entindex 429) 
-//    'asw_spawner' : 'Door_battle_spawner_1' (entindex 432) 
-//    'asw_spawner' : 'Door_battle_spawner_1' (entindex 433) 
-//    'asw_spawner' : 'Door_battle_spawner_1' (entindex 435) 
-//    'asw_spawner' : 'Door_battle_spawner_mortar_2' (entindex 454) 
-//    'asw_spawner' : '' (entindex 461) 
-//    'asw_spawner' : '' (entindex 475) 
-//    'asw_spawner' : 'Spawn_parasite_begining_2' (entindex 476) 
-//    'asw_spawner' : 'Spawn_parasite_begining_1' (entindex 477) 
-//    'asw_spawner' : 'Door_battle_spawner_1' (entindex 480) 
-//    'asw_spawner' : 'Door_battle_spawner_1' (entindex 481) 
-//    'asw_spawner' : 'Final_room_spwaner' (entindex 482) 
-//    'asw_spawner' : 'Final_room_spwaner_2' (entindex 487) 
-//    'asw_spawner' : 'Final_room_spwaner_3' (entindex 489) 
-//    'asw_spawner' : 'Door_battle_spawner_1' (entindex 499) 
-//    'asw_spawner' : '' (entindex 500) 
-//    'asw_spawner' : '' (entindex 501) 
-//    'asw_spawner' : 'wall_spawn' (entindex 502) 
-//    'asw_spawner' : 'Spawn_parasite_begining_3' (entindex 522) 
-//    'asw_spawner' : 'Final_room_spwaner_2' (entindex 525) 
-//    'asw_spawner' : 'Final_room_spwaner' (entindex 526) 
-//    'asw_spawner' : 'Door_battle_spawner_1' (entindex 527) 
-//    'asw_spawner' : 'Door_battle_spawner_1' (entindex 528) 
-//    'asw_spawner' : 'Door_battle_spawner_1' (entindex 529) 
-//    'asw_spawner' : 'Door_battle_spawner_1' (entindex 549) 
-//    'asw_spawner' : 'Door_battle_spawner_1' (entindex 551) 
-//    'asw_spawner' : 'Door_battle_spawner_1' (entindex 552) 
-//    'asw_spawner' : 'Door_battle_spawner_1' (entindex 553) 
-//    'asw_spawner' : 'Door_battle_spawner_1' (entindex 554) 
-//    'asw_spawner' : 'Door_battle_spawner_1' (entindex 555) 
-//    'asw_spawner' : 'Test_easy' (entindex 557) 
-//    'asw_spawner' : 'Test_normal' (entindex 558) 
-//    'asw_spawner' : 'Test_insane' (entindex 559) 
-//    'asw_spawner' : 'Test_brutal' (entindex 560) 
-//    'asw_spawner' : 'Spawn_parasite_begining_2' (entindex 561) 
-//    'asw_spawner' : 'Spawn_parasite_begining_1' (entindex 562) 
-//    'asw_spawner' : '' (entindex 563) 
-//    'asw_spawner' : 'special_parasite' (entindex 564) 
-//    'asw_spawner' : 'para_jump_spawner' (entindex 565) 
-//    'asw_spawner' : 'para_jump_spawner' (entindex 567) 
-//    'asw_spawner' : 'para_jump_spawner' (entindex 568) 
-//    'asw_spawner' : 'Door_battle_spawner_1' (entindex 569) 
-//    'asw_spawner' : 'Runner_spawner_01' (entindex 573) 
-//    'asw_spawner' : 'Runner_spawner_01' (entindex 574) 
-//    'asw_spawner' : 'Runner_spawner_01' (entindex 575) 
-//    'asw_spawner' : 'Runner_spawner_01' (entindex 576) 
-//    'asw_spawner' : 'comite_de_reception' (entindex 594) 
-//    'asw_spawner' : 'scebe_spawn' (entindex 605) 
-//    'asw_spawner' : 'scebe_spawn2' (entindex 619) 
-//    'asw_spawner' : 'endbridge_spawner' (entindex 651) 
-//    'asw_spawner' : 'bridgend_spawn' (entindex 660) 
-//    'asw_spawner' : 'bridgend_spawn2' (entindex 666) 
-//    'asw_spawner' : 'bridgend_spawn3' (entindex 668) 
-//    'asw_spawner' : 'bridgend_spawn' (entindex 674) 
-//    'asw_spawner' : 'endbridge_spawner' (entindex 675) 
-//    'asw_spawner' : 'endbridge_spawner' (entindex 676) 
-// Found 70 matches.
-
 "SpawnSetOverlay" {
 	"Name" "Special Onslaught - Lana's Escape: Lana's Bridge"
 	"Map" "rd-lan1_bridge"
 	"MinSkill" "1"
 	"MaxSkill" "5"
 
-	// TODO
-}
+	"WANDERER" {
+		"SelectionWeight" "5"
+		"BeforeObjective" "obj_bridge"
 
-// map rd-lan2_sewer
-// Searching for entities with class/target name containing substring: 'env_global'
-// Found 0 matches.
-// Searching for entities with class/target name containing substring: 'asw_objective'
-//    'asw_objective_escape' : 'obj_escape_sewer' (entindex 172) 
-//    'asw_objective_triggered' : 'obj_investigate' (entindex 368) 
-// Found 2 matches.
-// Searching for entities with class/target name containing substring: 'asw_spawner'
-//    'asw_spawner' : 'Shamans_boss' (entindex 40) 
-//    'asw_spawner' : 'Shamans_boss' (entindex 44) 
-//    'asw_spawner' : 'Shamans_boss' (entindex 45) 
-//    'asw_spawner' : 'Shamans_boss' (entindex 46) 
-//    'asw_spawner' : 'Shamans_boss' (entindex 47) 
-//    'asw_spawner' : 'Shamans_boss' (entindex 48) 
-//    'asw_spawner' : 'Shamans_boss' (entindex 49) 
-//    'asw_spawner' : 'Shamans_boss' (entindex 50) 
-//    'asw_spawner' : 'Shamans_boss_1' (entindex 51) 
-//    'asw_spawner' : 'Shamans_boss_1' (entindex 52) 
-//    'asw_spawner' : 'Shamans_boss_1' (entindex 53) 
-//    'asw_spawner' : 'Shamans_boss_1' (entindex 54) 
-//    'asw_spawner' : 'Shamans_boss_2' (entindex 55) 
-//    'asw_spawner' : 'Shamans_boss_2' (entindex 56) 
-//    'asw_spawner' : 'Shamans_boss_2' (entindex 57) 
-//    'asw_spawner' : 'Shamans_boss_2' (entindex 58) 
-//    'asw_spawner' : 'Button_spawn_1' (entindex 81) 
-//    'asw_spawner' : 'Button_spawn_2' (entindex 85) 
-//    'asw_spawner' : 'Room2_spawner2' (entindex 109) 
-//    'asw_spawner' : 'Room2_spawner1' (entindex 110) 
-//    'asw_spawner' : 'Room2_spawner2' (entindex 111) 
-//    'asw_spawner' : 'Room2_spawner1' (entindex 112) 
-//    'asw_spawner' : 'Room2_spawner1_ranger_south' (entindex 114) 
-//    'asw_spawner' : 'Room2_spawner3' (entindex 116) 
-//    'asw_spawner' : 'Room2_spawner2' (entindex 117) 
-//    'asw_spawner' : 'Room3_spawner1' (entindex 118) 
-//    'asw_spawner' : 'Room2_spawner2' (entindex 144) 
-//    'asw_spawner' : 'Room2_spawner1' (entindex 145) 
-//    'asw_spawner' : 'Room2_spawner1' (entindex 146) 
-//    'asw_spawner' : 'Room2_spawner1' (entindex 147) 
-//    'asw_spawner' : 'Random_spawner_parasite' (entindex 148) 
-//    'asw_spawner' : 'Random_spawner_harvester' (entindex 149) 
-//    'asw_spawner' : 'Random_spawner_boomer' (entindex 150) 
-//    'asw_spawner' : 'Random_spawner_ranger' (entindex 151) 
-//    'asw_spawner' : 'Random_spawner_ranger' (entindex 152) 
-//    'asw_spawner' : 'Random_spawner_mortar' (entindex 153) 
-//    'asw_spawner' : 'Random_spawner_parasite' (entindex 154) 
-//    'asw_spawner' : 'Fence_door_spawner' (entindex 160) 
-//    'asw_spawner' : 'Fence_door_spawner' (entindex 161) 
-//    'asw_spawner' : 'Fence_door_spawner' (entindex 162) 
-//    'asw_spawner' : 'Fence_door_spawner_rdm' (entindex 163) 
-//    'asw_spawner' : 'Fence_door_spawner_rdm' (entindex 164) 
-//    'asw_spawner' : 'Fence_door_spawner_rdm' (entindex 165) 
-//    'asw_spawner' : 'Shamans_boss_2' (entindex 167) 
-//    'asw_spawner' : 'Shamans_boss_1' (entindex 168) 
-//    'asw_spawner' : 'Room2_spawner1_ranger2' (entindex 169) 
-//    'asw_spawner' : '' (entindex 170) 
-//    'asw_spawner' : 'End_spawner_1' (entindex 181) 
-//    'asw_spawner' : 'End_spawner_1' (entindex 182) 
-//    'asw_spawner' : 'End_spawner_1' (entindex 183) 
-//    'asw_spawner' : 'End_spawner_1' (entindex 184) 
-//    'asw_spawner' : 'End_spawner_1' (entindex 185) 
-//    'asw_spawner' : 'End_spawner_1' (entindex 186) 
-//    'asw_spawner' : 'End_spawner_1' (entindex 188) 
-//    'asw_spawner' : 'End_spawner_1' (entindex 189) 
-//    'asw_spawner' : 'End_spawner_1' (entindex 190) 
-//    'asw_spawner' : 'End_spawner_1' (entindex 191) 
-//    'asw_spawner' : 'End_spawner_1' (entindex 192) 
-//    'asw_spawner' : 'End_spawner_1' (entindex 193) 
-//    'asw_spawner' : 'Random_spawner_ranger' (entindex 202) 
-//    'asw_spawner' : 'Random_spawner_harvester' (entindex 203) 
-//    'asw_spawner' : 'Random_spawner_boomer' (entindex 204) 
-//    'asw_spawner' : 'Shamans_boss' (entindex 232) 
-//    'asw_spawner' : 'End_spawner_2' (entindex 233) 
-//    'asw_spawner' : 'End_spawner_2' (entindex 234) 
-//    'asw_spawner' : 'End_spawner_3' (entindex 257) 
-//    'asw_spawner' : 'End_spawner_3' (entindex 258) 
-//    'asw_spawner' : 'End_spawner_2' (entindex 259) 
-//    'asw_spawner' : 'End_spawner_2' (entindex 260) 
-//    'asw_spawner' : 'End_spawner_2' (entindex 261) 
-//    'asw_spawner' : 'End_spawner_2' (entindex 262) 
-//    'asw_spawner' : 'End_spawner_2' (entindex 263) 
-//    'asw_spawner' : 'End_spawner_2' (entindex 264) 
-//    'asw_spawner' : 'End_spawner_2' (entindex 275) 
-//    'asw_spawner' : 'End_spawner_2' (entindex 276) 
-//    'asw_spawner' : 'End_spawner_2' (entindex 312) 
-//    'asw_spawner' : 'End_spawner_2' (entindex 313) 
-//    'asw_spawner' : 'End_spawner_2' (entindex 314) 
-//    'asw_spawner' : 'End_spawner_2' (entindex 315) 
-//    'asw_spawner' : '' (entindex 317) 
-//    'asw_spawner' : 'End_spawner_2' (entindex 319) 
-//    'asw_spawner' : 'End_spawner_2' (entindex 320) 
-//    'asw_spawner' : 'para_surprise' (entindex 321) 
-//    'asw_spawner' : 'para_surprise_2' (entindex 322) 
-//    'asw_spawner' : 'End_spawner_1' (entindex 343) 
-//    'asw_spawner' : 'Boss_boomer_spawn_1' (entindex 344) 
-//    'asw_spawner' : 'Boss_boomer_spawn_2' (entindex 345) 
-//    'asw_spawner' : 'Boss_ranger_spawn_1' (entindex 346) 
-//    'asw_spawner' : 'Boss_ranger_spawn_2' (entindex 347) 
-//    'asw_spawner' : 'Room2_spawner1_para' (entindex 348) 
-//    'asw_spawner' : 'Room2_spawner1_drone' (entindex 349) 
-//    'asw_spawner' : 'Room3_spawner1' (entindex 350) 
-//    'asw_spawner' : 'Room3_spawner1' (entindex 351) 
-//    'asw_spawner' : 'End_spawner_2' (entindex 352) 
-//    'asw_spawner' : 'End_spawner_2' (entindex 353) 
-//    'asw_spawner' : '' (entindex 375) 
-// Found 96 matches.
+		"NPC" {
+			"AlienClass"	"asw_buzzer"
+		}
+	}
+
+	"HORDE_WANDERER" {
+		"SelectionWeight" "0.4"
+		"BeforeObjective" "obj_bridge"
+
+		"NPC" {
+			"AlienClass"	"asw_buzzer"
+		}
+	}
+
+	"HORDE" {
+		"SelectionWeight" "0.2"
+		"BeforeObjective" "obj_bridge"
+
+		"NPC" {
+			"AlienClass"	"asw_buzzer"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "0.1"
+		"AfterObjective" "obj_bridge"
+
+		"NPC" {
+			"AlienClass"	"asw_buzzer"
+		}
+	}
+
+	"WANDERER" {
+		"SelectionWeight" "5"
+		"AfterObjective" "obj_bridge"
+		"SpawnerWaiting" "comite_de_reception"
+
+		"NPC" {
+			"AlienClass"	"asw_parasite"
+		}
+	}
+
+	"HORDE_WANDERER" {
+		"SelectionWeight" "0.1"
+		"AfterObjective" "obj_bridge"
+		"SpawnerWaiting" "comite_de_reception"
+
+		"NPC" {
+			"AlienClass"	"asw_parasite"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "10"
+		"SpawnerSpawning" "comite_de_reception"
+
+		"NPC" {
+			"AlienClass"	"asw_boomer"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "10"
+		"SpawnerSpawning" "comite_de_reception"
+
+		"NPC" {
+			"AlienClass"	"asw_ranger"
+		}
+	}
+}
 
 "SpawnSetOverlay" {
 	"Name" "Special Onslaught - Lana's Escape: Lana's Sewer"
@@ -2059,125 +1944,88 @@
 	"MinSkill" "1"
 	"MaxSkill" "5"
 
-	// TODO
-}
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "4"
+		"RequireGlobal" "OFF:special_onslaught_lan_sewer_boss"
 
-// map rd-lan3_maintenance
-// Searching for entities with class/target name containing substring: 'env_global'
-// Found 0 matches.
-// Searching for entities with class/target name containing substring: 'asw_objective'
-//    'asw_objective_triggered' : 'RoomG_objective_generator' (entindex 112) 
-//    'asw_objective_escape' : '@objective_escape' (entindex 113) 
-//    'asw_objective_triggered' : '@objective_repair' (entindex 130) 
-// Found 3 matches.
-// Searching for entities with class/target name containing substring: 'asw_spawner'
-//    'asw_spawner' : 'Ext_snow_ranger_spawner' (entindex 42) 
-//    'asw_spawner' : 'Ext_snow_ranger_spawner' (entindex 43) 
-//    'asw_spawner' : 'Room1_drone_wall_spawn_03' (entindex 59) 
-//    'asw_spawner' : 'Room1_drone_wall_spawn_02' (entindex 60) 
-//    'asw_spawner' : 'Room1_drone_wall_spawn_02' (entindex 61) 
-//    'asw_spawner' : 'Room1_drone_wall_spawn_03' (entindex 62) 
-//    'asw_spawner' : 'Room1_mortar_random_spawn_01' (entindex 63) 
-//    'asw_spawner' : 'Extsnow_drone_spawn' (entindex 83) 
-//    'asw_spawner' : 'Extsnow_drone_spawn' (entindex 84) 
-//    'asw_spawner' : 'Room21_exit_window_spawners' (entindex 115) 
-//    'asw_spawner' : 'Room21_exit_window_spawners' (entindex 116) 
-//    'asw_spawner' : 'Room21_drone_burrowed' (entindex 121) 
-//    'asw_spawner' : 'Room21_drone_burrowed' (entindex 122) 
-//    'asw_spawner' : 'Room21_drone_burrowed' (entindex 123) 
-//    'asw_spawner' : 'Room21_drone_burrowed' (entindex 124) 
-//    'asw_spawner' : 'Room21_drone_burrowed' (entindex 125) 
-//    'asw_spawner' : 'Room21_exit_boomers' (entindex 128) 
-//    'asw_spawner' : 'Room21_exit_boomers' (entindex 129) 
-//    'asw_spawner' : 'Room28_drone_wall_spawn_05' (entindex 142) 
-//    'asw_spawner' : 'Room28_drone_wall_spawn_06' (entindex 143) 
-//    'asw_spawner' : 'Room28_drone_wall_spawn_05' (entindex 146) 
-//    'asw_spawner' : 'Room28_drone_wall_spawn_06' (entindex 147) 
-//    'asw_spawner' : 'Room28_server_random_spawn_02' (entindex 148) 
-//    'asw_spawner' : 'Room29_drone_wall_spawn_05' (entindex 149) 
-//    'asw_spawner' : 'Room29_drone_wall_spawn_06' (entindex 150) 
-//    'asw_spawner' : 'Room29_drone_wall_spawn_05' (entindex 153) 
-//    'asw_spawner' : 'Room29_drone_wall_spawn_06' (entindex 154) 
-//    'asw_spawner' : 'Room29_server_random_spawn_02' (entindex 155) 
-//    'asw_spawner' : 'Room44_drone_wall_spawn_03' (entindex 165) 
-//    'asw_spawner' : 'Room44_drone_wall_spawn_02' (entindex 166) 
-//    'asw_spawner' : 'Room44_drone_wall_spawn_02' (entindex 167) 
-//    'asw_spawner' : 'Room44_drone_wall_spawn_03' (entindex 168) 
-//    'asw_spawner' : 'Room44_mortar_random_spawn_01' (entindex 169) 
-//    'asw_spawner' : 'Room1_drone_wall_spawn_4' (entindex 176) 
-//    'asw_spawner' : 'Room1_drone_wall_spawn_5' (entindex 177) 
-//    'asw_spawner' : 'Corridor_drone_spawn_1' (entindex 189) 
-//    'asw_spawner' : 'Room1_drone_wall_spawn_3' (entindex 190) 
-//    'asw_spawner' : 'Corridor_drone_spawn_2' (entindex 191) 
-//    'asw_spawner' : 'Corridor_drone_spawn_2' (entindex 192) 
-//    'asw_spawner' : 'Corridor_drone_wall_spawn' (entindex 193) 
-//    'asw_spawner' : 'Corridor_drone_wall_spawn' (entindex 194) 
-//    'asw_spawner' : 'Ext_drone_wall_spawn' (entindex 202) 
-//    'asw_spawner' : 'Ext_drone_wall_spawn' (entindex 203) 
-//    'asw_spawner' : 'Corridor_drone_wall_spawn' (entindex 215) 
-//    'asw_spawner' : 'Corridor_harvester_spawn_2' (entindex 218) 
-//    'asw_spawner' : 'Corridor_harvester_spawn_2' (entindex 219) 
-//    'asw_spawner' : 'Corridor_harvester_spawn_2' (entindex 220) 
-//    'asw_spawner' : 'Corridor_shaman_spawn_2' (entindex 221) 
-//    'asw_spawner' : 'Generator_drone_spawn' (entindex 222) 
-//    'asw_spawner' : 'Corridor_boomer_spawn_3' (entindex 223) 
-//    'asw_spawner' : '' (entindex 233) 
-//    'asw_spawner' : 'Room21_drone_burrowed' (entindex 253) 
-//    'asw_spawner' : 'Room21_exit_boomers' (entindex 254) 
-//    'asw_spawner' : 'Room21_exit_boomers' (entindex 255) 
-//    'asw_spawner' : 'Extsnow_drone_spawn' (entindex 269) 
-//    'asw_spawner' : 'Ext_snow_boomer_spawner' (entindex 274) 
-//    'asw_spawner' : 'Ext_snow_ranger_spawner' (entindex 275) 
-//    'asw_spawner' : 'Ext_snow_boomer_spawner' (entindex 281) 
-//    'asw_spawner' : 'Generator_tank_spawn' (entindex 285) 
-//    'asw_spawner' : 'Ext_drone_spawner_mstart' (entindex 287) 
-//    'asw_spawner' : 'Generator_tank_spawn' (entindex 294) 
-//    'asw_spawner' : 'Ext_snow_boomer_spawner' (entindex 295) 
-//    'asw_spawner' : 'Ext_snow_boomer_spawner' (entindex 298) 
-//    'asw_spawner' : 'Generator_tank_spawn' (entindex 313) 
-//    'asw_spawner' : 'Generator_tank_spawn' (entindex 314) 
-//    'asw_spawner' : 'Room21_drone_burrowed' (entindex 320) 
-//    'asw_spawner' : 'Room21_exit_window_spawners' (entindex 321) 
-//    'asw_spawner' : 'Room21_drone_burrowed' (entindex 322) 
-//    'asw_spawner' : 'Corridor_drone_spawn_3' (entindex 325) 
-//    'asw_spawner' : 'Parasite_spawner' (entindex 326) 
-//    'asw_spawner' : 'Parasite_spawner' (entindex 327) 
-//    'asw_spawner' : 'Corridor_drone_spawn_3' (entindex 340) 
-//    'asw_spawner' : 'Horde_spawner_1' (entindex 379) 
-//    'asw_spawner' : 'Horde_spawner_1' (entindex 380) 
-//    'asw_spawner' : 'Horde_spawner_1' (entindex 381) 
-//    'asw_spawner' : 'Horde_spawner_1' (entindex 382) 
-//    'asw_spawner' : 'Horde_spawner_1' (entindex 383) 
-//    'asw_spawner' : 'Horde_spawner_1' (entindex 384) 
-//    'asw_spawner' : 'Horde_spawner_2' (entindex 395) 
-//    'asw_spawner' : 'Horde_spawner_2' (entindex 396) 
-//    'asw_spawner' : 'Horde_spawner_2' (entindex 397) 
-//    'asw_spawner' : 'Horde_spawner_2' (entindex 398) 
-//    'asw_spawner' : 'Horde_spawner_2' (entindex 399) 
-//    'asw_spawner' : 'Horde_spawner_2' (entindex 400) 
-//    'asw_spawner' : 'CR_random_ranger' (entindex 401) 
-//    'asw_spawner' : 'CR_random_ranger' (entindex 402) 
-//    'asw_spawner' : 'CR_random_boomer' (entindex 403) 
-//    'asw_spawner' : 'CR_random_parasite' (entindex 404) 
-//    'asw_spawner' : 'CR_random_harvester' (entindex 405) 
-//    'asw_spawner' : 'CR_random_mortar' (entindex 406) 
-//    'asw_spawner' : 'CR_random_parasite' (entindex 407) 
-//    'asw_spawner' : 'CR_random_ranger' (entindex 408) 
-//    'asw_spawner' : 'CR_random_boomer' (entindex 409) 
-//    'asw_spawner' : 'CR_random_ranger' (entindex 410) 
-//    'asw_spawner' : 'CR_random_mortar' (entindex 411) 
-//    'asw_spawner' : 'CR_random_harvester' (entindex 412) 
-//    'asw_spawner' : 'CR_random_parasite' (entindex 413) 
-//    'asw_spawner' : 'Normal_tester' (entindex 414) 
-//    'asw_spawner' : 'Hard_tester' (entindex 415) 
-//    'asw_spawner' : 'para_repair_squad' (entindex 416) 
-//    'asw_spawner' : 'para_repair_squad' (entindex 417) 
-//    'asw_spawner' : 'para_repair_squad' (entindex 418) 
-//    'asw_spawner' : 'para_repair_squad' (entindex 419) 
-//    'asw_spawner' : 'Insane_tester' (entindex 420) 
-//    'asw_spawner' : 'Generator_drone_spawn_2' (entindex 427) 
-//    'asw_spawner' : 'Generator_drone_spawn_2' (entindex 428) 
-// Found 106 matches.
+		"NPC" {
+			"AlienClass"	"asw_buzzer"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "6"
+		"RequireGlobal" "OFF:special_onslaught_lan_sewer_boss"
+
+		"NPC" {
+			"AlienClass"	"asw_ranger"
+		}
+	}
+
+	"HORDE" {
+		"SelectionWeight" "0.04"
+		"RequireGlobal" "ON:special_onslaught_lan_sewer_boss"
+
+		"NPC" {
+			"AlienClass"	"asw_shaman"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "0.6"
+		"RequireGlobal" "ON:special_onslaught_lan_sewer_boss"
+
+		"NPC" {
+			"AlienClass"	"asw_shaman"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "0.15"
+		"RequireGlobal" "DEAD:special_onslaught_lan_sewer_boss"
+
+		"NPC" {
+			"AlienClass"	"asw_shaman"
+		}
+	}
+
+	"HORDE" {
+		"SelectionWeight" "0.5"
+		"RequireGlobal" "DEAD:special_onslaught_lan_sewer_boss"
+
+		"NPC" {
+			"AlienClass"	"asw_drone_jumper"
+		}
+
+		"NPC" {
+			"SpawnChance"	"0.6"
+			"AlienClass"	"asw_drone"
+		}
+
+		"NPC" {
+			"SpawnChance"	"0.3"
+			"AlienClass"	"asw_drone_jumper"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "0.8"
+		"RequireGlobal" "DEAD:special_onslaught_lan_sewer_boss"
+
+		"NPC" {
+			"AlienClass"	"asw_buzzer"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "0.4"
+		"RequireGlobal" "DEAD:special_onslaught_lan_sewer_boss"
+
+		"NPC" {
+			"AlienClass"	"asw_ranger"
+		}
+	}
+}
 
 "SpawnSetOverlay" {
 	"Name" "Special Onslaught - Lana's Escape: Lana's Maintenance"
@@ -2185,99 +2033,78 @@
 	"MinSkill" "1"
 	"MaxSkill" "5"
 
-	// TODO
-}
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "4"
+		"RequireGlobal" "MIN:1:special_onslaught_lan_maintenance_repair"
 
-// map rd-lan4_vent
-// Searching for entities with class/target name containing substring: 'env_global'
-// Found 0 matches.
-// Searching for entities with class/target name containing substring: 'asw_objective'
-//    'asw_objective_triggered' : 'Obj_1_Outvent' (entindex 196) 
-//    'asw_objective_triggered' : 'Obj_2_C4' (entindex 198) 
-//    'asw_objective_escape' : 'Obj_3_escape' (entindex 200) 
-//    'asw_objective_triggered' : 'Obj_1bis_code' (entindex 433) 
-// Found 4 matches.
-// Searching for entities with class/target name containing substring: 'asw_spawner'
-//    'asw_spawner' : 'spawn_vents_drone_wall_1' (entindex 38) 
-//    'asw_spawner' : 'spawn_vents_drone_wall_1' (entindex 40) 
-//    'asw_spawner' : 'spawn_vents_drone_wall_mstart' (entindex 41) 
-//    'asw_spawner' : 'spawn_vents_drone_wall_mstart2' (entindex 42) 
-//    'asw_spawner' : 'spawn_vents_drone_wall_2' (entindex 43) 
-//    'asw_spawner' : 'spawn_vents_drone_wall_2' (entindex 44) 
-//    'asw_spawner' : 'spawn_vents_drone_wall' (entindex 45) 
-//    'asw_spawner' : 'spawn_vents_drone_wall_mstart2' (entindex 46) 
-//    'asw_spawner' : 'spawn_vents_drone_wall_4' (entindex 47) 
-//    'asw_spawner' : 'spawn_vents_drone_wall' (entindex 48) 
-//    'asw_spawner' : 'spawn_vents_drone_wall_4' (entindex 49) 
-//    'asw_spawner' : 'spawn_vents_drone_wall' (entindex 50) 
-//    'asw_spawner' : 'spawn_vents_drone_wall_mstart2' (entindex 51) 
-//    'asw_spawner' : 'spawn_vents_drone_wall_4' (entindex 52) 
-//    'asw_spawner' : 'spawn_vents_drone_wall_3' (entindex 53) 
-//    'asw_spawner' : 'spawn_vents_drone_wall_3' (entindex 54) 
-//    'asw_spawner' : 'spawn_vents_drone_wall_mstart2' (entindex 55) 
-//    'asw_spawner' : 'spawn_vents_drone_wall_mstart' (entindex 56) 
-//    'asw_spawner' : 'Back_bug_spawner' (entindex 118) 
-//    'asw_spawner' : 'Scene_spawner' (entindex 125) 
-//    'asw_spawner' : 'spawn_vents_drone_wall_mstart' (entindex 136) 
-//    'asw_spawner' : '' (entindex 137) 
-//    'asw_spawner' : 'Back_bug_spawner' (entindex 138) 
-//    'asw_spawner' : 'Back_bug_spawner' (entindex 139) 
-//    'asw_spawner' : 'Out_platform_spawn' (entindex 158) 
-//    'asw_spawner' : 'Out_platform_spawn1' (entindex 159) 
-//    'asw_spawner' : 'Room_01_spawner' (entindex 160) 
-//    'asw_spawner' : 'Climber_spawner_01' (entindex 161) 
-//    'asw_spawner' : 'SS_spawner_top' (entindex 166) 
-//    'asw_spawner' : 'Climber_spawner_2' (entindex 168) 
-//    'asw_spawner' : 'SS_spawner_top1' (entindex 170) 
-//    'asw_spawner' : 'Out_platform_spawn' (entindex 173) 
-//    'asw_spawner' : 'Out_platform_spawn' (entindex 174) 
-//    'asw_spawner' : 'Out_platform_spawn' (entindex 175) 
-//    'asw_spawner' : 'Out_platform_spawn1' (entindex 176) 
-//    'asw_spawner' : 'Room_01_spawner' (entindex 236) 
-//    'asw_spawner' : 'Out_platform_spawn2' (entindex 281) 
-//    'asw_spawner' : 'Out_platform_spawn2' (entindex 282) 
-//    'asw_spawner' : 'Out_platform_spawn2' (entindex 283) 
-//    'asw_spawner' : 'Out_platform_spawn2' (entindex 284) 
-//    'asw_spawner' : 'Out_platform_expl_spawn1' (entindex 286) 
-//    'asw_spawner' : 'Out_platform_expl_spawn2' (entindex 287) 
-//    'asw_spawner' : 'Out_platform_expl_spawn3' (entindex 288) 
-//    'asw_spawner' : 'Fly_spawner' (entindex 300) 
-//    'asw_spawner' : 'spawn_vents_drone_wall_mstart' (entindex 301) 
-//    'asw_spawner' : 'spawn_vents_drone_wall_mstart' (entindex 302) 
-//    'asw_spawner' : 'spawn_vents_drone_wall_mstart' (entindex 303) 
-//    'asw_spawner' : '2' (entindex 316) 
-//    'asw_spawner' : 'Out_platform_spawn2' (entindex 323) 
-//    'asw_spawner' : 'Out_platform_spawn2' (entindex 324) 
-//    'asw_spawner' : 'Out_platform_spawn2' (entindex 336) 
-//    'asw_spawner' : 'Room_01_spawner' (entindex 342) 
-//    'asw_spawner' : 'Out_platform_spawn' (entindex 343) 
-//    'asw_spawner' : 'Back_bug_spawner' (entindex 349) 
-//    'asw_spawner' : 'Out_platform_expl_spawn5' (entindex 358) 
-//    'asw_spawner' : 'Out_platform_spawn2' (entindex 359) 
-//    'asw_spawner' : 'Out_platform_spawn1' (entindex 404) 
-//    'asw_spawner' : 'Out_platform_spawn1' (entindex 405) 
-//    'asw_spawner' : 'Out_platform_spawn3' (entindex 436) 
-//    'asw_spawner' : 'Out_platform_spawn3' (entindex 437) 
-//    'asw_spawner' : 'Out_platform_spawn3' (entindex 438) 
-//    'asw_spawner' : 'Out_platform_spawn2' (entindex 446) 
-//    'asw_spawner' : 'Out_platform_spawn2' (entindex 447) 
-//    'asw_spawner' : 'scene_room_spawn' (entindex 523) 
-//    'asw_spawner' : 'scene_room_spawn_2' (entindex 527) 
-//    'asw_spawner' : 'newroom_spawner_1' (entindex 528) 
-//    'asw_spawner' : 'newroom_spawner_2' (entindex 530) 
-//    'asw_spawner' : 'newroom_spawner_3' (entindex 531) 
-//    'asw_spawner' : '' (entindex 605) 
-//    'asw_spawner' : 'laby_spawn_1' (entindex 612) 
-//    'asw_spawner' : 'laby_spawn_1' (entindex 613) 
-//    'asw_spawner' : 'piston_room_spawn_1' (entindex 641) 
-//    'asw_spawner' : 'piston_room_spawn_2' (entindex 642) 
-//    'asw_spawner' : 'spawn_ranger_1' (entindex 652) 
-//    'asw_spawner' : 'spawn_ranger_1' (entindex 667) 
-//    'asw_spawner' : 'ranger_spawner_expl_pipe' (entindex 682) 
-//    'asw_spawner' : 'ranger_spawner_expl_pipe' (entindex 693) 
-//    'asw_spawner' : 'surprise_spawner_1' (entindex 723) 
-//    'asw_spawner' : 'surprise_spawner_1' (entindex 730) 
-// Found 79 matches.
+		"NPC" {
+			"AlienClass"	"asw_ranger"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "2.5"
+		"RequireGlobal" "MIN:2:special_onslaught_lan_maintenance_repair"
+
+		"NPC" {
+			"AlienClass"	"asw_harvester"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "0.1"
+		"RequireGlobal" "MIN:2:special_onslaught_lan_maintenance_repair"
+
+		"NPC" {
+			"AlienClass"	"npc_antlionguard_normal"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "0.1"
+		"RequireGlobal" "MIN:3:special_onslaught_lan_maintenance_repair"
+
+		"NPC" {
+			"AlienClass"	"npc_antlionguard_cavern"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "0.2"
+		"RequireGlobal" "MIN:3:special_onslaught_lan_maintenance_repair"
+
+		"NPC" {
+			"AlienClass"	"asw_parasite"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "5"
+		"RequireGlobal" "MIN:3:special_onslaught_lan_maintenance_repair"
+
+		"NPC" {
+			"AlienClass"	"asw_boomer"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "3"
+		"RequireGlobal" "MIN:3:special_onslaught_lan_maintenance_repair"
+
+		"NPC" {
+			"AlienClass"	"asw_buzzer"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "8"
+		"RequireGlobal" "MAX:0:special_onslaught_lan_maintenance_repair"
+
+		"NPC" {
+			"AlienClass"	"asw_buzzer"
+		}
+	}
+}
 
 "SpawnSetOverlay" {
 	"Name" "Special Onslaught - Lana's Escape: Lana's Vent"
@@ -2285,85 +2112,72 @@
 	"MinSkill" "1"
 	"MaxSkill" "5"
 
-	// TODO
-}
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "1.5"
 
-// map rd-lan5_complex
-// Searching for entities with class/target name containing substring: 'env_global'
-// Found 0 matches.
-// Searching for entities with class/target name containing substring: 'asw_objective'
-//    'asw_objective_countdown' : 'Nuclear countdown' (entindex 81) 
-//    'asw_objective_triggered' : 'Download' (entindex 255) 
-//    'asw_objective_escape' : 'Escape' (entindex 273) 
-//    'asw_objective_triggered' : 'Nuclear warhead_obj' (entindex 277) 
-// Found 4 matches.
-// Searching for entities with class/target name containing substring: 'asw_spawner'
-//    'asw_spawner' : 'Spawn_Room_1_apres' (entindex 391) 
-//    'asw_spawner' : 'Spawn_Room_1_apres' (entindex 392) 
-//    'asw_spawner' : 'Spawn_Room_1' (entindex 393) 
-//    'asw_spawner' : 'Spawn_Room_1' (entindex 394) 
-//    'asw_spawner' : 'Spawn_Room_1_bis' (entindex 395) 
-//    'asw_spawner' : 'Spawn_Room_1_bis' (entindex 396) 
-//    'asw_spawner' : 'Spawn_Room_1_bis' (entindex 397) 
-//    'asw_spawner' : 'Spawn_Room_1_bis' (entindex 398) 
-//    'asw_spawner' : 'Spawn_Room_1' (entindex 399) 
-//    'asw_spawner' : 'Spawn_Room_1' (entindex 400) 
-//    'asw_spawner' : 'Spawn_Room_1' (entindex 401) 
-//    'asw_spawner' : 'Spawn_Room_2' (entindex 407) 
-//    'asw_spawner' : 'Spawn_Room_2' (entindex 408) 
-//    'asw_spawner' : 'Spawn_Room_2' (entindex 409) 
-//    'asw_spawner' : 'Spawn_Room_2' (entindex 410) 
-//    'asw_spawner' : 'Spawn_back_1' (entindex 412) 
-//    'asw_spawner' : 'Spawner_end_1' (entindex 414) 
-//    'asw_spawner' : 'Spawner_end_1' (entindex 415) 
-//    'asw_spawner' : 'Spawner_end_1' (entindex 416) 
-//    'asw_spawner' : 'Spawner_end_1' (entindex 417) 
-//    'asw_spawner' : 'Spawner_end_1' (entindex 418) 
-//    'asw_spawner' : 'Spawner_end_1' (entindex 419) 
-//    'asw_spawner' : 'Spawner_end_1' (entindex 420) 
-//    'asw_spawner' : 'Spawner_end_1' (entindex 423) 
-//    'asw_spawner' : 'Spawn_Room_3' (entindex 427) 
-//    'asw_spawner' : 'Spawn_Room_3' (entindex 428) 
-//    'asw_spawner' : 'Spawn_Room_3' (entindex 429) 
-//    'asw_spawner' : 'Spawn_Room_1_apres' (entindex 432) 
-//    'asw_spawner' : 'Spawn_Room_3' (entindex 433) 
-//    'asw_spawner' : 'Spawner_end_1' (entindex 439) 
-//    'asw_spawner' : 'Spawner_end_1' (entindex 440) 
-//    'asw_spawner' : 'Spawner_end_1' (entindex 441) 
-//    'asw_spawner' : 'Spawn_Room_1' (entindex 442) 
-//    'asw_spawner' : 'Spawner_end_1' (entindex 454) 
-//    'asw_spawner' : 'Spawner_end_1' (entindex 455) 
-//    'asw_spawner' : 'Spawner_end_1' (entindex 456) 
-//    'asw_spawner' : 'Spawner_end_1' (entindex 457) 
-//    'asw_spawner' : 'Spawner_end_1' (entindex 458) 
-//    'asw_spawner' : 'Spawner_end_1' (entindex 459) 
-//    'asw_spawner' : 'Spawner_end_2' (entindex 460) 
-//    'asw_spawner' : 'Spawner_end_2' (entindex 463) 
-//    'asw_spawner' : 'Random_spawner_init_boomer_p1' (entindex 482) 
-//    'asw_spawner' : 'Random_spawner_init_ranger_p1' (entindex 483) 
-//    'asw_spawner' : 'Random_spawner_init_harvester_p1' (entindex 484) 
-//    'asw_spawner' : 'Random_spawner_init_parasite_p1' (entindex 485) 
-//    'asw_spawner' : 'Random_spawner_init_parasite_p2' (entindex 486) 
-//    'asw_spawner' : 'Random_spawner_init_harvester_p2' (entindex 487) 
-//    'asw_spawner' : 'Random_spawner_init_ranger_p2' (entindex 488) 
-//    'asw_spawner' : 'Random_spawner_init_boomer_p2' (entindex 489) 
-//    'asw_spawner' : 'Random_spawner_init_parasite_p3' (entindex 490) 
-//    'asw_spawner' : 'Random_spawner_init_mortar_p3' (entindex 491) 
-//    'asw_spawner' : 'Random_spawner_init_ranger_p3' (entindex 492) 
-//    'asw_spawner' : 'Random_spawner_init_boomer_p3' (entindex 493) 
-//    'asw_spawner' : 'Random_spawner_init_parasite_p4' (entindex 494) 
-//    'asw_spawner' : 'Random_spawner_init_mortar_p4' (entindex 495) 
-//    'asw_spawner' : 'Random_spawner_init_ranger_p4' (entindex 496) 
-//    'asw_spawner' : 'Random_spawner_init_boomer_p4' (entindex 497) 
-//    'asw_spawner' : 'Random_spawner_init_ranger_p4' (entindex 498) 
-//    'asw_spawner' : 'Last_boomers' (entindex 509) 
-//    'asw_spawner' : 'elev_room_mortar' (entindex 510) 
-//    'asw_spawner' : 'elev_room_harvester' (entindex 511) 
-//    'asw_spawner' : 'elev_room_ranger' (entindex 512) 
-//    'asw_spawner' : 'Spawner_end_1' (entindex 518) 
-//    'asw_spawner' : 'Spawner_end_1' (entindex 519) 
-//    'asw_spawner' : 'Spawn_Room_1' (entindex 522) 
-// Found 65 matches.
+		"NPC" {
+			"AlienClass"	"asw_ranger"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "0.4"
+
+		"NPC" {
+			"AlienClass"	"asw_buzzer"
+		}
+
+		"NPC" {
+			"AlienClass"	"asw_buzzer"
+		}
+
+		"NPC" {
+			"AlienClass"	"asw_buzzer"
+			"AfterObjective" "obj_1_outvent"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "0.2"
+		"BeforeObjective" "obj_1_outvent"
+
+		"NPC" {
+			"AlienClass"	"asw_drone_uber"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "0.8"
+		"BeforeObjective" "obj_1_outvent"
+
+		"NPC" {
+			"AlienClass"	"asw_drone_jumper"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "0.6"
+		"BeforeObjective" "obj_1_outvent"
+
+		"NPC" {
+			"AlienClass"	"asw_boomer"
+		}
+	}
+
+	"HORDE" {
+		"SelectionWeight" "0.5"
+		"AfterObjective" "obj_1_outvent"
+
+		"NPC" {
+			"AlienClass"	"asw_drone_jumper"
+		}
+
+		"NPC" {
+			"SpawnChance"	"0.6"
+			"AlienClass"	"asw_drone"
+		}
+	}
+}
 
 "SpawnSetOverlay" {
 	"Name" "Special Onslaught - Lana's Escape: Lana's Complex"
@@ -2371,7 +2185,93 @@
 	"MinSkill" "1"
 	"MaxSkill" "5"
 
-	// TODO
+	"WANDERER+HORDE" {
+		"SelectionWeight" "10"
+		"RequireGlobal" "MIN:19:special_onslaught_lan_complex_path"
+		"RequireGlobal"	"MAX:20:special_onslaught_lan_complex_path"
+
+		"NPC" {
+			"AlienClass"	"asw_buzzer"
+		}
+	}
+
+	"WANDERER+HORDE" {
+		"SelectionWeight" "10"
+		"RequireGlobal" "MIN:25:special_onslaught_lan_complex_path"
+		"RequireGlobal"	"MAX:33:special_onslaught_lan_complex_path"
+
+		"NPC" {
+			"AlienClass"	"asw_buzzer"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "20"
+		"RequireGlobal" "MIN:21:special_onslaught_lan_complex_path"
+
+		"NPC" {
+			"AlienClass"	"asw_ranger"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "20"
+		"RequireGlobal" "MIN:21:special_onslaught_lan_complex_path"
+
+		"NPC" {
+			"AlienClass"	"asw_ranger"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "12"
+		"RequireGlobal" "MIN:44:special_onslaught_lan_complex_path"
+
+		"NPC" {
+			"AlienClass"	"asw_boomer"
+		}
+	}
+
+	"WANDERER" {
+		"SelectionWeight" "3.5"
+		"AfterObjective" "Nuclear warhead_obj"
+
+		"NPC" {
+			"AlienClass"	"asw_harvester"
+		}
+	}
+}
+
+"SpawnSetOverlay" {
+	"Name" "Special Onslaught - Lana's Escape: Lana's Complex - Hard+"
+	"Map" "rd-lan5_complex"
+	"MinSkill" "3"
+	"MaxSkill" "5"
+
+	"WANDERER" {
+		"SelectionWeight" "2"
+		"AfterObjective" "Nuclear warhead_obj"
+
+		"NPC" {
+			"AlienClass"	"asw_mortarbug"
+		}
+	}
+}
+
+"SpawnSetOverlay" {
+	"Name" "Special Onslaught - Lana's Escape: Lana's Complex - Insane+"
+	"Map" "rd-lan5_complex"
+	"MinSkill" "4"
+	"MaxSkill" "5"
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "5"
+		"RequireGlobal" "MIN:22:special_onslaught_lan_complex_path"
+
+		"NPC" {
+			"AlienClass"	"asw_parasite"
+		}
+	}
 }
 
 // map rd-par1unexpected_encounter
