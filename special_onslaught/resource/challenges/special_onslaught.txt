@@ -1,0 +1,9 @@
+"CHALLENGE" {
+	"name"	"Special Onslaught"
+	"description"	"Onslaught tailored to each individual level!"
+
+	"convars" {
+		"asw_horde_override"		"1"
+		"asw_wanderer_override"		"1"
+	}
+}
