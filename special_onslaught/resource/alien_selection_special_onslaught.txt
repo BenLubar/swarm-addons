@@ -41,7 +41,7 @@
 	"PACK" {
 		"SelectionWeight" "1"
 		"NPC" {
-			"AlienClass"	asw_parasite"
+			"AlienClass"	"asw_parasite"
 		}
 		"NPC" {
 			"AlienClass"	"asw_parasite"

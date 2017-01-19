@@ -1,6 +1,6 @@
 parasiteProp <- CreateProp("prop_dynamic", self.GetOrigin() + Vector(0, 0, 40), "models/aliens/parasite/parasite.mdl", 17);
 parasiteProp.SetOwner(self);
-parasiteProp.SetSetLocalAngles(-67.5, 0, 0);
+parasiteProp.SetLocalAngles(-67.5, 0, 0);
 
 EntFireByHandle(self, "Color", "250 103 5", 0, self, self);
 self.__KeyValueFromString("rendermode", "1");
