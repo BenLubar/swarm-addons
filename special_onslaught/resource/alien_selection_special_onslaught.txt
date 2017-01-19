@@ -1338,6 +1338,26 @@
 		}
 	}
 
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "0.1"
+		"AfterObjective" "objective_beacon1"
+		"BeforeObjective" "objective_beacon2"
+
+		"NPC" {
+			"AlienClass"	"npc_antlionguard_normal"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "0.1"
+		"AfterObjective" "objective_beacon1"
+		"BeforeObjective" "objective_beacon2"
+
+		"NPC" {
+			"AlienClass"	"npc_antlionguard_cavern"
+		}
+	}
+
 	"HORDE" {
 		"SelectionWeight" "2"
 		"SpawnerSpawning" "drone_computerhack1"
