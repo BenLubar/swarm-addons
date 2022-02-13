@@ -1,6 +1,5 @@
 WAVE {
 	Name "XCOM"
-	EnvironmentModifiers "0"
 	Resupply "1"
 	ENTRY {
 		AlienClass "asw_drone"
@@ -13,7 +12,6 @@ WAVE {
 
 WAVE {
 	Name "Brook"
-	EnvironmentModifiers "0"
 	Resupply "1"
 	ENTRY {
 		AlienClass "asw_drone"
@@ -106,11 +104,31 @@ WAVE {
 		SpawnDuration "20.0"
 		SpawnGroup "@room2_spawn_drone"
 	}
+	ENTRY {
+		AlienClass "asw_drone_jumper"
+		Quantity "10"
+		SpawnDelay "50.0"
+		SpawnDuration "20.0"
+		SpawnGroup "@room2_spawn_drone"
+	}
+	ENTRY {
+		AlienClass "asw_buzzer"
+		Quantity "30"
+		SpawnDelay "50.0"
+		SpawnDuration "10.0"
+		SpawnGroup "@room2_spawn_buzzer"
+	}
+	ENTRY {
+		AlienClass "asw_ranger"
+		Quantity "5"
+		SpawnDelay "50.0"
+		SpawnDuration "20.0"
+		SpawnGroup "@room2_spawn_any"
+	}
 }
 
 WAVE {
 	Name "Area9800"
-	EnvironmentModifiers "0"
 	Resupply "1"
 	ENTRY {
 		AlienClass "asw_drone"
@@ -123,7 +141,6 @@ WAVE {
 
 WAVE {
 	Name "Tarnor"
-	EnvironmentModifiers "0"
 	Resupply "1"
 	ENTRY {
 		AlienClass "asw_drone"
@@ -136,7 +153,6 @@ WAVE {
 
 WAVE {
 	Name "Rydberg"
-	EnvironmentModifiers "0"
 	Resupply "1"
 	ENTRY {
 		AlienClass "asw_drone"
@@ -149,7 +165,6 @@ WAVE {
 
 WAVE {
 	Name "Deima"
-	EnvironmentModifiers "0"
 	Resupply "1"
 	ENTRY {
 		AlienClass "asw_drone"
@@ -162,7 +177,6 @@ WAVE {
 
 WAVE {
 	Name "Timor"
-	EnvironmentModifiers "0"
 	Resupply "1"
 	ENTRY {
 		AlienClass "asw_drone"

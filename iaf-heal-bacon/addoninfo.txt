@@ -1,0 +1,12 @@
+"AddonInfo" {
+	"addonSteamAppID"              "630"
+	"addontitle"                   "IAF Heal Bacon"
+	"addonversion"                 "1.0"
+	"addontagline"                 ""
+	"addonauthor"                  "Ben Lubar"
+	"addonSteamGroupName"          "TDWTF"
+	"addonauthorSteamID"           "nightgunner5"
+	"addonContent_Skin"            "1"
+	"addonURL0"                    "https://what.thedailywtf.com/post/983174"
+	"addonDescription"             ""
+}

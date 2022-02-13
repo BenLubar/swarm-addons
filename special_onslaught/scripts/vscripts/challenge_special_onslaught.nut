@@ -40,6 +40,22 @@ function ResetIntensity() {
 	Director.ResetIntensityForAllMarines();
 }
 
+if (GetMapName().tolower() == "asi-jac1-landingbay_01") {
+	finaleComputer <- null;
+	while ((finaleComputer = Entities.FindByClassname(finaleComputer, "trigger_asw_computer_area")) != null) {
+		if (finaleComputer.GetKeyValue("DownloadObjectiveName").tolower() == "downloaddata") {
+			finaleComputer.ValidateScriptScope();
+			finaleComputer.GetScriptScope().SpecialOnslaughtStartFinale <- StartFinale;
+			finaleComputer.ConnectOutput("OnComputerHackStarted", "SpecialOnslaughtStartFinale");
+			break;
+		}
+	}
+
+	if (finaleComputer == null) {
+		printl("Special Onslaught: could not find landing bay computer hack!");
+	}
+}
+
 if (GetMapName().tolower() == "rd-tft1desertoutpost") {
 	finaleRelay <- Entities.FindByName(null, "intro_start_camera");
 	finaleRelay.ValidateScriptScope();

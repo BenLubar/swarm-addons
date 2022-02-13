@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"addonSteamAppID" "563560"
+	"addontitle" "TileGen 2022-01"
+	"addonversion" "1.0"
+	"addontagline" ""
+	"addonauthor" "Ben Lubar"
+	"addonContent_Campaign" "1"
+	"addonURL0" ""
+	"addonDescription" ""
+}

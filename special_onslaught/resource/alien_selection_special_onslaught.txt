@@ -64,84 +64,46 @@
 	}
 }
 
-// map asi-jac1-landingbay_01
-// Searching for entities with class/target name containing substring: 'env_global'
-// Found 0 matches.
-// Searching for entities with class/target name containing substring: 'asw_objective'
-//    'asw_objective_triggered' : 'AccessBay' (entindex 40) 
-//    'asw_objective_escape' : 'ExitZone' (entindex 42) 
-//    'asw_objective_triggered' : 'DownloadData' (entindex 346) 
-// Found 3 matches.
-// Searching for entities with class/target name containing substring: 'asw_spawner'
-//    'asw_spawner' : 'breakdoor_spawn' (entindex 43) 
-//    'asw_spawner' : 'breakdoor_spawn' (entindex 44) 
-//    'asw_spawner' : 'tankroom_01_spawn' (entindex 45) 
-//    'asw_spawner' : 'dock_holdout_spawn_01' (entindex 56) 
-//    'asw_spawner' : 'dock_holdout_spawn_01' (entindex 63) 
-//    'asw_spawner' : 'tankroom_end_02_spawn' (entindex 65) 
-//    'asw_spawner' : 'tankroom_end_02_spawn' (entindex 66) 
-//    'asw_spawner' : 'tankroom_pre_02_spawn' (entindex 75) 
-//    'asw_spawner' : 'tankroom_pre_02_spawn' (entindex 76) 
-//    'asw_spawner' : 'FirstEncounterSpawn2' (entindex 78) 
-//    'asw_spawner' : 'storage_room_spawn_2' (entindex 79) 
-//    'asw_spawner' : 'tankroom_01_spawn' (entindex 80) 
-//    'asw_spawner' : 'tankroom_01_spawn' (entindex 81) 
-//    'asw_spawner' : 'tankroom_end_01_spawn' (entindex 102) 
-//    'asw_spawner' : 'Spawn04' (entindex 125) 
-//    'asw_spawner' : 'supply_spawn_01' (entindex 129) 
-//    'asw_spawner' : 'WallSpawner' (entindex 148) 
-//    'asw_spawner' : 'supply_spawn_03' (entindex 175) 
-//    'asw_spawner' : 'dock_holdout_spawn_01' (entindex 177) 
-//    'asw_spawner' : 'DroneSpawn7' (entindex 178) 
-//    'asw_spawner' : 'tankroom_01_spawn' (entindex 180) 
-//    'asw_spawner' : 'supply_spawn_02' (entindex 194) 
-//    'asw_spawner' : 'RandomParasiteSpawn5' (entindex 195) 
-//    'asw_spawner' : 'dock_preholdout_spawn_01' (entindex 215) 
-//    'asw_spawner' : 'dock_holdout_spawn_01' (entindex 216) 
-//    'asw_spawner' : 'dock_holdout_spawn_01' (entindex 217) 
-//    'asw_spawner' : 'tankroom_end_01_spawn' (entindex 218) 
-//    'asw_spawner' : 'insane_buzz_spawn' (entindex 421) 
-//    'asw_spawner' : 'insane_buzz_spawn' (entindex 422) 
-//    'asw_spawner' : 'insane_para_spawn' (entindex 424) 
-//    'asw_spawner' : 'insane_para_spawn' (entindex 425) 
-//    'asw_spawner' : 'insane_ranger_spawn' (entindex 426) 
-//    'asw_spawner' : 'insane_ranger_spawn' (entindex 427) 
-//    'asw_spawner' : 'insane_ranger_spawn' (entindex 428) 
-//    'asw_spawner' : 'insane_ranger_spawn' (entindex 429) 
-//    'asw_spawner' : 'insane_har_spawn' (entindex 430) 
-//    'asw_spawner' : 'insane_har_spawn' (entindex 431) 
-//    'asw_spawner' : 'insane_har2_spawn' (entindex 432) 
-//    'asw_spawner' : 'insane_har2_spawn' (entindex 433) 
-//    'asw_spawner' : 'insane_har2_spawn' (entindex 434) 
-//    'asw_spawner' : 'insane_ranger_spawn' (entindex 435) 
-//    'asw_spawner' : 'insane_ranger_spawn' (entindex 436) 
-//    'asw_spawner' : 'RandomSpawn2' (entindex 537) 
-//    'asw_spawner' : 'storage_room_spawn_2_behind' (entindex 538) 
-//    'asw_spawner' : 'RandomSpawn2' (entindex 547) 
-//    'asw_spawner' : 'Storage_room_spawner' (entindex 548) 
-//    'asw_spawner' : 'RandomSpawn2' (entindex 557) 
-//    'asw_spawner' : 'Storage_room_spawner' (entindex 558) 
-//    'asw_spawner' : 'RandomSpawn2' (entindex 567) 
-//    'asw_spawner' : 'storage_room_spawn_3' (entindex 568) 
-//    'asw_spawner' : 'InstanceAuto14-RandomSpawn2' (entindex 577) 
-//    'asw_spawner' : 'InstanceAuto14-???' (entindex 578) 
-//    'asw_spawner' : 'RandomSpawn2' (entindex 587) 
-//    'asw_spawner' : 'Storage_room_spawner' (entindex 588) 
-//    'asw_spawner' : 'RandomSpawn2' (entindex 597) 
-//    'asw_spawner' : 'storage_room_spawn_2' (entindex 598) 
-//    'asw_spawner' : 'RandomSpawn2' (entindex 607) 
-//    'asw_spawner' : 'storage_room_spawn_2' (entindex 608) 
-//    'asw_spawner' : 'RandomSpawn2' (entindex 707) 
-//    'asw_spawner' : 'dock_preholdout_spawn_01' (entindex 708) 
-// Found 60 matches.
-
 "SpawnSetOverlay" {
 	"Name" "Special Onslaught - Jacob's Rest: Landing Bay"
 	"Map" "asi-jac1-landingbay_01"
 	"MinSkill" "1"
 	"MaxSkill" "5"
 
-	// TODO
+	"WANDERER" {
+		"SelectionWeight" "10"
+		"BeforeObjective" "AccessBay"
+
+		"NPC" {
+			"AlienClass"	"asw_buzzer"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "1"
+		"AfterObjective" "AccessBay"
+
+		"NPC" {
+			"AlienClass"	"asw_buzzer"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "5"
+		"AfterObjective" "AccessBay"
+
+		"NPC" {
+			"AlienClass"	"asw_harvester"
+		}
+	}
+
+	"WANDERER+HORDE_WANDERER" {
+		"SelectionWeight" "8"
+
+		"NPC" {
+			"AlienClass"	"asw_ranger"
+		}
+	}
 }
 
 // map asi-jac1-landingbay_02

@@ -1,0 +1,10 @@
+## CRASHES
+
+- Crash when opening Flags tab of an entity after working for a while. (TODO: better repro)
+
+## FEATURES/BUGFIXES
+
+- Remove 2 digit limit on texture scale in UI. (Apparently CS:GO has this limit removed already.)
+- Change either Hammer or VBSP to have the same strategy for nested relative instance paths. (Hammer bases it on the immediate parent instance, and VBSP bases it on the root map path currently.)
+- Fix file browser for func_instance so it actually puts the path in the text box.
+- When changing the file of many instances at once, only one instance gets visually updated currently.
