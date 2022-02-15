@@ -1,0 +1,6 @@
+"LightmappedGeneric" {
+	"$basetexture" "decals/decal_creek_logo"
+	"$decal" "1"
+	"$decalscale" "0.5"
+	"$translucent" "1"
+}
