@@ -1,10 +1,10 @@
 "coast.thumper_ambient"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"VOL_NORM"
-	"pitch"			"0.500000"
+	"volume"		"1.000000"
+	"pitch"			"PITCH_NORM"
 
-	"soundlevel"	"SNDLVL_80dB"
+	"soundlevel"	"SNDLVL_90dB"
 
 	"wave"			"ambient/machines/thumper_amb.wav"
 }
@@ -12,7 +12,7 @@
 "coast.thumper_dust"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.800000"
+	"volume"		"1.000000"
 	"pitch"			"100,108"
 
 	"soundlevel"	"SNDLVL_80dB"
@@ -45,7 +45,7 @@
 "coast.thumper_top"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.300000"
+	"volume"		"0.500000"
 	"pitch"			"100,108"
 
 	"soundlevel"	"SNDLVL_90dB"
@@ -56,10 +56,10 @@
 "coast.thumper_startup"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.700000"
+	"volume"		"1.000000"
 	"pitch"			"PITCH_NORM"
 
-	"soundlevel"	"SNDLVL_80dB"
+	"soundlevel"	"SNDLVL_120dB"
 
 	"wave"			"ambient/machines/thumper_startup1.wav"
 }
@@ -67,10 +67,19 @@
 "coast.thumper_shutdown"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.700000"
+	"volume"		"1.000000"
 	"pitch"			"PITCH_NORM"
 
-	"soundlevel"	"SNDLVL_80dB"
+	"soundlevel"	"SNDLVL_120dB"
 
 	"wave"			"ambient/machines/thumper_shutdown1.wav"
+}
+
+"cholistan.excavator_accept_battery"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_95dB"
+	"pitch"		"100"
+	"wave"	"buttons/button14.wav"
 }

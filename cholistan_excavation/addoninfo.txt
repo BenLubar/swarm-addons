@@ -1,0 +1,12 @@
+"AddonInfo"
+{
+	addonSteamAppID         563560
+	addontitle              "Cholistan Excavation"
+	addonversion            "1.0"
+	addontagline            "Defend and maintain excavators as they extract valuable Cryotic."
+	addonauthor             "Ben Lubar"
+	addonSteamGroupName     ""
+	addonauthorSteamID      "76561198013565588"
+	//addonURL0               ""
+	addonDescription        "Inspired by the Warframe mission Dark Sector Cholistan, Cholistan Excavation requires marines to defend and maintain excavators as they extract valuable Cryotic."
+}

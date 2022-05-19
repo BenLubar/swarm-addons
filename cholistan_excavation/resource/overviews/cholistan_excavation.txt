@@ -1,0 +1,18 @@
+GAME
+{
+	"pos_x"	"0"
+	"pos_y"	"0"
+	"scale"	"10"
+	"material" "vgui/swarm/hud/scanner"
+	"briefingmaterial" "vgui/swarm/hud/scanner"
+	"mapyoffset" "0"
+	"missiontitle"		"#benlubar_cholistan_missiontitle"
+	"description"	"#benlubar_cholistan_missiondesc"
+	"image"		"swarm/ObjectivePics/oblandinghack"
+	"version"		"1"
+	"author"		"Ben Lubar"
+	//"website"		""
+
+	"tag" "endless"
+	"tag" "points"
+}
