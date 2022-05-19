@@ -8,7 +8,7 @@ GAME
 	"mapyoffset" "0"
 	"missiontitle"		"#benlubar_cholistan_missiontitle"
 	"description"	"#benlubar_cholistan_missiondesc"
-	"image"		"swarm/ObjectivePics/oblandinghack"
+	"image"		"swarm/hud/scanner"
 	"version"		"1"
 	"author"		"Ben Lubar"
 	//"website"		""

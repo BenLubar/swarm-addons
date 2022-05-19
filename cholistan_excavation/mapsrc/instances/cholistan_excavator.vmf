@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7397"
-	"mapversion" "67"
+	"mapversion" "72"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "67"
+	"mapversion" "72"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -64,6 +64,7 @@ entity
 		"OnAnimationDone" "thumper_propSetAnimationidle0-1"
 		"OnAnimationDone" "thumper_dustStart0-1"
 		"OnAnimationDone" "thumper_dustStopPlayEndCap1-1"
+		"OnAnimationDone" "shakeStartShake0-1"
 	}
 	"origin" "0 0 0"
 	editor
@@ -101,6 +102,7 @@ entity
 	{
 		"OnButtonActivated" "battery_counterAdd10-1"
 		"OnButtonActivated" "sfx_acceptPlaySound0-1"
+		"OnButtonActivated" "relay_startedTrigger0-1"
 	}
 	solid
 	{
@@ -455,7 +457,7 @@ entity
 		"OnButtonActivated" "thumper_hackDisable0-1"
 		"OnButtonActivated" "thumper_zoneEnable0-1"
 		"OnButtonActivated" "thumper_smokeStopPlayEndCap0-1"
-		"OnButtonActivated" "weak_point_templateForceSpawn0-1"
+		"OnButtonActivated" "relay_startedEnable0-1"
 		"OnButtonActivated" "marker_repairDisable0-1"
 		"OnButtonActivated" "@obj_repairSetComplete0-1"
 	}
@@ -881,6 +883,46 @@ entity
 	"StartDisabled" "0"
 	"targetname" "marker_power"
 	"origin" "12 -16 496"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2062"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "relay_started"
+	connections
+	{
+		"OnTrigger" "relay_startedDisable0-1"
+		"OnTrigger" "weak_point_templateForceSpawn0-1"
+	}
+	"origin" "-48 -64 160"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2224"
+	"classname" "asw_env_shake"
+	"amplitude" "1"
+	"duration" "1"
+	"frequency" "255.0"
+	"radius" "500"
+	"spawnflags" "0"
+	"targetname" "shake"
+	"origin" "12 -32 0"
 	editor
 	{
 		"color" "220 30 220"
