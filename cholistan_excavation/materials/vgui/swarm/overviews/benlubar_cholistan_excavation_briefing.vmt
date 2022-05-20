@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+$basetexture "vgui/swarm/overviews/benlubar_cholistan_excavation_briefing"
+$vertexcolor 1
+$vertexalpha 1
+$no_fullbright 1
+$ignorez 1
+}

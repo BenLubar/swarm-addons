@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7397"
-	"mapversion" "2"
+	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "5"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -33,7 +33,7 @@ world
 		{
 			"id" "1"
 			"plane" "(-2048 -1536 0) (-2048 1536 0) (2048 1536 0)"
-			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"material" "DEV/REFLECTIVITY_20"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -44,55 +44,55 @@ world
 		{
 			"id" "2"
 			"plane" "(-2048 1536 -64) (-2048 -1536 -64) (2048 -1536 -64)"
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 4"
+			"vaxis" "[0 -1 0 0] 4"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "256"
 			"smoothing_groups" "0"
 		}
 		side
 		{
 			"id" "3"
 			"plane" "(-2048 -1536 -64) (-2048 1536 -64) (-2048 1536 0)"
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 4"
+			"vaxis" "[0 0 -1 0] 4"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "256"
 			"smoothing_groups" "0"
 		}
 		side
 		{
 			"id" "4"
 			"plane" "(2048 1536 -64) (2048 -1536 -64) (2048 -1536 0)"
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 4"
+			"vaxis" "[0 0 -1 0] 4"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "256"
 			"smoothing_groups" "0"
 		}
 		side
 		{
 			"id" "5"
 			"plane" "(-2048 1536 -64) (2048 1536 -64) (2048 1536 0)"
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 4"
+			"vaxis" "[0 0 -1 0] 4"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "256"
 			"smoothing_groups" "0"
 		}
 		side
 		{
 			"id" "6"
 			"plane" "(2048 -1536 -64) (-2048 -1536 -64) (-2048 -1536 0)"
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 4"
+			"vaxis" "[0 0 -1 0] 4"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "256"
 			"smoothing_groups" "0"
 		}
 		editor

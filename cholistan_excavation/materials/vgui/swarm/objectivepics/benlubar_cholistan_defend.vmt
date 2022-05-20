@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+$basetexture "vgui/swarm/objectivepics/benlubar_cholistan_defend"
+$vertexcolor 1
+$vertexalpha 1
+$ignorez 1
+}
