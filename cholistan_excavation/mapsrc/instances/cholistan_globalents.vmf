@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7397"
-	"mapversion" "34"
+	"mapversion" "40"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "34"
+	"mapversion" "40"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -86,10 +86,6 @@ entity
 	"speedruntimesp" "0"
 	"targetname" "@gamerules"
 	"vscripts" "cholistan_excavation.nut"
-	connections
-	{
-		"OnDifficuty" "@escape_markerDisable0-1"
-	}
 	"origin" "0 0 32"
 	editor
 	{
@@ -424,9 +420,9 @@ entity
 	"grainstrength" "100"
 	"localcontrastedgestrength" "0"
 	"localcontraststrength" "0"
-	"screenblurstrength" ".1"
+	"screenblurstrength" "0"
 	"spawnflags" "1"
-	"targetname" "fx_settings_exterior"
+	"targetname" "@fx_settings_exterior"
 	"topvignettestrength" "0"
 	"vignetteblurstrength" "0"
 	"vignetteend" "0"
@@ -452,7 +448,7 @@ entity
 	"localcontraststrength" "0"
 	"screenblurstrength" ".1"
 	"spawnflags" "0"
-	"targetname" "fx_settings_interior"
+	"targetname" "@fx_settings_interior"
 	"topvignettestrength" "0"
 	"vignetteblurstrength" "0"
 	"vignetteend" "0"
@@ -481,7 +477,7 @@ entity
 	"fogmaxdensity" ".5"
 	"fogstart" "256"
 	"spawnflags" "0"
-	"targetname" "fog_interior"
+	"targetname" "@fog_interior"
 	"origin" "16 80 32"
 	editor
 	{
@@ -506,7 +502,7 @@ entity
 	"fogmaxdensity" ".5"
 	"fogstart" "256"
 	"spawnflags" "1"
-	"targetname" "fog_exterior"
+	"targetname" "@fog_exterior"
 	"origin" "16 96 32"
 	editor
 	{
@@ -527,7 +523,7 @@ entity
 	"maxweight" "1.0"
 	"minfalloff" "0.0"
 	"spawnflags" "3"
-	"targetname" "cc_exterior"
+	"targetname" "@cc_exterior"
 	"origin" "0 96 32"
 	editor
 	{
@@ -549,7 +545,7 @@ entity
 	"minfalloff" "0.0"
 	"spawnflags" "2"
 	"StartDisabled" "0"
-	"targetname" "cc_interior"
+	"targetname" "@cc_interior"
 	"origin" "-3.8147e-006 80 32"
 	editor
 	{
@@ -575,6 +571,31 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "435"
+	"classname" "env_fog_controller"
+	"angles" "0 0 0"
+	"farz" "-1"
+	"fogcolor" "124 56 39"
+	"fogcolor2" "255 255 255"
+	"fogdir" "1 0 0"
+	"fogenable" "1"
+	"fogend" "3000"
+	"foglerptime" "1"
+	"fogmaxdensity" ".9"
+	"fogstart" "256"
+	"spawnflags" "0"
+	"targetname" "@fog_freighter"
+	"origin" "16 112 32"
+	editor
+	{
+		"color" "255 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
 	}
 }
 cameras

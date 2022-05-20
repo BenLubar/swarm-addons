@@ -33,9 +33,9 @@ function MaybeMakeAlienCarrier(alien) {
 		return
 	}
 
-	local chance = 0.3 - 0.01 * difficulty
-	if (chance < 0.05) {
-		chance = 0.05
+	local chance = 0.2 - 0.01 * difficulty
+	if (chance < 0.01) {
+		chance = 0.01
 	}
 
 	if (RandomFloat(0, 1) < chance) {

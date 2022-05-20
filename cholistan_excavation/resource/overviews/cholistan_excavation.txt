@@ -1,8 +1,8 @@
 "GAME"
 {
-	"pos_x"		"-10000"
-	"pos_y"		"7500"
-	"scale"		"15"
+	"pos_x"		"-8300"
+	"pos_y"		"6500"
+	"scale"		"14"
 	"material"		"vgui/swarm/overviews/benlubar_cholistan_excavation"
 	"briefingmaterial"		"vgui/swarm/overviews/benlubar_cholistan_excavation_briefing"
 	"mapyoffset"		"0"

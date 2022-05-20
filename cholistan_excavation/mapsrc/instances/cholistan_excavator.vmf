@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7397"
-	"mapversion" "73"
+	"mapversion" "75"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "73"
+	"mapversion" "75"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -282,6 +282,8 @@ entity
 		"OnChangedFromMin" "@excavators_activeAdd10-1"
 		"OnHitMax" "marker_powerDisable0-1"
 		"OnChangedFromMax" "marker_powerEnable0-1"
+		"OnHitMin" "marker_defendDisable0-1"
+		"OnChangedFromMin" "marker_defendEnable0-1"
 	}
 	"origin" "-64 -96 160"
 	editor
@@ -879,7 +881,7 @@ entity
 	"classname" "asw_marker"
 	"mapheight" "224"
 	"mapwidth" "224"
-	"objectivename" "@obj_excavators"
+	"objectivename" "@obj_battery"
 	"StartDisabled" "0"
 	"targetname" "marker_power"
 	"origin" "12 -16 496"
@@ -923,6 +925,24 @@ entity
 	"spawnflags" "0"
 	"targetname" "shake"
 	"origin" "12 -32 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2394"
+	"classname" "asw_marker"
+	"mapheight" "224"
+	"mapwidth" "224"
+	"objectivename" "@obj_defend"
+	"StartDisabled" "1"
+	"targetname" "marker_defend"
+	"origin" "12 -16 480"
 	editor
 	{
 		"color" "220 30 220"
