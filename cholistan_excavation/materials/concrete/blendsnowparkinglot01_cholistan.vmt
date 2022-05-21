@@ -1,0 +1,18 @@
+WorldVertexTransition
+{
+	$basetexture "nature/snowfloor006a"
+	$basetexture2 "concrete/roadparkinglot"
+	$bumpmap "nature/snowfloor006a_normal"
+	$bumpmap2 "dev/flat_normal"
+	$surfaceprop snow
+	$surfaceprop2 asphalt
+	$basetexturetransform "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+	$basetexturetransform2 "center .5 .5 scale .5 .5 rotate 0 translate 0 0"
+
+	$blendmodulatetexture "nature/snowblendtexture"
+	$envmap env_cubemap
+	$envmapsaturation 1
+	$envmapcontrast 1
+	$envmaptint "[ .01 .01 .02 ]"
+	$envmaptint2 "[ .01 .01 .02 ]"
+}

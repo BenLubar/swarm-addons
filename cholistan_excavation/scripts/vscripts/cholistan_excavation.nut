@@ -12,9 +12,37 @@ function UpdateExcavationsComplete() {
 	EntityOutputs.GetValue(excavationsComplete, "OutValue")
 }
 
-function InputFireUser1() {
+function SpawnBatteryWhereAlienDied() {
 	batteryMaker.SpawnEntityAtEntityOrigin(caller)
-	return false
+}
+
+function ReplaceNamedTargetsWithLoot() {
+	local names = [
+		"@random_empty_weapon",
+		"@random_small_pickup",
+	]
+	foreach (name in names) {
+		local randomSpawn = Entities.FindByName(null, name)
+		if (randomSpawn == null) {
+			continue
+		}
+
+		local choices = []
+		local maker = null
+		while (maker = Entities.FindByName(maker, name + "_maker")) {
+			choices.push(maker)
+		}
+		printl("selecting for " + name)
+
+		while (randomSpawn) {
+			maker = choices[RandomInt(0, choices.len() - 1)]
+			maker.SpawnEntityAtEntityOrigin(randomSpawn)
+
+			local prev = randomSpawn
+			randomSpawn = Entities.FindByName(randomSpawn, name)
+			prev.Destroy()
+		}
+	}
 }
 
 function MaybeMakeAlienCarrier(alien) {
@@ -39,7 +67,7 @@ function MaybeMakeAlienCarrier(alien) {
 	}
 
 	if (RandomFloat(0, 1) < chance) {
-		EntityOutputs.AddOutput(alien, "OnDeath", "@gamerules", "FireUser1", "", 0, -1)
+		EntityOutputs.AddOutput(alien, "OnDeath", "@gamerules", "RunScriptCode", "SpawnBatteryWhereAlienDied()", 0, -1)
 		EntFireByHandle(alien, "Color", "48 128 192", 0.0, alien, alien)
 	}
 }

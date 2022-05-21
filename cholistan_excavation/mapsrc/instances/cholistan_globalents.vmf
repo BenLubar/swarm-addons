@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7397"
-	"mapversion" "40"
+	"mapversion" "45"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "40"
+	"mapversion" "45"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -81,7 +81,7 @@ entity
 	"id" "6"
 	"classname" "asw_gamerules"
 	"allowcamerarotation" "1"
-	"jumpjettype" "0"
+	"jumpjettype" "1"
 	"speedruntime" "180"
 	"speedruntimesp" "0"
 	"targetname" "@gamerules"
@@ -99,7 +99,7 @@ entity
 {
 	"id" "8"
 	"classname" "logic_timer"
-	"RefireTime" "200"
+	"RefireTime" "150"
 	"spawnflags" "0"
 	"StartDisabled" "1"
 	"targetname" "difficulty_timer"
@@ -386,6 +386,7 @@ entity
 		"OnMapSpawn" "@tonemap_globalSetAutoExposureMin0.10-1"
 		"OnMapSpawn" "@tonemap_globalSetTonemapRate0.250-1"
 		"OnMapSpawn" "@tonemap_globalSetBloomScale0.30-1"
+		"OnMapSpawn" "@gamerulesRunScriptCodeReplaceNamedTargetsWithLoot()0-1"
 	}
 	"origin" "0 64 32"
 	editor
