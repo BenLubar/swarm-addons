@@ -19,6 +19,7 @@ function SpawnBatteryWhereAlienDied() {
 function ReplaceNamedTargetsWithLoot() {
 	local names = [
 		"@random_empty_weapon",
+		"@random_empty_weapon_constrained",
 		"@random_small_pickup",
 	]
 	foreach (name in names) {
