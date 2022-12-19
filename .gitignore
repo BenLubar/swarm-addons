@@ -1,6 +1,7 @@
+*.blend1
 *.bsp
-*.prt
 *.lin
-*.vmx
 *.log
+*.prt
+*.vmx
 *.vpk

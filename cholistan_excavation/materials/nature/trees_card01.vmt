@@ -1,8 +1,0 @@
-LightmappedGeneric
-{
-$baseTexture "nature/Trees_card01"
-$AlphaTest 1
-$AlphaTestReference ".45"
-$AllowAlphaToCoverage 1
-
-}

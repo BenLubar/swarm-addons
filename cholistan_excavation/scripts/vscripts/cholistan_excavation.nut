@@ -33,7 +33,6 @@ function ReplaceNamedTargetsWithLoot() {
 		while (maker = Entities.FindByName(maker, name + "_maker")) {
 			choices.push(maker)
 		}
-		printl("selecting for " + name)
 
 		while (randomSpawn) {
 			maker = choices[RandomInt(0, choices.len() - 1)]
