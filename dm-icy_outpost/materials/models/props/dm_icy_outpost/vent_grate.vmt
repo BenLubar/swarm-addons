@@ -1,0 +1,6 @@
+"VertexLitGeneric" {
+	"$basetexture"		"models/props/dm_icy_outpost/vent_grate_ao"
+	"$detail"		"metal/hr_metal/hr_metal_detail_001"
+	"$detailscale"		"[3 3]"
+	"$detailblendfactor"		".65"
+}
